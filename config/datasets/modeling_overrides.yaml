@@ -1,0 +1,30 @@
+# All dataset IDs are strings to preserve leading zeros.
+# Unspecified settings inherit model defaults and named protocols.
+# Example overrides are intentionally conservative: 0006 matches
+# the settings shown in the existing R script.
+# Add other dataset IDs only when an override is needed.
+
+datasets:
+  '0006':
+    all_models: {}
+    models:
+      regularized_logistic:
+        validation:
+          protocol: beep_expanding_v1
+        tuning:
+          minimum_inner_folds: 3
+        execution:
+          random_seed: 2026
+
+# EXAMPLE (commented out; not applied):
+#  '0001':
+#    all_models:
+#      validation:
+#        outer:
+#          initial_days: 7
+#        inner:
+#          initial_days: 3
+#    models:
+#      regularized_logistic:
+#        tuning:
+#          alpha_grid: [0, 0.5, 1]

@@ -1,0 +1,266 @@
+
+# ============================================================
+# OpenESM Nonresponse Prediction
+# .gitignore
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Python: caches, bytecode, packaging, testing
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg/
+build/
+dist/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+
+# ------------------------------------------------------------
+# Python: virtual environments
+# ------------------------------------------------------------
+
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+
+# ------------------------------------------------------------
+# R: sessions, packages, temporary state
+# ------------------------------------------------------------
+
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rcheck/
+.Renviron
+
+renv/library/
+renv/library.before-rebuild/
+renv/staging/
+renv/.cache/
+
+# Preserve:
+# .Rprofile
+# renv.lock
+# renv/activate.R
+# renv/settings.json
+
+
+# ------------------------------------------------------------
+# Jupyter notebooks
+# ------------------------------------------------------------
+
+.ipynb_checkpoints/
+
+# Preserve notebooks/*.ipynb
+
+
+# ------------------------------------------------------------
+# Terraform: providers, state, plans, overrides
+# ------------------------------------------------------------
+
+**/.terraform/
+
+# State files and locks
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Terraform plans
+*.tfplan
+*.tfplan.*
+tfplan
+tfplan.*
+*.tfplan.json
+
+# Terraform variables (potential secrets)
+*.tfvars
+*.tfvars.json
+
+# Allow example variable files
+!*.tfvars.example
+!*.tfvars.json.example
+
+# Terraform overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local Terraform configuration
+.terraformrc
+terraform.rc
+
+# Terraform crash and diagnostic logs
+crash.log
+crash.*.log
+terraform.log
+
+# Preserve:
+# terraform/*.tf
+# terraform/.terraform.lock.hcl
+
+
+# ------------------------------------------------------------
+# Local datasets and intermediate processing
+# ------------------------------------------------------------
+
+data/raw/
+data/processed/
+data/curated/
+data/cache/
+
+# Preserve:
+# data/ directory structure and non-ignored files
+# metadata/
+# dataset_pipelines/
+
+
+# ------------------------------------------------------------
+# Model artifacts and experiment outputs
+# ------------------------------------------------------------
+
+models/
+artifacts/
+outputs/
+checkpoints/
+
+# Serialized R models
+*.rds
+*.RDS
+*.rda
+*.RData
+
+# Serialized Python models
+*.joblib
+*.pkl
+*.pickle
+
+# Deep learning checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Preserve:
+# Source code for training and evaluation
+# Model configurations
+# Experiment definitions
+# Reproducibility metadata
+
+
+# ------------------------------------------------------------
+# Secrets, credentials, environment files
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+.aws/
+.gcp/
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+credentials.json
+service-account.json
+service_account.json
+
+secrets.yaml
+secrets.yml
+secrets.json
+
+# Private configuration overrides
+config/*.local.yaml
+config/*.local.yml
+config/*.local.json
+
+# Preserve:
+# config/storage.yaml (if credential-free)
+# Safe configuration templates
+
+
+# ------------------------------------------------------------
+# Logs, temporary files, editor backups
+# ------------------------------------------------------------
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+logs/
+
+
+# ------------------------------------------------------------
+# Operating system files
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ------------------------------------------------------------
+# VS Code
+# ------------------------------------------------------------
+
+.vscode/*.log
+
+# Preserve:
+# .vscode/settings.json
+# .vscode/extensions.json
+
+
+# ------------------------------------------------------------
+# Research outputs and reproducibility assets
+# ------------------------------------------------------------
+
+# Intentionally not ignored:
+#
+# analysis/
+# metadata/
+# notebooks/
+# dataset_pipelines/
+# docs/
+# R/
+# src/
+# scripts/
+# tests/
+# terraform/
+#
+# README.md
+# LICENSE
+# environment.yml
+# pyproject.toml
+# renv.lock
+# renv_status.txt
+# session_info.txt
+#
+# Note: Large generated files inside these directories
+# should be excluded separately if necessary.

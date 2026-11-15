@@ -1,0 +1,609 @@
+{
+  "source": "metadata/column_inventory.json",
+  "datasets_scanned": 63,
+  "complete_inventory": true,
+  "unique_variables": 1495,
+  "shared_by_dataset_count": {
+    "63": 3,
+    "26": 1,
+    "23": 1,
+    "20": 1,
+    "18": 1,
+    "17": 1,
+    "16": 1,
+    "15": 1,
+    "13": 2,
+    "10": 3,
+    "9": 1,
+    "8": 2,
+    "7": 2,
+    "6": 5,
+    "5": 14,
+    "4": 11,
+    "3": 30,
+    "2": 220,
+    "1": 1195
+  },
+  "thresholds": {
+    "63": [
+      {
+        "variable": "beep",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "day",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "id",
+        "datasets": 63,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      }
+    ],
+    "50": [
+      {
+        "variable": "beep",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "day",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "id",
+        "datasets": 63,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      }
+    ],
+    "40": [
+      {
+        "variable": "beep",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "day",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "id",
+        "datasets": 63,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "variable": "beep",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "day",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "id",
+        "datasets": 63,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "happy",
+        "datasets": 26,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      },
+      {
+        "variable": "angry",
+        "datasets": 23,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      },
+      {
+        "variable": "sad",
+        "datasets": 20,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "variable": "beep",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "day",
+        "datasets": 63,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "id",
+        "datasets": 63,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "happy",
+        "datasets": 26,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      },
+      {
+        "variable": "angry",
+        "datasets": 23,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      },
+      {
+        "variable": "sad",
+        "datasets": 20,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "relaxed",
+        "datasets": 18,
+        "dtypes": [
+          "Int64"
+        ]
+      },
+      {
+        "variable": "counter",
+        "datasets": 17,
+        "dtypes": [
+          "Int64"
+        ]
+      },
+      {
+        "variable": "stressed",
+        "datasets": 16,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "date",
+        "datasets": 15,
+        "dtypes": [
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "depressed",
+        "datasets": 13,
+        "dtypes": [
+          "Float64",
+          "Int64",
+          "String"
+        ]
+      },
+      {
+        "variable": "nervous",
+        "datasets": 13,
+        "dtypes": [
+          "Int64"
+        ]
+      },
+      {
+        "variable": "calm",
+        "datasets": 10,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      },
+      {
+        "variable": "enthusiastic",
+        "datasets": 10,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      },
+      {
+        "variable": "excited",
+        "datasets": 10,
+        "dtypes": [
+          "Float64",
+          "Int64"
+        ]
+      }
+    ]
+  },
+  "most_common_variables": [
+    {
+      "variable": "beep",
+      "datasets": 63,
+      "dtypes": [
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "beep"
+      ]
+    },
+    {
+      "variable": "day",
+      "datasets": 63,
+      "dtypes": [
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "day"
+      ]
+    },
+    {
+      "variable": "id",
+      "datasets": 63,
+      "dtypes": [
+        "Float64",
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "id"
+      ]
+    },
+    {
+      "variable": "happy",
+      "datasets": 26,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "happy"
+      ]
+    },
+    {
+      "variable": "angry",
+      "datasets": 23,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "angry"
+      ]
+    },
+    {
+      "variable": "sad",
+      "datasets": 20,
+      "dtypes": [
+        "Float64",
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "sad"
+      ]
+    },
+    {
+      "variable": "relaxed",
+      "datasets": 18,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "relaxed"
+      ]
+    },
+    {
+      "variable": "counter",
+      "datasets": 17,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "counter"
+      ]
+    },
+    {
+      "variable": "stressed",
+      "datasets": 16,
+      "dtypes": [
+        "Float64",
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "stressed"
+      ]
+    },
+    {
+      "variable": "date",
+      "datasets": 15,
+      "dtypes": [
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "date"
+      ]
+    },
+    {
+      "variable": "depressed",
+      "datasets": 13,
+      "dtypes": [
+        "Float64",
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "depressed"
+      ]
+    },
+    {
+      "variable": "nervous",
+      "datasets": 13,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "nervous"
+      ]
+    },
+    {
+      "variable": "calm",
+      "datasets": 10,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "calm"
+      ]
+    },
+    {
+      "variable": "enthusiastic",
+      "datasets": 10,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "enthusiastic"
+      ]
+    },
+    {
+      "variable": "excited",
+      "datasets": 10,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "excited"
+      ]
+    },
+    {
+      "variable": "sleep_duration",
+      "datasets": 9,
+      "dtypes": [
+        "Float64",
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "sleep_duration"
+      ]
+    },
+    {
+      "variable": "anxious",
+      "datasets": 8,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "anxious"
+      ]
+    },
+    {
+      "variable": "irritable",
+      "datasets": 8,
+      "dtypes": [
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "irritable"
+      ]
+    },
+    {
+      "variable": "afraid",
+      "datasets": 7,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "afraid"
+      ]
+    },
+    {
+      "variable": "anhedonia",
+      "datasets": 7,
+      "dtypes": [
+        "Int64",
+        "String"
+      ],
+      "name_variants": [
+        "anhedonia"
+      ]
+    },
+    {
+      "variable": "ashamed",
+      "datasets": 6,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "ashamed"
+      ]
+    },
+    {
+      "variable": "cheerful",
+      "datasets": 6,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "cheerful"
+      ]
+    },
+    {
+      "variable": "content",
+      "datasets": 6,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "content"
+      ]
+    },
+    {
+      "variable": "sleep_quality",
+      "datasets": 6,
+      "dtypes": [
+        "Float64",
+        "Int64"
+      ],
+      "name_variants": [
+        "sleep_quality"
+      ]
+    },
+    {
+      "variable": "tired",
+      "datasets": 6,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "tired"
+      ]
+    },
+    {
+      "variable": "down",
+      "datasets": 5,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "down"
+      ]
+    },
+    {
+      "variable": "energetic",
+      "datasets": 5,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "energetic"
+      ]
+    },
+    {
+      "variable": "guilty",
+      "datasets": 5,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "guilty"
+      ]
+    },
+    {
+      "variable": "hostile",
+      "datasets": 5,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "hostile"
+      ]
+    },
+    {
+      "variable": "inspired",
+      "datasets": 5,
+      "dtypes": [
+        "Int64"
+      ],
+      "name_variants": [
+        "inspired"
+      ]
+    }
+  ]
+}

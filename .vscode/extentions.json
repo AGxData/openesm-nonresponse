@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+    "ms-python.vscode-python-envs",
+    "charliermarsh.ruff",
+    "tamasfe.even-better-toml",
+
+    "reditorsupport.r",
+    "reditorsupport.r-syntax",
+    "rdebugger.r-debugger",
+
+    "ms-toolsai.jupyter",
+
+    "chuckjonas.duckdb",
+    "adamviola.parquet-explorer",
+    "mechatroner.rainbow-csv",
+
+    "redhat.vscode-yaml",
+    "hashicorp.terraform",
+    "amazonwebservices.aws-toolkit-vscode",
+    "ms-azuretools.vscode-docker",
+
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+
+    "oderwat.indent-rainbow",
+    "timonwong.shellcheck"
+  ]
+}

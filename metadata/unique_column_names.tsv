@@ -1,0 +1,1525 @@
+normalized_name	name_variants	dataset_count	dataset_percentage	datasets	column_names	dtypes	shared_across_scanned_datasets
+beep	['beep']	63	100.0	"['0001' '0002' '0003' '0004' '0005' '0006' '0008' '0010' '0011' '0012'
+ '0013' '0014' '0015' '0017' '0018' '0019' '0021' '0022' '0023' '0024'
+ '0025' '0026' '0027' '0028' '0029' '0031' '0032' '0033' '0034' '0035'
+ '0036' '0037' '0039' '0040' '0041' '0042' '0043' '0044' '0045' '0046'
+ '0049' '0050' '0051' '0052' '0053' '0054' '0055' '0056' '0057' '0058'
+ '0059' '0060' '0061' '0062' '0063' '0064' '0066' '0070' '0071' '0072'
+ '0073' '0075' '0076']"	['beep']	['Int64' 'String']	True
+day	['day']	63	100.0	"['0001' '0002' '0003' '0004' '0005' '0006' '0008' '0010' '0011' '0012'
+ '0013' '0014' '0015' '0017' '0018' '0019' '0021' '0022' '0023' '0024'
+ '0025' '0026' '0027' '0028' '0029' '0031' '0032' '0033' '0034' '0035'
+ '0036' '0037' '0039' '0040' '0041' '0042' '0043' '0044' '0045' '0046'
+ '0049' '0050' '0051' '0052' '0053' '0054' '0055' '0056' '0057' '0058'
+ '0059' '0060' '0061' '0062' '0063' '0064' '0066' '0070' '0071' '0072'
+ '0073' '0075' '0076']"	['day']	['Int64' 'String']	True
+id	['id']	63	100.0	"['0001' '0002' '0003' '0004' '0005' '0006' '0008' '0010' '0011' '0012'
+ '0013' '0014' '0015' '0017' '0018' '0019' '0021' '0022' '0023' '0024'
+ '0025' '0026' '0027' '0028' '0029' '0031' '0032' '0033' '0034' '0035'
+ '0036' '0037' '0039' '0040' '0041' '0042' '0043' '0044' '0045' '0046'
+ '0049' '0050' '0051' '0052' '0053' '0054' '0055' '0056' '0057' '0058'
+ '0059' '0060' '0061' '0062' '0063' '0064' '0066' '0070' '0071' '0072'
+ '0073' '0075' '0076']"	['id']	['Float64' 'Int64' 'String']	True
+happy	['happy']	26	41.27	"['0004' '0006' '0011' '0012' '0024' '0025' '0029' '0031' '0032' '0034'
+ '0035' '0036' '0037' '0042' '0043' '0044' '0045' '0051' '0053' '0059'
+ '0060' '0062' '0063' '0066' '0070' '0071']"	['happy']	['Float64' 'Int64']	False
+angry	['angry']	23	36.51	"['0001' '0006' '0008' '0011' '0012' '0019' '0031' '0032' '0033' '0034'
+ '0035' '0037' '0042' '0043' '0044' '0045' '0055' '0060' '0062' '0064'
+ '0066' '0070' '0071']"	['angry']	['Float64' 'Int64']	False
+sad	['sad']	20	31.75	"['0004' '0006' '0010' '0011' '0012' '0028' '0031' '0032' '0036' '0042'
+ '0043' '0044' '0045' '0055' '0058' '0060' '0062' '0064' '0070' '0071']"	['sad']	['Float64' 'Int64' 'String']	False
+relaxed	['relaxed']	18	28.57	"['0006' '0010' '0011' '0012' '0014' '0024' '0025' '0031' '0032' '0042'
+ '0043' '0044' '0045' '0059' '0060' '0062' '0070' '0071']"	['relaxed']	['Int64']	False
+counter	['counter']	17	26.98	"['0008' '0012' '0013' '0027' '0032' '0049' '0050' '0051' '0052' '0053'
+ '0055' '0058' '0059' '0061' '0063' '0064' '0070']"	['counter']	['Int64']	False
+stressed	['stressed']	16	25.4	"['0005' '0008' '0012' '0019' '0031' '0032' '0035' '0037' '0040' '0041'
+ '0045' '0049' '0050' '0051' '0070' '0076']"	['stressed']	['Float64' 'Int64' 'String']	False
+date	['date']	15	23.81	"['0001' '0004' '0005' '0017' '0021' '0039' '0040' '0051' '0060' '0062'
+ '0064' '0071' '0072' '0073' '0075']"	['date']	['Int64' 'String']	False
+depressed	['depressed']	13	20.63	"['0003' '0005' '0006' '0008' '0011' '0035' '0036' '0039' '0040' '0052'
+ '0053' '0058' '0060']"	['depressed']	['Float64' 'Int64' 'String']	False
+nervous	['nervous']	13	20.63	"['0001' '0002' '0003' '0036' '0037' '0040' '0042' '0043' '0044' '0045'
+ '0059' '0064' '0070']"	['nervous']	['Int64']	False
+calm	['calm']	10	15.87	['0004' '0005' '0022' '0024' '0025' '0034' '0035' '0037' '0051' '0070']	['calm']	['Float64' 'Int64']	False
+enthusiastic	['enthusiastic']	10	15.87	['0003' '0004' '0029' '0033' '0035' '0037' '0045' '0060' '0064' '0070']	['enthusiastic']	['Float64' 'Int64']	False
+excited	['excited']	10	15.87	['0003' '0006' '0036' '0042' '0043' '0044' '0058' '0060' '0064' '0071']	['excited']	['Float64' 'Int64']	False
+sleep_duration	['sleep_duration']	9	14.29	['0003' '0004' '0005' '0008' '0017' '0034' '0035' '0037' '0076']	['sleep_duration']	['Float64' 'Int64' 'String']	False
+anxious	['anxious']	8	12.7	['0004' '0006' '0008' '0011' '0053' '0055' '0063' '0071']	['anxious']	['Float64' 'Int64']	False
+irritable	['irritable']	8	12.7	['0001' '0033' '0037' '0052' '0058' '0064' '0066' '0070']	['irritable']	['Int64' 'String']	False
+afraid	['afraid']	7	11.11	['0003' '0033' '0034' '0036' '0060' '0062' '0064']	['afraid']	['Int64']	False
+anhedonia	['anhedonia']	7	11.11	['0001' '0033' '0034' '0039' '0040' '0052' '0058']	['anhedonia']	['Int64' 'String']	False
+ashamed	['ashamed']	6	9.52	['0034' '0036' '0042' '0043' '0044' '0064']	['ashamed']	['Int64']	False
+cheerful	['cheerful']	6	9.52	['0010' '0014' '0029' '0062' '0063' '0070']	['cheerful']	['Int64']	False
+content	['content']	6	9.52	['0033' '0034' '0036' '0044' '0059' '0060']	['content']	['Int64']	False
+sleep_quality	['sleep_quality']	6	9.52	['0004' '0008' '0015' '0019' '0072' '0075']	['sleep_quality']	['Float64' 'Int64']	False
+tired	['tired']	6	9.52	['0001' '0014' '0037' '0052' '0060' '0063']	['tired']	['Int64']	False
+down	['down']	5	7.94	['0014' '0029' '0033' '0037' '0063']	['down']	['Int64']	False
+energetic	['energetic']	5	7.94	['0025' '0033' '0060' '0063' '0070']	['energetic']	['Int64']	False
+guilty	['guilty']	5	7.94	['0033' '0034' '0053' '0060' '0064']	['guilty']	['Int64']	False
+hostile	['hostile']	5	7.94	['0036' '0042' '0043' '0044' '0064']	['hostile']	['Int64']	False
+inspired	['inspired']	5	7.94	['0003' '0036' '0053' '0063' '0064']	['inspired']	['Int64']	False
+interaction	['interaction']	5	7.94	['0042' '0043' '0044' '0056' '0057']	['interaction']	['Int64']	False
+proud	['proud']	5	7.94	['0042' '0043' '0044' '0060' '0064']	['proud']	['Int64']	False
+rumination	['rumination']	5	7.94	['0027' '0032' '0033' '0054' '0062']	['rumination']	['Int64']	False
+start_time	['start_time']	5	7.94	['0037' '0052' '0062' '0072' '0076']	['start_time']	['String']	False
+time	['time']	5	7.94	['0019' '0055' '0059' '0061' '0073']	['time']	['Int64' 'String']	False
+upset	['upset']	5	7.94	['0003' '0034' '0036' '0058' '0064']	['upset']	['Int64' 'String']	False
+weekday	['weekday']	5	7.94	['0002' '0008' '0049' '0050' '0063']	['weekday']	['Int64' 'String']	False
+well	['well']	5	7.94	['0014' '0022' '0024' '0025' '0051']	['well']	['Int64']	False
+worried	['worried']	5	7.94	['0003' '0010' '0033' '0062' '0070']	['worried']	['Int64']	False
+alert	['alert']	4	6.35	['0003' '0019' '0036' '0064']	['alert']	['Int64']	False
+awake	['awake']	4	6.35	['0022' '0024' '0025' '0051']	['awake']	['Int64']	False
+bored	['bored']	4	6.35	['0037' '0056' '0057' '0070']	['bored']	['Int64']	False
+confident	['confident']	4	6.35	['0032' '0042' '0043' '0053']	['confident']	['Int64']	False
+irritated	['irritated']	4	6.35	['0003' '0029' '0045' '0070']	['irritated']	['Int64']	False
+muscle_tension	['muscle_tension']	4	6.35	['0014' '0033' '0034' '0052']	['muscle_tension']	['Int64']	False
+pa	['pa']	4	6.35	['0015' '0027' '0041' '0076']	['pa']	['Float64' 'String']	False
+reappraisal	['reappraisal']	4	6.35	['0027' '0032' '0054' '0058']	['reappraisal']	['Float64' 'Int64' 'String']	False
+suppression	['suppression']	4	6.35	['0027' '0032' '0054' '0062']	['suppression']	['Int64']	False
+tense	['tense']	4	6.35	['0014' '0022' '0051' '0060']	['tense']	['Int64']	False
+timestamp	['timestamp']	4	6.35	['0021' '0061' '0062' '0064']	['timestamp']	['Int64']	False
+active	['active']	3	4.76	['0036' '0058' '0064']	['active']	['Int64' 'String']	False
+alone	['alone']	3	4.76	['0001' '0052' '0064']	['alone']	['Int64']	False
+attentive	['attentive']	3	4.76	['0036' '0060' '0064']	['attentive']	['Int64']	False
+begin_day_ema	['begin_day_ema']	3	4.76	['0042' '0043' '0044']	['begin_day_ema']	['String']	False
+begin_time_ema	['begin_time_ema']	3	4.76	['0042' '0043' '0044']	['begin_time_ema']	['String']	False
+completion_time	['completion_time']	3	4.76	['0035' '0036' '0052']	['completion_time']	['Int64' 'String']	False
+connected	['connected']	3	4.76	['0061' '0062' '0072']	['connected']	['Int64' 'String']	False
+determined	['determined']	3	4.76	['0003' '0036' '0064']	['determined']	['Int64']	False
+difficulty_concentrating	['difficulty_concentrating']	3	4.76	['0033' '0034' '0052']	['difficulty_concentrating']	['Int64']	False
+disorganized	['disorganized']	3	4.76	['0004' '0025' '0060']	['disorganized']	['Float64' 'Int64']	False
+distressed	['distressed']	3	4.76	['0003' '0059' '0064']	['distressed']	['Int64']	False
+dom_sub_you	['dom_sub_you']	3	4.76	['0042' '0043' '0044']	['dom_sub_you']	['Int64']	False
+duration_ema	['duration_ema']	3	4.76	['0042' '0043' '0044']	['duration_ema']	['Int64']	False
+end_time	['end_time']	3	4.76	['0052' '0062' '0076']	['end_time']	['String']	False
+exercise	['exercise']	3	4.76	['0017' '0066' '0076']	['exercise']	['Int64' 'String']	False
+finish_day_ema	['finish_day_ema']	3	4.76	['0042' '0043' '0044']	['finish_day_ema']	['String']	False
+finish_time_ema	['finish_time_ema']	3	4.76	['0042' '0043' '0044']	['finish_time_ema']	['String']	False
+hour	['hour']	3	4.76	['0023' '0053' '0060']	['hour']	['Float64' 'Int64']	False
+lonely	['lonely']	3	4.76	['0019' '0060' '0064']	['lonely']	['Int64']	False
+motivated	['motivated']	3	4.76	['0019' '0056' '0057']	['motivated']	['Int64']	False
+na	['na']	3	4.76	['0015' '0027' '0041']	['na']	['Float64']	False
+pleasant	['pleasant']	3	4.76	['0056' '0057' '0070']	['pleasant']	['Int64']	False
+pleased	['pleased']	3	4.76	['0024' '0025' '0045']	['pleased']	['Int64']	False
+rested	['rested']	3	4.76	['0022' '0024' '0025']	['rested']	['Int64']	False
+restless	['restless']	3	4.76	['0033' '0037' '0052']	['restless']	['Int64']	False
+satisfied	['satisfied']	3	4.76	['0006' '0063' '0070']	['satisfied']	['Int64']	False
+sleep_difficulty	['sleep_difficulty']	3	4.76	['0035' '0037' '0052']	['sleep_difficulty']	['Int64']	False
+start_date	['start_date']	3	4.76	['0008' '0060' '0066']	['start_date']	['String']	False
+talkative	['talkative']	3	4.76	['0024' '0025' '0060']	['talkative']	['Int64']	False
+warm_cold_you	['warm_cold_you']	3	4.76	['0042' '0043' '0044']	['warm_cold_you']	['Int64']	False
+act_on_foot_ep_0	['act_on_foot_ep_0']	2	3.17	['0004' '0005']	['act_on_foot_ep_0']	['Float64']	False
+act_on_foot_ep_1	['act_on_foot_ep_1']	2	3.17	['0004' '0005']	['act_on_foot_ep_1']	['Float64']	False
+act_on_foot_ep_2	['act_on_foot_ep_2']	2	3.17	['0004' '0005']	['act_on_foot_ep_2']	['Float64']	False
+act_on_foot_ep_3	['act_on_foot_ep_3']	2	3.17	['0004' '0005']	['act_on_foot_ep_3']	['Float64']	False
+act_on_foot_ep_4	['act_on_foot_ep_4']	2	3.17	['0004' '0005']	['act_on_foot_ep_4']	['Float64']	False
+act_running_ep_0	['act_running_ep_0']	2	3.17	['0004' '0005']	['act_running_ep_0']	['Float64' 'Int64']	False
+act_running_ep_1	['act_running_ep_1']	2	3.17	['0004' '0005']	['act_running_ep_1']	['Float64' 'Int64']	False
+act_running_ep_2	['act_running_ep_2']	2	3.17	['0004' '0005']	['act_running_ep_2']	['Float64' 'Int64']	False
+act_running_ep_3	['act_running_ep_3']	2	3.17	['0004' '0005']	['act_running_ep_3']	['Float64' 'Int64']	False
+act_running_ep_4	['act_running_ep_4']	2	3.17	['0004' '0005']	['act_running_ep_4']	['Float64' 'Int64']	False
+act_still_ep_0	['act_still_ep_0']	2	3.17	['0004' '0005']	['act_still_ep_0']	['Float64']	False
+act_still_ep_1	['act_still_ep_1']	2	3.17	['0004' '0005']	['act_still_ep_1']	['Float64']	False
+act_still_ep_2	['act_still_ep_2']	2	3.17	['0004' '0005']	['act_still_ep_2']	['Float64']	False
+act_still_ep_3	['act_still_ep_3']	2	3.17	['0004' '0005']	['act_still_ep_3']	['Float64']	False
+act_still_ep_4	['act_still_ep_4']	2	3.17	['0004' '0005']	['act_still_ep_4']	['Float64']	False
+act_unknown_ep_0	['act_unknown_ep_0']	2	3.17	['0004' '0005']	['act_unknown_ep_0']	['Float64']	False
+act_unknown_ep_1	['act_unknown_ep_1']	2	3.17	['0004' '0005']	['act_unknown_ep_1']	['Float64']	False
+act_unknown_ep_2	['act_unknown_ep_2']	2	3.17	['0004' '0005']	['act_unknown_ep_2']	['Float64']	False
+act_unknown_ep_3	['act_unknown_ep_3']	2	3.17	['0004' '0005']	['act_unknown_ep_3']	['Float64']	False
+act_unknown_ep_4	['act_unknown_ep_4']	2	3.17	['0004' '0005']	['act_unknown_ep_4']	['Float64']	False
+act_walking_ep_0	['act_walking_ep_0']	2	3.17	['0004' '0005']	['act_walking_ep_0']	['Float64' 'Int64']	False
+act_walking_ep_1	['act_walking_ep_1']	2	3.17	['0004' '0005']	['act_walking_ep_1']	['Float64' 'Int64']	False
+act_walking_ep_2	['act_walking_ep_2']	2	3.17	['0004' '0005']	['act_walking_ep_2']	['Float64' 'Int64']	False
+act_walking_ep_3	['act_walking_ep_3']	2	3.17	['0004' '0005']	['act_walking_ep_3']	['Float64' 'Int64']	False
+act_walking_ep_4	['act_walking_ep_4']	2	3.17	['0004' '0005']	['act_walking_ep_4']	['Float64' 'Int64']	False
+affect	['affect']	2	3.17	['0026' '0040']	['affect']	['Int64']	False
+against_own_will	['against_own_will']	2	3.17	['0062' '0072']	['against_own_will']	['Int64' 'String']	False
+alcohol	['alcohol']	2	3.17	['0017' '0066']	['alcohol']	['Int64']	False
+angry_interaction	['angry_interaction']	2	3.17	['0042' '0043']	['angry_interaction']	['Int64']	False
+assertive	['assertive']	2	3.17	['0024' '0060']	['assertive']	['Int64']	False
+audio_convo_duration_ep_0	['audio_convo_duration_ep_0']	2	3.17	['0004' '0005']	['audio_convo_duration_ep_0']	['Float64']	False
+audio_convo_duration_ep_1	['audio_convo_duration_ep_1']	2	3.17	['0004' '0005']	['audio_convo_duration_ep_1']	['Float64']	False
+audio_convo_duration_ep_2	['audio_convo_duration_ep_2']	2	3.17	['0004' '0005']	['audio_convo_duration_ep_2']	['Float64']	False
+audio_convo_duration_ep_3	['audio_convo_duration_ep_3']	2	3.17	['0004' '0005']	['audio_convo_duration_ep_3']	['Float64']	False
+audio_convo_duration_ep_4	['audio_convo_duration_ep_4']	2	3.17	['0004' '0005']	['audio_convo_duration_ep_4']	['Float64']	False
+audio_convo_num_ep_0	['audio_convo_num_ep_0']	2	3.17	['0004' '0005']	['audio_convo_num_ep_0']	['Float64']	False
+audio_convo_num_ep_1	['audio_convo_num_ep_1']	2	3.17	['0004' '0005']	['audio_convo_num_ep_1']	['Float64']	False
+audio_convo_num_ep_2	['audio_convo_num_ep_2']	2	3.17	['0004' '0005']	['audio_convo_num_ep_2']	['Float64']	False
+audio_convo_num_ep_3	['audio_convo_num_ep_3']	2	3.17	['0004' '0005']	['audio_convo_num_ep_3']	['Float64']	False
+audio_convo_num_ep_4	['audio_convo_num_ep_4']	2	3.17	['0004' '0005']	['audio_convo_num_ep_4']	['Float64']	False
+begin_day_eod	['begin_day_eod']	2	3.17	['0042' '0043']	['begin_day_eod']	['String']	False
+begin_time_eod	['begin_time_eod']	2	3.17	['0042' '0043']	['begin_time_eod']	['String']	False
+beh_criticism	['beh_criticism']	2	3.17	['0056' '0057']	['beh_criticism']	['Int64']	False
+beh_leadership	['beh_leadership']	2	3.17	['0056' '0057']	['beh_leadership']	['Int64']	False
+beh_reserved	['beh_reserved']	2	3.17	['0056' '0057']	['beh_reserved']	['Int64']	False
+beh_selfesteem	['beh_selfesteem']	2	3.17	['0056' '0057']	['beh_selfesteem']	['Int64']	False
+beh_unfriendly	['beh_unfriendly']	2	3.17	['0056' '0057']	['beh_unfriendly']	['Int64']	False
+beh_uninvolved	['beh_uninvolved']	2	3.17	['0056' '0057']	['beh_uninvolved']	['Int64']	False
+brooding	['brooding']	2	3.17	['0013' '0058']	['brooding']	['Int64' 'String']	False
+calmness_mood	['calmness_mood']	2	3.17	['0049' '0050']	['calmness_mood']	['Float64']	False
+careless	['careless']	2	3.17	['0025' '0060']	['careless']	['Int64']	False
+cold	['cold']	2	3.17	['0025' '0060']	['cold']	['Int64']	False
+comfortable	['comfortable']	2	3.17	['0035' '0037']	['comfortable']	['Int64']	False
+communication	['communication']	2	3.17	['0056' '0057']	['communication']	['Int64']	False
+completed_difficult_project	['completed_difficult_project']	2	3.17	['0062' '0072']	['completed_difficult_project']	['Int64' 'String']	False
+compliance	['compliance']	2	3.17	['0024' '0025']	['compliance']	['Int64']	False
+concentrate	['concentrate']	2	3.17	['0014' '0037']	['concentrate']	['Int64']	False
+concentrated	['concentrated']	2	3.17	['0056' '0057']	['concentrated']	['Int64']	False
+contact_with_people	['contact_with_people']	2	3.17	['0062' '0072']	['contact_with_people']	['Int64' 'String']	False
+created	['created']	2	3.17	['0013' '0073']	['created']	['String']	False
+created_esm	['created_esm']	2	3.17	['0056' '0057']	['created_esm']	['String']	False
+creation_time	['creation_time']	2	3.17	['0035' '0036']	['creation_time']	['String']	False
+dataset	['dataset']	2	3.17	['0056' '0057']	['dataset']	['String']	False
+delay_gratification	['delay_gratification']	2	3.17	['0035' '0037']	['delay_gratification']	['Int64']	False
+dependable	['dependable']	2	3.17	['0004' '0060']	['dependable']	['Float64' 'Int64']	False
+did_interesting	['did_interesting']	2	3.17	['0062' '0072']	['did_interesting']	['Int64' 'String']	False
+did_stupid	['did_stupid']	2	3.17	['0062' '0072']	['did_stupid']	['Int64' 'String']	False
+digital	['digital']	2	3.17	['0056' '0057']	['digital']	['Int64']	False
+disagreements_conflicts	['disagreements_conflicts']	2	3.17	['0062' '0072']	['disagreements_conflicts']	['Int64' 'String']	False
+discontent	['discontent']	2	3.17	['0022' '0051']	['discontent']	['Int64']	False
+done	['done']	2	3.17	['0056' '0057']	['done']	['Int64']	False
+downhearted	['downhearted']	2	3.17	['0059' '0064']	['downhearted']	['Int64']	False
+duration_in_seconds	['duration_in_seconds']	2	3.17	['0008' '0066']	['duration_in_seconds']	['Int64']	False
+ema_time	['ema_time']	2	3.17	['0049' '0050']	['ema_time']	['Float64']	False
+end_date	['end_date']	2	3.17	['0008' '0066']	['end_date']	['String']	False
+ended_esm	['ended_esm']	2	3.17	['0056' '0057']	['ended_esm']	['String']	False
+energy_mood	['energy_mood']	2	3.17	['0049' '0050']	['energy_mood']	['Float64']	False
+even_hard_things	['even_hard_things']	2	3.17	['0062' '0072']	['even_hard_things']	['Int64' 'String']	False
+excited_interaction	['excited_interaction']	2	3.17	['0042' '0043']	['excited_interaction']	['Int64']	False
+excluded_ostracized	['excluded_ostracized']	2	3.17	['0062' '0072']	['excluded_ostracized']	['Int64' 'String']	False
+expired	['expired']	2	3.17	['0013' '0073']	['expired']	['String']	False
+failure	['failure']	2	3.17	['0062' '0072']	['failure']	['Int64' 'String']	False
+fearful	['fearful']	2	3.17	['0010' '0070']	['fearful']	['Int64']	False
+finish	['finish']	2	3.17	['0003' '0033']	['finish']	['Int64' 'String']	False
+finish_day_eod	['finish_day_eod']	2	3.17	['0042' '0043']	['finish_day_eod']	['String']	False
+finish_time_eod	['finish_time_eod']	2	3.17	['0042' '0043']	['finish_time_eod']	['String']	False
+finished	['finished']	2	3.17	['0008' '0062']	['finished']	['Boolean' 'Int64']	False
+form	['form']	2	3.17	['0024' '0070']	['form']	['String']	False
+freetime	['freetime']	2	3.17	['0049' '0050']	['freetime']	['Int64']	False
+friendly	['friendly']	2	3.17	['0002' '0066']	['friendly']	['Float64' 'Int64']	False
+frightened	['frightened']	2	3.17	['0014' '0064']	['frightened']	['Int64']	False
+fun	['fun']	2	3.17	['0056' '0057']	['fun']	['Int64']	False
+good	['good']	2	3.17	['0024' '0025']	['good']	['Int64']	False
+happy_interaction	['happy_interaction']	2	3.17	['0042' '0043']	['happy_interaction']	['Int64']	False
+harm	['harm']	2	3.17	['0005' '0028']	['harm']	['Int64']	False
+helping_binary	['helping_binary']	2	3.17	['0049' '0050']	['helping_binary']	['Int64']	False
+helping_effort	['helping_effort']	2	3.17	['0049' '0050']	['helping_effort']	['Int64']	False
+hopeless	['hopeless']	2	3.17	['0003' '0033']	['hopeless']	['Int64']	False
+hungry	['hungry']	2	3.17	['0001' '0037']	['hungry']	['Int64']	False
+impulsive	['impulsive']	2	3.17	['0035' '0037']	['impulsive']	['Int64']	False
+insecure	['insecure']	2	3.17	['0063' '0070']	['insecure']	['Int64']	False
+int_activity	['int_activity']	2	3.17	['0056' '0057']	['int_activity']	['Int64']	False
+int_angry	['int_angry']	2	3.17	['0056' '0057']	['int_angry']	['Int64']	False
+int_anxious	['int_anxious']	2	3.17	['0056' '0057']	['int_anxious']	['Int64']	False
+int_ashamed	['int_ashamed']	2	3.17	['0056' '0057']	['int_ashamed']	['Int64']	False
+int_enthusiastic	['int_enthusiastic']	2	3.17	['0056' '0057']	['int_enthusiastic']	['Int64']	False
+int_envious	['int_envious']	2	3.17	['0056' '0057']	['int_envious']	['Int64']	False
+int_insecure	['int_insecure']	2	3.17	['0056' '0057']	['int_insecure']	['Int64']	False
+int_pleasure	['int_pleasure']	2	3.17	['0056' '0057']	['int_pleasure']	['Int64']	False
+int_proud	['int_proud']	2	3.17	['0056' '0057']	['int_proud']	['Int64']	False
+int_relaxed	['int_relaxed']	2	3.17	['0056' '0057']	['int_relaxed']	['Int64']	False
+int_resentful	['int_resentful']	2	3.17	['0056' '0057']	['int_resentful']	['Int64']	False
+int_sad	['int_sad']	2	3.17	['0056' '0057']	['int_sad']	['Int64']	False
+int_success	['int_success']	2	3.17	['0056' '0057']	['int_success']	['Int64']	False
+int_superior	['int_superior']	2	3.17	['0056' '0057']	['int_superior']	['Int64']	False
+intellectual	['intellectual']	2	3.17	['0056' '0057']	['intellectual']	['Int64']	False
+interaction_partner1	['interaction_partner1']	2	3.17	['0056' '0057']	['interaction_partner1']	['Int64']	False
+interaction_partner2	['interaction_partner2']	2	3.17	['0056' '0057']	['interaction_partner2']	['Int64']	False
+interaction_partner3	['interaction_partner3']	2	3.17	['0056' '0057']	['interaction_partner3']	['Int64']	False
+interaction_partner4	['interaction_partner4']	2	3.17	['0056' '0057']	['interaction_partner4']	['Int64']	False
+interaction_partner5	['interaction_partner5']	2	3.17	['0056' '0057']	['interaction_partner5']	['Int64']	False
+interaction_type	['interaction_type']	2	3.17	['0061' '0076']	['interaction_type']	['String']	False
+interested	['interested']	2	3.17	['0058' '0064']	['interested']	['Int64' 'String']	False
+intimacy	['intimacy']	2	3.17	['0062' '0072']	['intimacy']	['Int64' 'String']	False
+life_satisfaction	['life_satisfaction']	2	3.17	['0008' '0075']	['life_satisfaction']	['Float64' 'Int64']	False
+loc_dist_ep_0	['loc_dist_ep_0']	2	3.17	['0004' '0005']	['loc_dist_ep_0']	['Float64']	False
+loc_dist_ep_1	['loc_dist_ep_1']	2	3.17	['0004' '0005']	['loc_dist_ep_1']	['Float64']	False
+loc_dist_ep_2	['loc_dist_ep_2']	2	3.17	['0004' '0005']	['loc_dist_ep_2']	['Float64']	False
+loc_dist_ep_3	['loc_dist_ep_3']	2	3.17	['0004' '0005']	['loc_dist_ep_3']	['Float64']	False
+loc_dist_ep_4	['loc_dist_ep_4']	2	3.17	['0004' '0005']	['loc_dist_ep_4']	['Float64']	False
+loc_visit_num_ep_0	['loc_visit_num_ep_0']	2	3.17	['0004' '0005']	['loc_visit_num_ep_0']	['Float64']	False
+loc_visit_num_ep_1	['loc_visit_num_ep_1']	2	3.17	['0004' '0005']	['loc_visit_num_ep_1']	['Float64']	False
+loc_visit_num_ep_2	['loc_visit_num_ep_2']	2	3.17	['0004' '0005']	['loc_visit_num_ep_2']	['Float64']	False
+loc_visit_num_ep_3	['loc_visit_num_ep_3']	2	3.17	['0004' '0005']	['loc_visit_num_ep_3']	['Float64']	False
+loc_visit_num_ep_4	['loc_visit_num_ep_4']	2	3.17	['0004' '0005']	['loc_visit_num_ep_4']	['Float64']	False
+loneliness	['loneliness']	2	3.17	['0026' '0039']	['loneliness']	['Int64']	False
+mastered_challenges	['mastered_challenges']	2	3.17	['0062' '0072']	['mastered_challenges']	['Int64' 'String']	False
+missing	['missing']	2	3.17	['0024' '0070']	['missing']	['String']	False
+negativity	['negativity']	2	3.17	['0013' '0060']	['negativity']	['Int64']	False
+nervous_interaction	['nervous_interaction']	2	3.17	['0042' '0043']	['nervous_interaction']	['Int64']	False
+no_interactionpartner	['no_interactionpartner']	2	3.17	['0056' '0057']	['no_interactionpartner']	['Int64']	False
+occup_activity	['occup_activity']	2	3.17	['0056' '0057']	['occup_activity']	['Int64']	False
+occup_angry	['occup_angry']	2	3.17	['0056' '0057']	['occup_angry']	['Int64']	False
+occup_anxious	['occup_anxious']	2	3.17	['0056' '0057']	['occup_anxious']	['Int64']	False
+occup_ashamed	['occup_ashamed']	2	3.17	['0056' '0057']	['occup_ashamed']	['Int64']	False
+occup_enthusiastic	['occup_enthusiastic']	2	3.17	['0056' '0057']	['occup_enthusiastic']	['Int64']	False
+occup_envious	['occup_envious']	2	3.17	['0056' '0057']	['occup_envious']	['Int64']	False
+occup_insecure	['occup_insecure']	2	3.17	['0056' '0057']	['occup_insecure']	['Int64']	False
+occup_pleasure	['occup_pleasure']	2	3.17	['0056' '0057']	['occup_pleasure']	['Int64']	False
+occup_proud	['occup_proud']	2	3.17	['0056' '0057']	['occup_proud']	['Int64']	False
+occup_relaxed	['occup_relaxed']	2	3.17	['0056' '0057']	['occup_relaxed']	['Int64']	False
+occup_resentful	['occup_resentful']	2	3.17	['0056' '0057']	['occup_resentful']	['Int64']	False
+occup_sad	['occup_sad']	2	3.17	['0056' '0057']	['occup_sad']	['Int64']	False
+occup_success	['occup_success']	2	3.17	['0056' '0057']	['occup_success']	['Int64']	False
+occup_superior	['occup_superior']	2	3.17	['0056' '0057']	['occup_superior']	['Int64']	False
+outgoing	['outgoing']	2	3.17	['0024' '0060']	['outgoing']	['Int64']	False
+overwhelmed	['overwhelmed']	2	3.17	['0056' '0057']	['overwhelmed']	['Int64']	False
+own_way	['own_way']	2	3.17	['0062' '0072']	['own_way']	['Int64' 'String']	False
+persistent	['persistent']	2	3.17	['0024' '0060']	['persistent']	['Int64']	False
+positive	['positive']	2	3.17	['0033' '0034']	['positive']	['Int64']	False
+pressure	['pressure']	2	3.17	['0062' '0072']	['pressure']	['Int64' 'String']	False
+productive	['productive']	2	3.17	['0070' '0076']	['productive']	['Int64' 'String']	False
+quiet	['quiet']	2	3.17	['0025' '0060']	['quiet']	['Int64']	False
+relaxed_interaction	['relaxed_interaction']	2	3.17	['0042' '0043']	['relaxed_interaction']	['Int64']	False
+response_time	['response_time']	2	3.17	['0008' '0053']	['response_time']	['Float64' 'String']	False
+restless_sleep	['restless_sleep']	2	3.17	['0034' '0035']	['restless_sleep']	['Int64']	False
+rude	['rude']	2	3.17	['0025' '0060']	['rude']	['Int64']	False
+sad_daily	['sad_daily']	2	3.17	['0055' '0062']	['sad_daily']	['Int64' 'String']	False
+sad_interaction	['sad_interaction']	2	3.17	['0042' '0043']	['sad_interaction']	['Int64']	False
+scared	['scared']	2	3.17	['0003' '0064']	['scared']	['Int64']	False
+scheduled	['scheduled']	2	3.17	['0001' '0073']	['scheduled']	['String']	False
+scheduled_time	['scheduled_time']	2	3.17	['0008' '0051']	['scheduled_time']	['String']	False
+self_esteem	['self_esteem']	2	3.17	['0002' '0076']	['self_esteem']	['Float64' 'String']	False
+shy	['shy']	2	3.17	['0025' '0060']	['shy']	['Int64']	False
+sick	['sick']	2	3.17	['0060' '0066']	['sick']	['Int64']	False
+sleep_end	['sleep_end']	2	3.17	['0004' '0005']	['sleep_end']	['Float64']	False
+sleep_start	['sleep_start']	2	3.17	['0004' '0005']	['sleep_start']	['Float64']	False
+sleeping	['sleeping']	2	3.17	['0005' '0060']	['sleeping']	['Int64']	False
+sleepy	['sleepy']	2	3.17	['0014' '0034']	['sleepy']	['Int64']	False
+social_binary	['social_binary']	2	3.17	['0049' '0050']	['social_binary']	['Int64']	False
+social_media_use	['social_media_use']	2	3.17	['0040' '0051']	['social_media_use']	['Int64']	False
+status_admired	['status_admired']	2	3.17	['0056' '0057']	['status_admired']	['Int64']	False
+status_criticised	['status_criticised']	2	3.17	['0056' '0057']	['status_criticised']	['Int64']	False
+status_ignored	['status_ignored']	2	3.17	['0056' '0057']	['status_ignored']	['Int64']	False
+status_respected	['status_respected']	2	3.17	['0056' '0057']	['status_respected']	['Int64']	False
+status_sidelined	['status_sidelined']	2	3.17	['0056' '0057']	['status_sidelined']	['Int64']	False
+status_upstaged	['status_upstaged']	2	3.17	['0056' '0057']	['status_upstaged']	['Int64']	False
+strong	['strong']	2	3.17	['0058' '0064']	['strong']	['Int64' 'String']	False
+struggled	['struggled']	2	3.17	['0062' '0072']	['struggled']	['Int64' 'String']	False
+study_annoy	['study_annoy']	2	3.17	['0024' '0025']	['study_annoy']	['Int64']	False
+study_burden	['study_burden']	2	3.17	['0024' '0025']	['study_burden']	['Int64']	False
+study_interfere	['study_interfere']	2	3.17	['0024' '0025']	['study_interfere']	['Int64']	False
+told_what_to_do	['told_what_to_do']	2	3.17	['0062' '0072']	['told_what_to_do']	['Int64' 'String']	False
+trigger	['trigger']	2	3.17	['0037' '0070']	['trigger']	['Int64' 'String']	False
+true_self	['true_self']	2	3.17	['0062' '0072']	['true_self']	['Int64' 'String']	False
+type_activity	['type_activity']	2	3.17	['0056' '0057']	['type_activity']	['Int64']	False
+type_interaction	['type_interaction']	2	3.17	['0056' '0057']	['type_interaction']	['Int64']	False
+unappreciated	['unappreciated']	2	3.17	['0062' '0072']	['unappreciated']	['Int64' 'String']	False
+unlock_duration_ep_0	['unlock_duration_ep_0']	2	3.17	['0004' '0005']	['unlock_duration_ep_0']	['Float64']	False
+unlock_duration_ep_1	['unlock_duration_ep_1']	2	3.17	['0004' '0005']	['unlock_duration_ep_1']	['Float64']	False
+unlock_duration_ep_2	['unlock_duration_ep_2']	2	3.17	['0004' '0005']	['unlock_duration_ep_2']	['Float64']	False
+unlock_duration_ep_3	['unlock_duration_ep_3']	2	3.17	['0004' '0005']	['unlock_duration_ep_3']	['Float64']	False
+unlock_duration_ep_4	['unlock_duration_ep_4']	2	3.17	['0004' '0005']	['unlock_duration_ep_4']	['Float64']	False
+valence_mood	['valence_mood']	2	3.17	['0049' '0050']	['valence_mood']	['Float64']	False
+wave	['wave']	2	3.17	['0056' '0057']	['wave']	['String']	False
+week	['week']	2	3.17	['0024' '0025']	['week']	['Int64']	False
+worry	['worry']	2	3.17	['0001' '0052']	['worry']	['Int64']	False
+worry_cullife	['worry_cullife']	2	3.17	['0056' '0057']	['worry_cullife']	['Int64']	False
+worry_economy	['worry_economy']	2	3.17	['0056' '0057']	['worry_economy']	['Int64']	False
+worry_friendshealth	['worry_friendshealth']	2	3.17	['0056' '0057']	['worry_friendshealth']	['Int64']	False
+worry_grandparentshealth	['worry_grandparentshealth']	2	3.17	['0056' '0057']	['worry_grandparentshealth']	['Int64']	False
+worry_healthsystem	['worry_healthsystem']	2	3.17	['0056' '0057']	['worry_healthsystem']	['Int64']	False
+worry_ownhealth	['worry_ownhealth']	2	3.17	['0056' '0057']	['worry_ownhealth']	['Int64']	False
+worry_ownsoclife	['worry_ownsoclife']	2	3.17	['0056' '0057']	['worry_ownsoclife']	['Int64']	False
+worry_ownstudies	['worry_ownstudies']	2	3.17	['0056' '0057']	['worry_ownstudies']	['Int64']	False
+worry_parentshealth	['worry_parentshealth']	2	3.17	['0056' '0057']	['worry_parentshealth']	['Int64']	False
+worry_partnerhealth	['worry_partnerhealth']	2	3.17	['0056' '0057']	['worry_partnerhealth']	['Int64']	False
+worry_peoplehealth	['worry_peoplehealth']	2	3.17	['0056' '0057']	['worry_peoplehealth']	['Int64']	False
+worry_siblingshealth	['worry_siblingshealth']	2	3.17	['0056' '0057']	['worry_siblingshealth']	['Int64']	False
+worry_soclife	['worry_soclife']	2	3.17	['0056' '0057']	['worry_soclife']	['Int64']	False
+academic	['academic']	1	1.59	['0070']	['academic']	['Int64']	False
+acceptance	['acceptance']	1	1.59	['0032']	['acceptance']	['Int64']	False
+accepted	['accepted']	1	1.59	['0033']	['accepted']	['Int64']	False
+acknowledge_emotions	['acknowledge_emotions']	1	1.59	['0073']	['acknowledge_emotions']	['Int64']	False
+act_in_vehicle_ep_0	['act_in_vehicle_ep_0']	1	1.59	['0005']	['act_in_vehicle_ep_0']	['Float64']	False
+act_in_vehicle_ep_1	['act_in_vehicle_ep_1']	1	1.59	['0005']	['act_in_vehicle_ep_1']	['Float64']	False
+act_in_vehicle_ep_2	['act_in_vehicle_ep_2']	1	1.59	['0005']	['act_in_vehicle_ep_2']	['Float64']	False
+act_in_vehicle_ep_3	['act_in_vehicle_ep_3']	1	1.59	['0005']	['act_in_vehicle_ep_3']	['Float64']	False
+act_in_vehicle_ep_4	['act_in_vehicle_ep_4']	1	1.59	['0005']	['act_in_vehicle_ep_4']	['Float64']	False
+act_on_bike_ep_0	['act_on_bike_ep_0']	1	1.59	['0005']	['act_on_bike_ep_0']	['Float64']	False
+act_on_bike_ep_1	['act_on_bike_ep_1']	1	1.59	['0005']	['act_on_bike_ep_1']	['Float64']	False
+act_on_bike_ep_2	['act_on_bike_ep_2']	1	1.59	['0005']	['act_on_bike_ep_2']	['Float64']	False
+act_on_bike_ep_3	['act_on_bike_ep_3']	1	1.59	['0005']	['act_on_bike_ep_3']	['Float64']	False
+act_on_bike_ep_4	['act_on_bike_ep_4']	1	1.59	['0005']	['act_on_bike_ep_4']	['Float64']	False
+act_problemless	['act_problemless']	1	1.59	['0014']	['act_problemless']	['Int64']	False
+act_tilting_ep_0	['act_tilting_ep_0']	1	1.59	['0005']	['act_tilting_ep_0']	['Float64']	False
+act_tilting_ep_1	['act_tilting_ep_1']	1	1.59	['0005']	['act_tilting_ep_1']	['Float64']	False
+act_tilting_ep_2	['act_tilting_ep_2']	1	1.59	['0005']	['act_tilting_ep_2']	['Float64']	False
+act_tilting_ep_3	['act_tilting_ep_3']	1	1.59	['0005']	['act_tilting_ep_3']	['Float64']	False
+act_tilting_ep_4	['act_tilting_ep_4']	1	1.59	['0005']	['act_tilting_ep_4']	['Float64']	False
+act_what	['act_what']	1	1.59	['0014']	['act_what']	['Int64']	False
+act_what02	['act_what02']	1	1.59	['0014']	['act_what02']	['Int64']	False
+act_what03	['act_what03']	1	1.59	['0014']	['act_what03']	['Int64']	False
+activities_total	['activities_total']	1	1.59	['0072']	['activities_total']	['Int64']	False
+activity	['activity']	1	1.59	['0013']	['activity']	['Int64']	False
+activity_communicating_friends	['activity_communicating_friends']	1	1.59	['0072']	['activity_communicating_friends']	['Boolean']	False
+activity_communicating_hours	['activity_communicating_hours']	1	1.59	['0072']	['activity_communicating_hours']	['Float64']	False
+activity_gardening	['activity_gardening']	1	1.59	['0072']	['activity_gardening']	['Boolean']	False
+activity_gardening_hours	['activity_gardening_hours']	1	1.59	['0072']	['activity_gardening_hours']	['Float64']	False
+activity_household	['activity_household']	1	1.59	['0072']	['activity_household']	['Boolean']	False
+activity_household_hours	['activity_household_hours']	1	1.59	['0072']	['activity_household_hours']	['Float64']	False
+activity_learning_hours	['activity_learning_hours']	1	1.59	['0072']	['activity_learning_hours']	['Float64']	False
+activity_learning_with_child	['activity_learning_with_child']	1	1.59	['0072']	['activity_learning_with_child']	['Boolean']	False
+activity_media	['activity_media']	1	1.59	['0072']	['activity_media']	['Boolean']	False
+activity_media_hours	['activity_media_hours']	1	1.59	['0072']	['activity_media_hours']	['Float64']	False
+activity_motivation_compulsory	['activity_motivation_compulsory']	1	1.59	['0062']	['activity_motivation_compulsory']	['Int64']	False
+activity_motivation_enjoyment	['activity_motivation_enjoyment']	1	1.59	['0062']	['activity_motivation_enjoyment']	['Int64']	False
+activity_motivation_felt_bad	['activity_motivation_felt_bad']	1	1.59	['0062']	['activity_motivation_felt_bad']	['Int64']	False
+activity_motivation_important	['activity_motivation_important']	1	1.59	['0062']	['activity_motivation_important']	['Int64']	False
+activity_motivation_interesting	['activity_motivation_interesting']	1	1.59	['0062']	['activity_motivation_interesting']	['Int64']	False
+activity_motivation_others_disappointed	['activity_motivation_others_disappointed']	1	1.59	['0062']	['activity_motivation_others_disappointed']	['Int64']	False
+activity_motivation_proving	['activity_motivation_proving']	1	1.59	['0062']	['activity_motivation_proving']	['Int64']	False
+activity_motivation_understanding	['activity_motivation_understanding']	1	1.59	['0062']	['activity_motivation_understanding']	['Int64']	False
+activity_other	['activity_other']	1	1.59	['0072']	['activity_other']	['Boolean']	False
+activity_other_hours	['activity_other_hours']	1	1.59	['0072']	['activity_other_hours']	['Float64']	False
+activity_playing_hours	['activity_playing_hours']	1	1.59	['0072']	['activity_playing_hours']	['Float64']	False
+activity_playing_with_child	['activity_playing_with_child']	1	1.59	['0072']	['activity_playing_with_child']	['Boolean']	False
+activity_praying_hours	['activity_praying_hours']	1	1.59	['0072']	['activity_praying_hours']	['Float64']	False
+activity_praying_meditating	['activity_praying_meditating']	1	1.59	['0072']	['activity_praying_meditating']	['Boolean']	False
+activity_prefer_not_answer	['activity_prefer_not_answer']	1	1.59	['0066']	['activity_prefer_not_answer']	['Int64']	False
+activity_reading_hours	['activity_reading_hours']	1	1.59	['0072']	['activity_reading_hours']	['Float64']	False
+activity_reading_me_time	['activity_reading_me_time']	1	1.59	['0072']	['activity_reading_me_time']	['Boolean']	False
+activity_shopping	['activity_shopping']	1	1.59	['0072']	['activity_shopping']	['Boolean']	False
+activity_shopping_hours	['activity_shopping_hours']	1	1.59	['0072']	['activity_shopping_hours']	['Float64']	False
+activity_sports	['activity_sports']	1	1.59	['0072']	['activity_sports']	['Boolean']	False
+activity_sports_hours	['activity_sports_hours']	1	1.59	['0072']	['activity_sports_hours']	['Float64']	False
+activity_walking	['activity_walking']	1	1.59	['0072']	['activity_walking']	['Boolean']	False
+activity_walking_hours	['activity_walking_hours']	1	1.59	['0072']	['activity_walking_hours']	['Float64']	False
+activity_work	['activity_work']	1	1.59	['0072']	['activity_work']	['Boolean']	False
+activity_work_hours	['activity_work_hours']	1	1.59	['0072']	['activity_work_hours']	['Float64']	False
+adversity	['adversity']	1	1.59	['0060']	['adversity']	['Int64']	False
+affect_arousal	['affect_arousal']	1	1.59	['0008']	['affect_arousal']	['Float64']	False
+affect_grid_x	['affect_grid_x']	1	1.59	['0073']	['affect_grid_x']	['Int64']	False
+affect_grid_y	['affect_grid_y']	1	1.59	['0073']	['affect_grid_y']	['Int64']	False
+affect_valence	['affect_valence']	1	1.59	['0008']	['affect_valence']	['Float64']	False
+affective_valence	['affective_valence']	1	1.59	['0075']	['affective_valence']	['Int64']	False
+affiliation	['affiliation']	1	1.59	['0041']	['affiliation']	['Float64']	False
+afraid_anxious	['afraid_anxious']	1	1.59	['0058']	['afraid_anxious']	['String']	False
+afraid_daily	['afraid_daily']	1	1.59	['0062']	['afraid_daily']	['String']	False
+agency	['agency']	1	1.59	['0037']	['agency']	['Int64']	False
+aggressive	['aggressive']	1	1.59	['0034']	['aggressive']	['Int64']	False
+agoraphobia	['agoraphobia']	1	1.59	['0017']	['agoraphobia']	['Int64']	False
+agreeableness	['agreeableness']	1	1.59	['0021']	['agreeableness']	['Float64']	False
+alc_blackout	['alc_blackout']	1	1.59	['0023']	['alc_blackout']	['Int64']	False
+alc_drinks	['alc_drinks']	1	1.59	['0023']	['alc_drinks']	['Int64']	False
+alc_hangover	['alc_hangover']	1	1.59	['0023']	['alc_hangover']	['Int64']	False
+alc_hurt	['alc_hurt']	1	1.59	['0023']	['alc_hurt']	['Int64']	False
+alc_intox	['alc_intox']	1	1.59	['0023']	['alc_intox']	['Int64']	False
+alc_onset	['alc_onset']	1	1.59	['0023']	['alc_onset']	['Int64']	False
+alc_vomit	['alc_vomit']	1	1.59	['0023']	['alc_vomit']	['Int64']	False
+alert_sleepiness	['alert_sleepiness']	1	1.59	['0003']	['alert_sleepiness']	['Int64']	False
+all_smartphone_post	['all_smartphone_post']	1	1.59	['0026']	['all_smartphone_post']	['Float64']	False
+all_smartphone_pre	['all_smartphone_pre']	1	1.59	['0026']	['all_smartphone_pre']	['Float64']	False
+amnesia	['amnesia']	1	1.59	['0034']	['amnesia']	['Int64']	False
+amount_stool	['amount_stool']	1	1.59	['0066']	['amount_stool']	['Int64']	False
+amount_urine	['amount_urine']	1	1.59	['0066']	['amount_urine']	['Int64']	False
+anger_daily	['anger_daily']	1	1.59	['0055']	['anger_daily']	['Int64']	False
+angry_daily	['angry_daily']	1	1.59	['0062']	['angry_daily']	['String']	False
+annoyed_at_self	['annoyed_at_self']	1	1.59	['0073']	['annoyed_at_self']	['Int64']	False
+annoyed_at_self_emotion	['annoyed_at_self_emotion']	1	1.59	['0073']	['annoyed_at_self_emotion']	['Int64']	False
+annoying	['annoying']	1	1.59	['0017']	['annoying']	['Int64']	False
+anxiety	['anxiety']	1	1.59	['0017']	['anxiety']	['Int64']	False
+anxiety_control	['anxiety_control']	1	1.59	['0017']	['anxiety_control']	['Int64']	False
+anxiety_daily	['anxiety_daily']	1	1.59	['0055']	['anxiety_daily']	['Int64']	False
+anxious_schoolwork	['anxious_schoolwork']	1	1.59	['0060']	['anxious_schoolwork']	['Int64']	False
+anxious_stool	['anxious_stool']	1	1.59	['0066']	['anxious_stool']	['Int64']	False
+anxious_stool_possibility	['anxious_stool_possibility']	1	1.59	['0066']	['anxious_stool_possibility']	['Int64']	False
+anxious_urine	['anxious_urine']	1	1.59	['0066']	['anxious_urine']	['Int64']	False
+anxious_urine_possibility	['anxious_urine_possibility']	1	1.59	['0066']	['anxious_urine_possibility']	['Int64']	False
+appearance_pleased	['appearance_pleased']	1	1.59	['0040']	['appearance_pleased']	['Int64']	False
+appearance_satisfaction	['appearance_satisfaction']	1	1.59	['0053']	['appearance_satisfaction']	['Int64']	False
+appetite_change	['appetite_change']	1	1.59	['0052']	['appetite_change']	['Int64']	False
+appreciated	['appreciated']	1	1.59	['0063']	['appreciated']	['Int64']	False
+appreciation	['appreciation']	1	1.59	['0027']	['appreciation']	['Int64']	False
+argument_family	['argument_family']	1	1.59	['0060']	['argument_family']	['Int64']	False
+argument_friend	['argument_friend']	1	1.59	['0060']	['argument_friend']	['Int64']	False
+argument_stress	['argument_stress']	1	1.59	['0003']	['argument_stress']	['Int64']	False
+arousal	['arousal']	1	1.59	['0018']	['arousal']	['Int64']	False
+arousal_slider_initial	['arousal_slider_initial']	1	1.59	['0018']	['arousal_slider_initial']	['Int64']	False
+aroused	['aroused']	1	1.59	['0070']	['aroused']	['Int64']	False
+ashamed_emotion	['ashamed_emotion']	1	1.59	['0073']	['ashamed_emotion']	['Int64']	False
+ashamed_smoking	['ashamed_smoking']	1	1.59	['0037']	['ashamed_smoking']	['Int64']	False
+assignments	['assignments']	1	1.59	['0062']	['assignments']	['Boolean']	False
+assumes_best	['assumes_best']	1	1.59	['0060']	['assumes_best']	['Int64']	False
+ate_meal	['ate_meal']	1	1.59	['0066']	['ate_meal']	['Int64']	False
+att_control	['att_control']	1	1.59	['0013']	['att_control']	['Int64']	False
+attended_lecture_seminar	['attended_lecture_seminar']	1	1.59	['0062']	['attended_lecture_seminar']	['Boolean']	False
+attention_present	['attention_present']	1	1.59	['0059']	['attention_present']	['Int64']	False
+audio_amp_mean_ep_0	['audio_amp_mean_ep_0']	1	1.59	['0005']	['audio_amp_mean_ep_0']	['Float64']	False
+audio_amp_mean_ep_1	['audio_amp_mean_ep_1']	1	1.59	['0005']	['audio_amp_mean_ep_1']	['Float64']	False
+audio_amp_mean_ep_2	['audio_amp_mean_ep_2']	1	1.59	['0005']	['audio_amp_mean_ep_2']	['Float64']	False
+audio_amp_mean_ep_3	['audio_amp_mean_ep_3']	1	1.59	['0005']	['audio_amp_mean_ep_3']	['Float64']	False
+audio_amp_mean_ep_4	['audio_amp_mean_ep_4']	1	1.59	['0005']	['audio_amp_mean_ep_4']	['Float64']	False
+audio_amp_std_ep_0	['audio_amp_std_ep_0']	1	1.59	['0005']	['audio_amp_std_ep_0']	['Float64']	False
+audio_amp_std_ep_1	['audio_amp_std_ep_1']	1	1.59	['0005']	['audio_amp_std_ep_1']	['Float64']	False
+audio_amp_std_ep_2	['audio_amp_std_ep_2']	1	1.59	['0005']	['audio_amp_std_ep_2']	['Float64']	False
+audio_amp_std_ep_3	['audio_amp_std_ep_3']	1	1.59	['0005']	['audio_amp_std_ep_3']	['Float64']	False
+audio_amp_std_ep_4	['audio_amp_std_ep_4']	1	1.59	['0005']	['audio_amp_std_ep_4']	['Float64']	False
+audio_voice_ep_0	['audio_voice_ep_0']	1	1.59	['0005']	['audio_voice_ep_0']	['Float64']	False
+audio_voice_ep_1	['audio_voice_ep_1']	1	1.59	['0005']	['audio_voice_ep_1']	['Float64']	False
+audio_voice_ep_2	['audio_voice_ep_2']	1	1.59	['0005']	['audio_voice_ep_2']	['Float64']	False
+audio_voice_ep_3	['audio_voice_ep_3']	1	1.59	['0005']	['audio_voice_ep_3']	['Float64']	False
+audio_voice_ep_4	['audio_voice_ep_4']	1	1.59	['0005']	['audio_voice_ep_4']	['Float64']	False
+avg_ema_rt	['avg_ema_rt']	1	1.59	['0040']	['avg_ema_rt']	['Float64']	False
+avoid	['avoid']	1	1.59	['0028']	['avoid']	['Int64']	False
+avoid_activity	['avoid_activity']	1	1.59	['0033']	['avoid_activity']	['Int64']	False
+avoid_people	['avoid_people']	1	1.59	['0033']	['avoid_people']	['Int64']	False
+avoid_places	['avoid_places']	1	1.59	['0034']	['avoid_places']	['Int64']	False
+avoidance	['avoidance']	1	1.59	['0034']	['avoidance']	['Int64']	False
+avoids_intellectual	['avoids_intellectual']	1	1.59	['0060']	['avoids_intellectual']	['Int64']	False
+awful_happen	['awful_happen']	1	1.59	['0052']	['awful_happen']	['Int64']	False
+balanced	['balanced']	1	1.59	['0062']	['balanced']	['Int64']	False
+balanced_daily	['balanced_daily']	1	1.59	['0062']	['balanced_daily']	['String']	False
+bandpower_0_00005_0_00001hz	['bandpower_0_00005_0_00001hz']	1	1.59	['0017']	['bandpower_0_00005_0_00001hz']	['Float64']	False
+bandpower_0_0001_0_00005hz	['bandpower_0_0001_0_00005hz']	1	1.59	['0017']	['bandpower_0_0001_0_00005hz']	['Float64']	False
+bandpower_0_0005_0_0001hz	['bandpower_0_0005_0_0001hz']	1	1.59	['0017']	['bandpower_0_0005_0_0001hz']	['Float64']	False
+bandpower_0_001_0_0005hz	['bandpower_0_001_0_0005hz']	1	1.59	['0017']	['bandpower_0_001_0_0005hz']	['Float64']	False
+baseline_day	['baseline_day']	1	1.59	['0075']	['baseline_day']	['String']	False
+bashful	['bashful']	1	1.59	['0025']	['bashful']	['Int64']	False
+beep_disturbing	['beep_disturbing']	1	1.59	['0014']	['beep_disturbing']	['Int64']	False
+beep_end	['beep_end']	1	1.59	['0014']	['beep_end']	['String']	False
+beep_start	['beep_start']	1	1.59	['0014']	['beep_start']	['String']	False
+beh_corona	['beh_corona']	1	1.59	['0057']	['beh_corona']	['Int64']	False
+beh_help	['beh_help']	1	1.59	['0057']	['beh_help']	['Int64']	False
+behavior_control_difficulty	['behavior_control_difficulty']	1	1.59	['0073']	['behavior_control_difficulty']	['Int64']	False
+blue	['blue']	1	1.59	['0064']	['blue']	['Int64']	False
+bo_po_exposure	['bo_po_exposure']	1	1.59	['0053']	['bo_po_exposure']	['Int64']	False
+body_shape	['body_shape']	1	1.59	['0017']	['body_shape']	['Int64']	False
+bold	['bold']	1	1.59	['0025']	['bold']	['Int64']	False
+bored_schoolwork	['bored_schoolwork']	1	1.59	['0060']	['bored_schoolwork']	['Int64']	False
+bother_stool	['bother_stool']	1	1.59	['0066']	['bother_stool']	['Int64']	False
+bother_urine	['bother_urine']	1	1.59	['0066']	['bother_urine']	['Int64']	False
+bpnsfs_dup_item	['bpnsfs_dup_item']	1	1.59	['0075']	['bpnsfs_dup_item']	['String']	False
+bpnsfs_dup_score	['bpnsfs_dup_score']	1	1.59	['0075']	['bpnsfs_dup_score']	['Int64']	False
+bpnsfs_failed_att_check	['bpnsfs_failed_att_check']	1	1.59	['0075']	['bpnsfs_failed_att_check']	['Boolean']	False
+bragging_thought	['bragging_thought']	1	1.59	['0036']	['bragging_thought']	['Int64']	False
+burden_high	['burden_high']	1	1.59	['0024']	['burden_high']	['Int64']	False
+call_in_duration_ep_0	['call_in_duration_ep_0']	1	1.59	['0005']	['call_in_duration_ep_0']	['Float64']	False
+call_in_duration_ep_1	['call_in_duration_ep_1']	1	1.59	['0005']	['call_in_duration_ep_1']	['Float64']	False
+call_in_duration_ep_2	['call_in_duration_ep_2']	1	1.59	['0005']	['call_in_duration_ep_2']	['Float64']	False
+call_in_duration_ep_3	['call_in_duration_ep_3']	1	1.59	['0005']	['call_in_duration_ep_3']	['Float64']	False
+call_in_duration_ep_4	['call_in_duration_ep_4']	1	1.59	['0005']	['call_in_duration_ep_4']	['Float64']	False
+call_in_num_ep_0	['call_in_num_ep_0']	1	1.59	['0005']	['call_in_num_ep_0']	['Float64']	False
+call_in_num_ep_1	['call_in_num_ep_1']	1	1.59	['0005']	['call_in_num_ep_1']	['Float64']	False
+call_in_num_ep_2	['call_in_num_ep_2']	1	1.59	['0005']	['call_in_num_ep_2']	['Float64']	False
+call_in_num_ep_3	['call_in_num_ep_3']	1	1.59	['0005']	['call_in_num_ep_3']	['Float64']	False
+call_in_num_ep_4	['call_in_num_ep_4']	1	1.59	['0005']	['call_in_num_ep_4']	['Float64']	False
+call_miss_num_ep_0	['call_miss_num_ep_0']	1	1.59	['0005']	['call_miss_num_ep_0']	['Float64']	False
+call_miss_num_ep_1	['call_miss_num_ep_1']	1	1.59	['0005']	['call_miss_num_ep_1']	['Int64']	False
+call_miss_num_ep_2	['call_miss_num_ep_2']	1	1.59	['0005']	['call_miss_num_ep_2']	['Int64']	False
+call_miss_num_ep_3	['call_miss_num_ep_3']	1	1.59	['0005']	['call_miss_num_ep_3']	['Int64']	False
+call_miss_num_ep_4	['call_miss_num_ep_4']	1	1.59	['0005']	['call_miss_num_ep_4']	['Float64']	False
+call_out_duration_ep_0	['call_out_duration_ep_0']	1	1.59	['0005']	['call_out_duration_ep_0']	['Float64']	False
+call_out_duration_ep_1	['call_out_duration_ep_1']	1	1.59	['0005']	['call_out_duration_ep_1']	['Float64']	False
+call_out_duration_ep_2	['call_out_duration_ep_2']	1	1.59	['0005']	['call_out_duration_ep_2']	['Float64']	False
+call_out_duration_ep_3	['call_out_duration_ep_3']	1	1.59	['0005']	['call_out_duration_ep_3']	['Float64']	False
+call_out_duration_ep_4	['call_out_duration_ep_4']	1	1.59	['0005']	['call_out_duration_ep_4']	['Float64']	False
+call_out_num_ep_0	['call_out_num_ep_0']	1	1.59	['0005']	['call_out_num_ep_0']	['Float64']	False
+call_out_num_ep_1	['call_out_num_ep_1']	1	1.59	['0005']	['call_out_num_ep_1']	['Float64']	False
+call_out_num_ep_2	['call_out_num_ep_2']	1	1.59	['0005']	['call_out_num_ep_2']	['Float64']	False
+call_out_num_ep_3	['call_out_num_ep_3']	1	1.59	['0005']	['call_out_num_ep_3']	['Float64']	False
+call_out_num_ep_4	['call_out_num_ep_4']	1	1.59	['0005']	['call_out_num_ep_4']	['Float64']	False
+cant_go_on	['cant_go_on']	1	1.59	['0052']	['cant_go_on']	['Int64']	False
+cant_stand	['cant_stand']	1	1.59	['0052']	['cant_stand']	['Int64']	False
+care_about_emotions	['care_about_emotions']	1	1.59	['0073']	['care_about_emotions']	['Int64']	False
+care_taking	['care_taking']	1	1.59	['0062']	['care_taking']	['Boolean']	False
+cared_for	['cared_for']	1	1.59	['0061']	['cared_for']	['Int64']	False
+case	['case']	1	1.59	['0062']	['case']	['Int64']	False
+caught_up_thoughts	['caught_up_thoughts']	1	1.59	['0058']	['caught_up_thoughts']	['String']	False
+change_task	['change_task']	1	1.59	['0022']	['change_task']	['Int64']	False
+changed_feeling	['changed_feeling']	1	1.59	['0062']	['changed_feeling']	['Int64']	False
+cheerful_daily	['cheerful_daily']	1	1.59	['0062']	['cheerful_daily']	['String']	False
+child_afraid	['child_afraid']	1	1.59	['0072']	['child_afraid']	['Int64']	False
+child_angry	['child_angry']	1	1.59	['0072']	['child_angry']	['Int64']	False
+child_balanced	['child_balanced']	1	1.59	['0072']	['child_balanced']	['Int64']	False
+child_cheerful	['child_cheerful']	1	1.59	['0072']	['child_cheerful']	['Int64']	False
+child_exhausted	['child_exhausted']	1	1.59	['0072']	['child_exhausted']	['Int64']	False
+child_happy	['child_happy']	1	1.59	['0072']	['child_happy']	['Int64']	False
+child_lively	['child_lively']	1	1.59	['0072']	['child_lively']	['Int64']	False
+child_relaxed	['child_relaxed']	1	1.59	['0072']	['child_relaxed']	['Int64']	False
+child_sad	['child_sad']	1	1.59	['0072']	['child_sad']	['Int64']	False
+child_worried	['child_worried']	1	1.59	['0072']	['child_worried']	['Int64']	False
+chores	['chores']	1	1.59	['0066']	['chores']	['Int64']	False
+chose_doing	['chose_doing']	1	1.59	['0063']	['chose_doing']	['Int64']	False
+cig_predict	['cig_predict']	1	1.59	['0037']	['cig_predict']	['Int64']	False
+cigs	['cigs']	1	1.59	['0037']	['cigs']	['Int64']	False
+closeness_nervous	['closeness_nervous']	1	1.59	['0054']	['closeness_nervous']	['Int64']	False
+coffee	['coffee']	1	1.59	['0017']	['coffee']	['Int64']	False
+comfort	['comfort']	1	1.59	['0057']	['comfort']	['Int64']	False
+communication_post	['communication_post']	1	1.59	['0026']	['communication_post']	['Float64']	False
+communication_pre	['communication_pre']	1	1.59	['0026']	['communication_pre']	['Float64']	False
+commute	['commute']	1	1.59	['0066']	['commute']	['Int64']	False
+company	['company']	1	1.59	['0070']	['company']	['String']	False
+compassionate	['compassionate']	1	1.59	['0060']	['compassionate']	['Int64']	False
+completed	['completed']	1	1.59	['0073']	['completed']	['String']	False
+completion_date	['completion_date']	1	1.59	['0034']	['completion_date']	['String']	False
+concentrated_activity_alone	['concentrated_activity_alone']	1	1.59	['0051']	['concentrated_activity_alone']	['String']	False
+concentrated_activity_binary	['concentrated_activity_binary']	1	1.59	['0051']	['concentrated_activity_binary']	['Int64']	False
+concentrated_present	['concentrated_present']	1	1.59	['0059']	['concentrated_present']	['Int64']	False
+concentrating	['concentrating']	1	1.59	['0003']	['concentrating']	['Int64']	False
+concentration_extent	['concentration_extent']	1	1.59	['0051']	['concentration_extent']	['String']	False
+concentration_trouble	['concentration_trouble']	1	1.59	['0052']	['concentration_trouble']	['Int64']	False
+conflict	['conflict']	1	1.59	['0035']	['conflict']	['Int64']	False
+confused_emotions	['confused_emotions']	1	1.59	['0073']	['confused_emotions']	['Int64']	False
+conscientiousness	['conscientiousness']	1	1.59	['0021']	['conscientiousness']	['Float64']	False
+control_fixmood	['control_fixmood']	1	1.59	['0023']	['control_fixmood']	['Int64']	False
+control_fixthought	['control_fixthought']	1	1.59	['0023']	['control_fixthought']	['Int64']	False
+controls_emotions	['controls_emotions']	1	1.59	['0060']	['controls_emotions']	['Int64']	False
+conventional	['conventional']	1	1.59	['0004']	['conventional']	['Float64']	False
+corona_acceptance	['corona_acceptance']	1	1.59	['0072']	['corona_acceptance']	['Int64']	False
+corona_asked	['corona_asked']	1	1.59	['0057']	['corona_asked']	['Int64']	False
+corona_info_update	['corona_info_update']	1	1.59	['0072']	['corona_info_update']	['Int64']	False
+corona_reading	['corona_reading']	1	1.59	['0057']	['corona_reading']	['Int64']	False
+corona_research	['corona_research']	1	1.59	['0057']	['corona_research']	['Int64']	False
+corona_social_media_check	['corona_social_media_check']	1	1.59	['0072']	['corona_social_media_check']	['Int64']	False
+corona_social_media_create	['corona_social_media_create']	1	1.59	['0072']	['corona_social_media_create']	['Int64']	False
+corona_talk_friends_family	['corona_talk_friends_family']	1	1.59	['0072']	['corona_talk_friends_family']	['Int64']	False
+corona_thinking	['corona_thinking']	1	1.59	['0057']	['corona_thinking']	['Int64']	False
+corona_thinking_about	['corona_thinking_about']	1	1.59	['0072']	['corona_thinking_about']	['Int64']	False
+corona_worries	['corona_worries']	1	1.59	['0072']	['corona_worries']	['Int64']	False
+could_quit	['could_quit']	1	1.59	['0037']	['could_quit']	['Int64']	False
+counter_all	['counter_all']	1	1.59	['0058']	['counter_all']	['Int64']	False
+covid_anxiety	['covid_anxiety']	1	1.59	['0039']	['covid_anxiety']	['Int64']	False
+covid_behavior_change	['covid_behavior_change']	1	1.59	['0040']	['covid_behavior_change']	['Int64']	False
+covid_concern_classmates	['covid_concern_classmates']	1	1.59	['0040']	['covid_concern_classmates']	['Int64']	False
+covid_concern_family	['covid_concern_family']	1	1.59	['0040']	['covid_concern_family']	['Int64']	False
+covid_concern_general	['covid_concern_general']	1	1.59	['0040']	['covid_concern_general']	['Int64']	False
+covid_concern_self	['covid_concern_self']	1	1.59	['0040']	['covid_concern_self']	['Int64']	False
+covid_concern_supplies	['covid_concern_supplies']	1	1.59	['0040']	['covid_concern_supplies']	['Int64']	False
+covid_daily_activities	['covid_daily_activities']	1	1.59	['0040']	['covid_daily_activities']	['Int64']	False
+covid_felt_support	['covid_felt_support']	1	1.59	['0040']	['covid_felt_support']	['Int64']	False
+covid_occupied	['covid_occupied']	1	1.59	['0001']	['covid_occupied']	['Int64']	False
+covid_stress	['covid_stress']	1	1.59	['0003']	['covid_stress']	['Int64']	False
+covid_support_others	['covid_support_others']	1	1.59	['0040']	['covid_support_others']	['Int64']	False
+covid_worry	['covid_worry']	1	1.59	['0001']	['covid_worry']	['Int64']	False
+craving	['craving']	1	1.59	['0035']	['craving']	['Int64']	False
+craving_smoking	['craving_smoking']	1	1.59	['0037']	['craving_smoking']	['Int64']	False
+crazy	['crazy']	1	1.59	['0070']	['crazy']	['Int64']	False
+creation_date	['creation_date']	1	1.59	['0034']	['creation_date']	['String']	False
+creative	['creative']	1	1.59	['0002']	['creative']	['Float64']	False
+critical	['critical']	1	1.59	['0004']	['critical']	['Float64']	False
+criticism	['criticism']	1	1.59	['0028']	['criticism']	['Int64']	False
+crt_median_r_tc	['crt_median_r_tc']	1	1.59	['0003']	['crt_median_r_tc']	['Float64']	False
+curious	['curious']	1	1.59	['0060']	['curious']	['Int64']	False
+datetime	['datetime']	1	1.59	['0063']	['datetime']	['String']	False
+day_of_week	['day_of_week']	1	1.59	['0022']	['day_of_week']	['String']	False
+day_type	['day_type']	1	1.59	['0075']	['day_type']	['String']	False
+dealt_stress	['dealt_stress']	1	1.59	['0023']	['dealt_stress']	['Int64']	False
+deception	['deception']	1	1.59	['0060']	['deception']	['Int64']	False
+decide_task	['decide_task']	1	1.59	['0022']	['decide_task']	['Int64']	False
+deep_thinker	['deep_thinker']	1	1.59	['0060']	['deep_thinker']	['Int64']	False
+depression_ces	['depression_ces']	1	1.59	['0017']	['depression_ces']	['Int64']	False
+depression_phq	['depression_phq']	1	1.59	['0017']	['depression_phq']	['Int64']	False
+detached_thoughts_feelings	['detached_thoughts_feelings']	1	1.59	['0058']	['detached_thoughts_feelings']	['String']	False
+difficult	['difficult']	1	1.59	['0033']	['difficult']	['Int64']	False
+difficult_stay_awake	['difficult_stay_awake']	1	1.59	['0004']	['difficult_stay_awake']	['Float64']	False
+difficulties_relaxing	['difficulties_relaxing']	1	1.59	['0001']	['difficulties_relaxing']	['Int64']	False
+difficulty_control_worry	['difficulty_control_worry']	1	1.59	['0052']	['difficulty_control_worry']	['Int64']	False
+difficulty_imagining	['difficulty_imagining']	1	1.59	['0060']	['difficulty_imagining']	['Int64']	False
+difficulty_positive	['difficulty_positive']	1	1.59	['0034']	['difficulty_positive']	['Int64']	False
+difficulty_school_work	['difficulty_school_work']	1	1.59	['0072']	['difficulty_school_work']	['Int64']	False
+difficulty_starting	['difficulty_starting']	1	1.59	['0060']	['difficulty_starting']	['Int64']	False
+digital_communication	['digital_communication']	1	1.59	['0066']	['digital_communication']	['Int64']	False
+discouraged	['discouraged']	1	1.59	['0058']	['discouraged']	['String']	False
+discrete_time	['discrete_time']	1	1.59	['0054']	['discrete_time']	['Int64']	False
+disgusted	['disgusted']	1	1.59	['0064']	['disgusted']	['Int64']	False
+displaced_activity	['displaced_activity']	1	1.59	['0075']	['displaced_activity']	['String']	False
+distant	['distant']	1	1.59	['0034']	['distant']	['Int64']	False
+distract	['distract']	1	1.59	['0058']	['distract']	['String']	False
+distraction	['distraction']	1	1.59	['0027']	['distraction']	['Int64']	False
+distribution_channel	['distribution_channel']	1	1.59	['0066']	['distribution_channel']	['String']	False
+dominance	['dominance']	1	1.59	['0041']	['dominance']	['Float64']	False
+dominant	['dominant']	1	1.59	['0060']	['dominant']	['Int64']	False
+dont_like_self	['dont_like_self']	1	1.59	['0052']	['dont_like_self']	['Int64']	False
+doubt	['doubt']	1	1.59	['0063']	['doubt']	['Int64']	False
+down_expectation	['down_expectation']	1	1.59	['0073']	['down_expectation']	['Int64']	False
+drink_feel_better	['drink_feel_better']	1	1.59	['0035']	['drink_feel_better']	['Int64']	False
+drink_number	['drink_number']	1	1.59	['0035']	['drink_number']	['Int64']	False
+drinks_today_estimate	['drinks_today_estimate']	1	1.59	['0035']	['drinks_today_estimate']	['Int64']	False
+drugs	['drugs']	1	1.59	['0066']	['drugs']	['Int64']	False
+dry_stool	['dry_stool']	1	1.59	['0066']	['dry_stool']	['Int64']	False
+dry_urine	['dry_urine']	1	1.59	['0066']	['dry_urine']	['Int64']	False
+ds_median_r_tc	['ds_median_r_tc']	1	1.59	['0003']	['ds_median_r_tc']	['Float64']	False
+dual_fits_bo_po	['dual_fits_bo_po']	1	1.59	['0053']	['dual_fits_bo_po']	['Int64']	False
+dual_thin_bo_po	['dual_thin_bo_po']	1	1.59	['0053']	['dual_thin_bo_po']	['Int64']	False
+dual_thin_fits	['dual_thin_fits']	1	1.59	['0053']	['dual_thin_fits']	['Int64']	False
+duration	['duration']	1	1.59	['0001']	['duration']	['String']	False
+duration_eod	['duration_eod']	1	1.59	['0043']	['duration_eod']	['Int64']	False
+duty	['duty']	1	1.59	['0060']	['duty']	['Int64']	False
+dyad	['dyad']	1	1.59	['0064']	['dyad']	['Int64']	False
+dyskinesia	['dyskinesia']	1	1.59	['0014']	['dyskinesia']	['Int64']	False
+efficient	['efficient']	1	1.59	['0060']	['efficient']	['Int64']	False
+effort_everything	['effort_everything']	1	1.59	['0003']	['effort_everything']	['Int64']	False
+embarrassed_emotion	['embarrassed_emotion']	1	1.59	['0073']	['embarrassed_emotion']	['Int64']	False
+emotion_awareness	['emotion_awareness']	1	1.59	['0073']	['emotion_awareness']	['Int64']	False
+emotion_chronometry	['emotion_chronometry']	1	1.59	['0045']	['emotion_chronometry']	['Int64']	False
+emotion_confusion	['emotion_confusion']	1	1.59	['0073']	['emotion_confusion']	['Int64']	False
+emotion_exploration	['emotion_exploration']	1	1.59	['0073']	['emotion_exploration']	['Int64']	False
+emotional_stability	['emotional_stability']	1	1.59	['0021']	['emotional_stability']	['Float64']	False
+emotionally_stable	['emotionally_stable']	1	1.59	['0060']	['emotionally_stable']	['Int64']	False
+emotions_out_of_control	['emotions_out_of_control']	1	1.59	['0073']	['emotions_out_of_control']	['Int64']	False
+emotions_valid	['emotions_valid']	1	1.59	['0073']	['emotions_valid']	['Int64']	False
+empathy_aff	['empathy_aff']	1	1.59	['0046']	['empathy_aff']	['Float64']	False
+empathy_cog	['empathy_cog']	1	1.59	['0046']	['empathy_cog']	['Float64']	False
+empathy_global	['empathy_global']	1	1.59	['0046']	['empathy_global']	['Float64']	False
+ended	['ended']	1	1.59	['0013']	['ended']	['String']	False
+energy	['energy']	1	1.59	['0076']	['energy']	['String']	False
+energyless	['energyless']	1	1.59	['0022']	['energyless']	['Int64']	False
+enjoy_last	['enjoy_last']	1	1.59	['0037']	['enjoy_last']	['Int64']	False
+enjoy_school	['enjoy_school']	1	1.59	['0019']	['enjoy_school']	['Int64']	False
+envious	['envious']	1	1.59	['0025']	['envious']	['Int64']	False
+eve_clothing	['eve_clothing']	1	1.59	['0014']	['eve_clothing']	['Int64']	False
+eve_eat_well	['eve_eat_well']	1	1.59	['0014']	['eve_eat_well']	['Int64']	False
+eve_household	['eve_household']	1	1.59	['0014']	['eve_household']	['Int64']	False
+eve_long_offs	['eve_long_offs']	1	1.59	['0014']	['eve_long_offs']	['Int64']	False
+eve_many_offs	['eve_many_offs']	1	1.59	['0014']	['eve_many_offs']	['Int64']	False
+eve_personalcare	['eve_personalcare']	1	1.59	['0014']	['eve_personalcare']	['Int64']	False
+eve_tired	['eve_tired']	1	1.59	['0014']	['eve_tired']	['Int64']	False
+eve_walk_well	['eve_walk_well']	1	1.59	['0014']	['eve_walk_well']	['Int64']	False
+excited_schoolwork	['excited_schoolwork']	1	1.59	['0060']	['excited_schoolwork']	['Int64']	False
+exhausted	['exhausted']	1	1.59	['0062']	['exhausted']	['Int64']	False
+exhausted_daily	['exhausted_daily']	1	1.59	['0062']	['exhausted_daily']	['String']	False
+expected	['expected']	1	1.59	['0070']	['expected']	['Int64']	False
+export_timezone	['export_timezone']	1	1.59	['0073']	['export_timezone']	['String']	False
+extraversion	['extraversion']	1	1.59	['0021']	['extraversion']	['Float64']	False
+extraverted	['extraverted']	1	1.59	['0025']	['extraverted']	['Int64']	False
+family_backup_daily	['family_backup_daily']	1	1.59	['0055']	['family_backup_daily']	['Int64']	False
+family_cohesion	['family_cohesion']	1	1.59	['0055']	['family_cohesion']	['Int64']	False
+family_conflict	['family_conflict']	1	1.59	['0055']	['family_conflict']	['Int64']	False
+family_critcism_daily	['family_critcism_daily']	1	1.59	['0055']	['family_critcism_daily']	['Int64']	False
+family_fight_daily	['family_fight_daily']	1	1.59	['0055']	['family_fight_daily']	['Int64']	False
+family_friends	['family_friends']	1	1.59	['0066']	['family_friends']	['Int64']	False
+family_support_daily	['family_support_daily']	1	1.59	['0055']	['family_support_daily']	['Int64']	False
+family_togetherness_daily	['family_togetherness_daily']	1	1.59	['0055']	['family_togetherness_daily']	['Int64']	False
+fascinated_art	['fascinated_art']	1	1.59	['0060']	['fascinated_art']	['Int64']	False
+father_asked_opinion	['father_asked_opinion']	1	1.59	['0062']	['father_asked_opinion']	['String']	False
+father_autonomy	['father_autonomy']	1	1.59	['0062']	['father_autonomy']	['String']	False
+father_disapproved	['father_disapproved']	1	1.59	['0062']	['father_disapproved']	['String']	False
+father_guilty	['father_guilty']	1	1.59	['0062']	['father_guilty']	['String']	False
+father_interrupted	['father_interrupted']	1	1.59	['0062']	['father_interrupted']	['String']	False
+father_own_decisions	['father_own_decisions']	1	1.59	['0062']	['father_own_decisions']	['String']	False
+father_point_of_view	['father_point_of_view']	1	1.59	['0062']	['father_point_of_view']	['String']	False
+father_tried_change	['father_tried_change']	1	1.59	['0062']	['father_tried_change']	['String']	False
+fatiguability	['fatiguability']	1	1.59	['0052']	['fatiguability']	['Int64']	False
+fatigue	['fatigue']	1	1.59	['0033']	['fatigue']	['Int64']	False
+fatigued	['fatigued']	1	1.59	['0034']	['fatigued']	['Int64']	False
+fear_negative_evaluation	['fear_negative_evaluation']	1	1.59	['0017']	['fear_negative_evaluation']	['Int64']	False
+fear_sickness	['fear_sickness']	1	1.59	['0052']	['fear_sickness']	['Int64']	False
+feel_good	['feel_good']	1	1.59	['0040']	['feel_good']	['Int64']	False
+feel_loved	['feel_loved']	1	1.59	['0054']	['feel_loved']	['Int64']	False
+feel_smart	['feel_smart']	1	1.59	['0040']	['feel_smart']	['Int64']	False
+feeling_country	['feeling_country']	1	1.59	['0071']	['feeling_country']	['Int64']	False
+feelings_transient	['feelings_transient']	1	1.59	['0036']	['feelings_transient']	['Int64']	False
+feels_like_obligation	['feels_like_obligation']	1	1.59	['0063']	['feels_like_obligation']	['Int64']	False
+felt_enthusiastic	['felt_enthusiastic']	1	1.59	['0034']	['felt_enthusiastic']	['Int64']	False
+felt_overwhelm	['felt_overwhelm']	1	1.59	['0023']	['felt_overwhelm']	['Int64']	False
+few_artistic	['few_artistic']	1	1.59	['0060']	['few_artistic']	['Int64']	False
+fidgeting	['fidgeting']	1	1.59	['0003']	['fidgeting']	['Int64']	False
+fidgety	['fidgety']	1	1.59	['0076']	['fidgety']	['String']	False
+finds_fault	['finds_fault']	1	1.59	['0060']	['finds_fault']	['Int64']	False
+finish_time	['finish_time']	1	1.59	['0037']	['finish_time']	['String']	False
+first_beep	['first_beep']	1	1.59	['0060']	['first_beep']	['Int64']	False
+first_prompt	['first_prompt']	1	1.59	['0061']	['first_prompt']	['Int64']	False
+fits_exposure	['fits_exposure']	1	1.59	['0053']	['fits_exposure']	['Int64']	False
+flag	['flag']	1	1.59	['0025']	['flag']	['Int64']	False
+focus_activity	['focus_activity']	1	1.59	['0076']	['focus_activity']	['String']	False
+focus_on_good	['focus_on_good']	1	1.59	['0062']	['focus_on_good']	['Int64']	False
+forgetful	['forgetful']	1	1.59	['0003']	['forgetful']	['Int64']	False
+forgiving	['forgiving']	1	1.59	['0060']	['forgiving']	['Int64']	False
+forgot_something	['forgot_something']	1	1.59	['0060']	['forgot_something']	['Int64']	False
+form_finish_date	['form_finish_date']	1	1.59	['0070']	['form_finish_date']	['String']	False
+form_finish_time	['form_finish_time']	1	1.59	['0070']	['form_finish_time']	['String']	False
+form_start_date	['form_start_date']	1	1.59	['0070']	['form_start_date']	['String']	False
+form_start_time	['form_start_time']	1	1.59	['0070']	['form_start_time']	['String']	False
+form_upload_date	['form_upload_date']	1	1.59	['0070']	['form_upload_date']	['String']	False
+form_upload_time	['form_upload_time']	1	1.59	['0070']	['form_upload_time']	['String']	False
+fraction_of_days_with_notification	['fraction_of_days_with_notification']	1	1.59	['0051']	['fraction_of_days_with_notification']	['Float64']	False
+friend_relative_stress	['friend_relative_stress']	1	1.59	['0003']	['friend_relative_stress']	['Int64']	False
+frust_stool	['frust_stool']	1	1.59	['0066']	['frust_stool']	['Int64']	False
+frust_urine	['frust_urine']	1	1.59	['0066']	['frust_urine']	['Int64']	False
+frustrated	['frustrated']	1	1.59	['0037']	['frustrated']	['Int64']	False
+functioning	['functioning']	1	1.59	['0041']	['functioning']	['Int64']	False
+gaming_autonomy	['gaming_autonomy']	1	1.59	['0075']	['gaming_autonomy']	['Int64']	False
+gaming_disappointed	['gaming_disappointed']	1	1.59	['0075']	['gaming_disappointed']	['Int64']	False
+gaming_progress	['gaming_progress']	1	1.59	['0075']	['gaming_progress']	['Int64']	False
+gaming_relationships	['gaming_relationships']	1	1.59	['0075']	['gaming_relationships']	['Int64']	False
+gaming_toxic	['gaming_toxic']	1	1.59	['0075']	['gaming_toxic']	['Int64']	False
+gaming_wish_else	['gaming_wish_else']	1	1.59	['0075']	['gaming_wish_else']	['Int64']	False
+gcpt_dprime	['gcpt_dprime']	1	1.59	['0003']	['gcpt_dprime']	['Float64']	False
+generalized_anxiety	['generalized_anxiety']	1	1.59	['0017']	['generalized_anxiety']	['Int64']	False
+getting_done	['getting_done']	1	1.59	['0058']	['getting_done']	['String']	False
+gloomy	['gloomy']	1	1.59	['0070']	['gloomy']	['Int64']	False
+goal_directed	['goal_directed']	1	1.59	['0060']	['goal_directed']	['Int64']	False
+goal_pursuit	['goal_pursuit']	1	1.59	['0063']	['goal_pursuit']	['Int64']	False
+going_on	['going_on']	1	1.59	['0003']	['going_on']	['Int64']	False
+good_at_this	['good_at_this']	1	1.59	['0063']	['good_at_this']	['Int64']	False
+group	['group']	1	1.59	['0076']	['group']	['Int64']	False
+group_work	['group_work']	1	1.59	['0062']	['group_work']	['Boolean']	False
+guilty_emotion	['guilty_emotion']	1	1.59	['0073']	['guilty_emotion']	['Int64']	False
+had_stress	['had_stress']	1	1.59	['0075']	['had_stress']	['String']	False
+hallucinations	['hallucinations']	1	1.59	['0014']	['hallucinations']	['Int64']	False
+happy_daily	['happy_daily']	1	1.59	['0062']	['happy_daily']	['String']	False
+happyornot	['happyornot']	1	1.59	['0004']	['happyornot']	['Float64']	False
+hard_to_concentrate	['hard_to_concentrate']	1	1.59	['0036']	['hard_to_concentrate']	['Int64']	False
+hard_work	['hard_work']	1	1.59	['0022']	['hard_work']	['Int64']	False
+harsh	['harsh']	1	1.59	['0025']	['harsh']	['Int64']	False
+has_data	['has_data']	1	1.59	['0061']	['has_data']	['Boolean']	False
+health	['health']	1	1.59	['0066']	['health']	['Int64']	False
+health_belief	['health_belief']	1	1.59	['0037']	['health_belief']	['Int64']	False
+health_stress	['health_stress']	1	1.59	['0003']	['health_stress']	['Int64']	False
+healthy	['healthy']	1	1.59	['0076']	['healthy']	['String']	False
+heartwarming	['heartwarming']	1	1.59	['0070']	['heartwarming']	['Int64']	False
+held_presentation	['held_presentation']	1	1.59	['0062']	['held_presentation']	['Boolean']	False
+help_stool_1	['help_stool_1']	1	1.59	['0066']	['help_stool_1']	['Int64']	False
+help_stool_2	['help_stool_2']	1	1.59	['0066']	['help_stool_2']	['Int64']	False
+help_stool_3	['help_stool_3']	1	1.59	['0066']	['help_stool_3']	['Int64']	False
+help_stool_4	['help_stool_4']	1	1.59	['0066']	['help_stool_4']	['Int64']	False
+help_stool_5	['help_stool_5']	1	1.59	['0066']	['help_stool_5']	['Int64']	False
+help_stool_6	['help_stool_6']	1	1.59	['0066']	['help_stool_6']	['Int64']	False
+help_stool_7	['help_stool_7']	1	1.59	['0066']	['help_stool_7']	['Int64']	False
+help_stool_8	['help_stool_8']	1	1.59	['0066']	['help_stool_8']	['Int64']	False
+help_stool_99	['help_stool_99']	1	1.59	['0066']	['help_stool_99']	['String']	False
+help_urine_1	['help_urine_1']	1	1.59	['0066']	['help_urine_1']	['Int64']	False
+help_urine_2	['help_urine_2']	1	1.59	['0066']	['help_urine_2']	['Int64']	False
+help_urine_3	['help_urine_3']	1	1.59	['0066']	['help_urine_3']	['Int64']	False
+help_urine_4	['help_urine_4']	1	1.59	['0066']	['help_urine_4']	['Int64']	False
+help_urine_5	['help_urine_5']	1	1.59	['0066']	['help_urine_5']	['Int64']	False
+help_urine_6	['help_urine_6']	1	1.59	['0066']	['help_urine_6']	['Int64']	False
+help_urine_7	['help_urine_7']	1	1.59	['0066']	['help_urine_7']	['Int64']	False
+help_urine_8	['help_urine_8']	1	1.59	['0066']	['help_urine_8']	['Int64']	False
+help_urine_99	['help_urine_99']	1	1.59	['0066']	['help_urine_99']	['String']	False
+helpful	['helpful']	1	1.59	['0060']	['helpful']	['Int64']	False
+hobby	['hobby']	1	1.59	['0066']	['hobby']	['Int64']	False
+hopeful	['hopeful']	1	1.59	['0005']	['hopeful']	['Int64']	False
+horrified	['horrified']	1	1.59	['0034']	['horrified']	['Int64']	False
+hour_block	['hour_block']	1	1.59	['0060']	['hour_block']	['Int64']	False
+hours	['hours']	1	1.59	['0033']	['hours']	['Float64']	False
+hours_studying	['hours_studying']	1	1.59	['0062']	['hours_studying']	['String']	False
+how	['how']	1	1.59	['0022']	['how']	['String']	False
+how_stressful_argument	['how_stressful_argument']	1	1.59	['0075']	['how_stressful_argument']	['Int64']	False
+how_stressful_discrimination	['how_stressful_discrimination']	1	1.59	['0075']	['how_stressful_discrimination']	['Int64']	False
+how_stressful_friend_rel	['how_stressful_friend_rel']	1	1.59	['0075']	['how_stressful_friend_rel']	['Int64']	False
+how_stressful_health	['how_stressful_health']	1	1.59	['0075']	['how_stressful_health']	['Int64']	False
+how_stressful_home_issue	['how_stressful_home_issue']	1	1.59	['0075']	['how_stressful_home_issue']	['Int64']	False
+how_stressful_other	['how_stressful_other']	1	1.59	['0075']	['how_stressful_other']	['Int64']	False
+how_stressful_work_school	['how_stressful_work_school']	1	1.59	['0075']	['how_stressful_work_school']	['Int64']	False
+hr_acrophase	['hr_acrophase']	1	1.59	['0017']	['hr_acrophase']	['Float64']	False
+hr_amplitude	['hr_amplitude']	1	1.59	['0017']	['hr_amplitude']	['Float64']	False
+hr_hvar_mean	['hr_hvar_mean']	1	1.59	['0017']	['hr_hvar_mean']	['Float64']	False
+hr_max	['hr_max']	1	1.59	['0017']	['hr_max']	['Int64']	False
+hr_mean	['hr_mean']	1	1.59	['0017']	['hr_mean']	['Float64']	False
+hr_mesor	['hr_mesor']	1	1.59	['0017']	['hr_mesor']	['Float64']	False
+hr_var	['hr_var']	1	1.59	['0017']	['hr_var']	['Float64']	False
+hurt_health	['hurt_health']	1	1.59	['0037']	['hurt_health']	['Int64']	False
+hypervigilant	['hypervigilant']	1	1.59	['0034']	['hypervigilant']	['Int64']	False
+ideal_baseline_day	['ideal_baseline_day']	1	1.59	['0075']	['ideal_baseline_day']	['String']	False
+ignoring	['ignoring']	1	1.59	['0032']	['ignoring']	['Int64']	False
+important	['important']	1	1.59	['0070']	['important']	['Int64']	False
+impulse_contact_emotion_regulation	['impulse_contact_emotion_regulation']	1	1.59	['0073']	['impulse_contact_emotion_regulation']	['Int64']	False
+impulse_self_regulation	['impulse_self_regulation']	1	1.59	['0073']	['impulse_self_regulation']	['Int64']	False
+in_class	['in_class']	1	1.59	['0060']	['in_class']	['Int64']	False
+inadequate	['inadequate']	1	1.59	['0058']	['inadequate']	['String']	False
+inefficient	['inefficient']	1	1.59	['0025']	['inefficient']	['Int64']	False
+influence_hard	['influence_hard']	1	1.59	['0060']	['influence_hard']	['Int64']	False
+input_method	['input_method']	1	1.59	['0018']	['input_method']	['String']	False
+int_excluded	['int_excluded']	1	1.59	['0057']	['int_excluded']	['Int64']	False
+int_lonely	['int_lonely']	1	1.59	['0057']	['int_lonely']	['Int64']	False
+intellect	['intellect']	1	1.59	['0060']	['intellect']	['Int64']	False
+interacted_family	['interacted_family']	1	1.59	['0060']	['interacted_family']	['Int64']	False
+interacted_friend	['interacted_friend']	1	1.59	['0060']	['interacted_friend']	['Int64']	False
+interaction_frequency	['interaction_frequency']	1	1.59	['0076']	['interaction_frequency']	['String']	False
+interaction_meaningful	['interaction_meaningful']	1	1.59	['0076']	['interaction_meaningful']	['String']	False
+interaction_number	['interaction_number']	1	1.59	['0076']	['interaction_number']	['String']	False
+interaction_playful	['interaction_playful']	1	1.59	['0076']	['interaction_playful']	['String']	False
+interaction_pleasant	['interaction_pleasant']	1	1.59	['0076']	['interaction_pleasant']	['String']	False
+interaction_when	['interaction_when']	1	1.59	['0076']	['interaction_when']	['String']	False
+internet	['internet']	1	1.59	['0060']	['internet']	['Int64']	False
+interoceptive_fear	['interoceptive_fear']	1	1.59	['0017']	['interoceptive_fear']	['Int64']	False
+interruptions	['interruptions']	1	1.59	['0003']	['interruptions']	['Int64']	False
+intrusions	['intrusions']	1	1.59	['0034']	['intrusions']	['Int64']	False
+inventive	['inventive']	1	1.59	['0060']	['inventive']	['Int64']	False
+irresponsible	['irresponsible']	1	1.59	['0060']	['irresponsible']	['Int64']	False
+issued	['issued']	1	1.59	['0001']	['issued']	['String']	False
+jittery	['jittery']	1	1.59	['0064']	['jittery']	['Int64']	False
+keep_distance	['keep_distance']	1	1.59	['0054']	['keep_distance']	['Int64']	False
+lacking_support	['lacking_support']	1	1.59	['0008']	['lacking_support']	['Float64']	False
+last_page	['last_page']	1	1.59	['0062']	['last_page']	['Int64']	False
+last_update	['last_update']	1	1.59	['0072']	['last_update']	['String']	False
+late	['late']	1	1.59	['0060']	['late']	['Int64']	False
+lazy	['lazy']	1	1.59	['0060']	['lazy']	['Int64']	False
+learned	['learned']	1	1.59	['0070']	['learned']	['Int64']	False
+learning_goal_achievement	['learning_goal_achievement']	1	1.59	['0015']	['learning_goal_achievement']	['Int64']	False
+lecture_difficult	['lecture_difficult']	1	1.59	['0019']	['lecture_difficult']	['Int64']	False
+lecture_enjoy	['lecture_enjoy']	1	1.59	['0019']	['lecture_enjoy']	['Int64']	False
+lecture_interesting	['lecture_interesting']	1	1.59	['0019']	['lecture_interesting']	['Int64']	False
+left_out	['left_out']	1	1.59	['0039']	['left_out']	['Int64']	False
+less_active	['less_active']	1	1.59	['0060']	['less_active']	['Int64']	False
+let_pass_stress	['let_pass_stress']	1	1.59	['0003']	['let_pass_stress']	['Int64']	False
+life_not_worth	['life_not_worth']	1	1.59	['0052']	['life_not_worth']	['Int64']	False
+lifeless	['lifeless']	1	1.59	['0070']	['lifeless']	['Int64']	False
+light_mean_ep_0	['light_mean_ep_0']	1	1.59	['0005']	['light_mean_ep_0']	['Float64']	False
+light_mean_ep_1	['light_mean_ep_1']	1	1.59	['0005']	['light_mean_ep_1']	['Float64']	False
+light_mean_ep_2	['light_mean_ep_2']	1	1.59	['0005']	['light_mean_ep_2']	['Float64']	False
+light_mean_ep_3	['light_mean_ep_3']	1	1.59	['0005']	['light_mean_ep_3']	['Float64']	False
+light_mean_ep_4	['light_mean_ep_4']	1	1.59	['0005']	['light_mean_ep_4']	['Float64']	False
+light_std_ep_0	['light_std_ep_0']	1	1.59	['0005']	['light_std_ep_0']	['Float64']	False
+light_std_ep_1	['light_std_ep_1']	1	1.59	['0005']	['light_std_ep_1']	['Float64']	False
+light_std_ep_2	['light_std_ep_2']	1	1.59	['0005']	['light_std_ep_2']	['Float64']	False
+light_std_ep_3	['light_std_ep_3']	1	1.59	['0005']	['light_std_ep_3']	['Float64']	False
+light_std_ep_4	['light_std_ep_4']	1	1.59	['0005']	['light_std_ep_4']	['Float64']	False
+liked	['liked']	1	1.59	['0019']	['liked']	['Int64']	False
+listened_music	['listened_music']	1	1.59	['0062']	['listened_music']	['Boolean']	False
+little_abstract	['little_abstract']	1	1.59	['0060']	['little_abstract']	['Int64']	False
+little_creativity	['little_creativity']	1	1.59	['0060']	['little_creativity']	['Int64']	False
+little_sympathy	['little_sympathy']	1	1.59	['0060']	['little_sympathy']	['Int64']	False
+lively	['lively']	1	1.59	['0062']	['lively']	['Int64']	False
+lively_daily	['lively_daily']	1	1.59	['0062']	['lively_daily']	['String']	False
+loathing	['loathing']	1	1.59	['0064']	['loathing']	['Int64']	False
+loc_where	['loc_where']	1	1.59	['0014']	['loc_where']	['Int64']	False
+location	['location']	1	1.59	['0062']	['location']	['Int64']	False
+location_compatible_personality	['location_compatible_personality']	1	1.59	['0076']	['location_compatible_personality']	['String']	False
+location_familiar	['location_familiar']	1	1.59	['0076']	['location_familiar']	['String']	False
+location_interesting	['location_interesting']	1	1.59	['0076']	['location_interesting']	['String']	False
+location_overstimulation	['location_overstimulation']	1	1.59	['0076']	['location_overstimulation']	['String']	False
+location_refreshing	['location_refreshing']	1	1.59	['0076']	['location_refreshing']	['String']	False
+location_stimulation	['location_stimulation']	1	1.59	['0076']	['location_stimulation']	['String']	False
+lost_something	['lost_something']	1	1.59	['0060']	['lost_something']	['Int64']	False
+luck_will_end	['luck_will_end']	1	1.59	['0036']	['luck_will_end']	['Int64']	False
+malicious	['malicious']	1	1.59	['0070']	['malicious']	['Int64']	False
+manage_stool	['manage_stool']	1	1.59	['0066']	['manage_stool']	['Int64']	False
+manage_urine	['manage_urine']	1	1.59	['0066']	['manage_urine']	['Int64']	False
+manage_well	['manage_well']	1	1.59	['0028']	['manage_well']	['Int64']	False
+mating	['mating']	1	1.59	['0060']	['mating']	['Int64']	False
+max_page	['max_page']	1	1.59	['0062']	['max_page']	['Int64']	False
+meaning	['meaning']	1	1.59	['0058']	['meaning']	['String']	False
+medical_appt	['medical_appt']	1	1.59	['0066']	['medical_appt']	['Int64']	False
+menstruation	['menstruation']	1	1.59	['0017']	['menstruation']	['Int64']	False
+mental_exhaust	['mental_exhaust']	1	1.59	['0058']	['mental_exhaust']	['String']	False
+mentaleffort	['mentaleffort']	1	1.59	['0003']	['mentaleffort']	['Int64']	False
+messy	['messy']	1	1.59	['0060']	['messy']	['Int64']	False
+meta_aware	['meta_aware']	1	1.59	['0058']	['meta_aware']	['String']	False
+min_complete	['min_complete']	1	1.59	['0066']	['min_complete']	['Float64']	False
+mind_wandering	['mind_wandering']	1	1.59	['0045']	['mind_wandering']	['Int64']	False
+mindful	['mindful']	1	1.59	['0058']	['mindful']	['String']	False
+mindfulness_could_act_better	['mindfulness_could_act_better']	1	1.59	['0072']	['mindfulness_could_act_better']	['Int64']	False
+mindfulness_inappropriate	['mindfulness_inappropriate']	1	1.59	['0072']	['mindfulness_inappropriate']	['Int64']	False
+mindfulness_open_to_happening	['mindfulness_open_to_happening']	1	1.59	['0072']	['mindfulness_open_to_happening']	['Int64']	False
+mindfulness_present_moment	['mindfulness_present_moment']	1	1.59	['0072']	['mindfulness_present_moment']	['Int64']	False
+minute	['minute']	1	1.59	['0060']	['minute']	['Int64']	False
+minutes_studying	['minutes_studying']	1	1.59	['0062']	['minutes_studying']	['String']	False
+miss_status	['miss_status']	1	1.59	['0059']	['miss_status']	['Int64']	False
+missing_beep	['missing_beep']	1	1.59	['0063']	['missing_beep']	['Int64']	False
+misunderstood	['misunderstood']	1	1.59	['0063']	['misunderstood']	['Int64']	False
+mobile_data_access	['mobile_data_access']	1	1.59	['0076']	['mobile_data_access']	['String']	False
+mobile_data_speed	['mobile_data_speed']	1	1.59	['0076']	['mobile_data_speed']	['String']	False
+mobile_data_speed_open	['mobile_data_speed_open']	1	1.59	['0076']	['mobile_data_speed_open']	['String']	False
+mobility_survey	['mobility_survey']	1	1.59	['0076']	['mobility_survey']	['String']	False
+mobility_well	['mobility_well']	1	1.59	['0014']	['mobility_well']	['Int64']	False
+modified	['modified']	1	1.59	['0013']	['modified']	['String']	False
+moody	['moody']	1	1.59	['0060']	['moody']	['Int64']	False
+mor_often_awake	['mor_often_awake']	1	1.59	['0014']	['mor_often_awake']	['Int64']	False
+mor_rested	['mor_rested']	1	1.59	['0014']	['mor_rested']	['Int64']	False
+mor_slept_well	['mor_slept_well']	1	1.59	['0014']	['mor_slept_well']	['Int64']	False
+mor_tired_ment	['mor_tired_ment']	1	1.59	['0014']	['mor_tired_ment']	['Int64']	False
+mor_tired_phys	['mor_tired_phys']	1	1.59	['0014']	['mor_tired_phys']	['Int64']	False
+morning_breakfast	['morning_breakfast']	1	1.59	['0019']	['morning_breakfast']	['Int64']	False
+morning_ok	['morning_ok']	1	1.59	['0019']	['morning_ok']	['Int64']	False
+most_recent_game	['most_recent_game']	1	1.59	['0075']	['most_recent_game']	['String']	False
+most_recent_game_plat	['most_recent_game_plat']	1	1.59	['0075']	['most_recent_game_plat']	['String']	False
+mot_percent_correct	['mot_percent_correct']	1	1.59	['0003']	['mot_percent_correct']	['Float64']	False
+mother_asked_opinion	['mother_asked_opinion']	1	1.59	['0062']	['mother_asked_opinion']	['String']	False
+mother_autonomy	['mother_autonomy']	1	1.59	['0062']	['mother_autonomy']	['String']	False
+mother_disapproved	['mother_disapproved']	1	1.59	['0062']	['mother_disapproved']	['String']	False
+mother_guilty	['mother_guilty']	1	1.59	['0062']	['mother_guilty']	['String']	False
+mother_interrupted	['mother_interrupted']	1	1.59	['0062']	['mother_interrupted']	['String']	False
+mother_own_decisions	['mother_own_decisions']	1	1.59	['0062']	['mother_own_decisions']	['String']	False
+mother_point_of_view	['mother_point_of_view']	1	1.59	['0062']	['mother_point_of_view']	['String']	False
+mother_tried_change	['mother_tried_change']	1	1.59	['0062']	['mother_tried_change']	['String']	False
+motivated_quit_smoking	['motivated_quit_smoking']	1	1.59	['0037']	['motivated_quit_smoking']	['Int64']	False
+motor	['motor']	1	1.59	['0003']	['motor']	['Int64']	False
+multitasking	['multitasking']	1	1.59	['0022']	['multitasking']	['Int64']	False
+music	['music']	1	1.59	['0060']	['music']	['Int64']	False
+n_people	['n_people']	1	1.59	['0022']	['n_people']	['Int64']	False
+n_valid	['n_valid']	1	1.59	['0075']	['n_valid']	['Int64']	False
+na_other	['na_other']	1	1.59	['0046']	['na_other']	['Float64']	False
+na_self	['na_self']	1	1.59	['0046']	['na_self']	['Float64']	False
+na_selfother	['na_selfother']	1	1.59	['0046']	['na_selfother']	['Float64']	False
+nap_rest	['nap_rest']	1	1.59	['0066']	['nap_rest']	['Int64']	False
+neat_tidy	['neat_tidy']	1	1.59	['0060']	['neat_tidy']	['Int64']	False
+need_change	['need_change']	1	1.59	['0052']	['need_change']	['Int64']	False
+need_love	['need_love']	1	1.59	['0054']	['need_love']	['Int64']	False
+needs_autonomy_frustrated	['needs_autonomy_frustrated']	1	1.59	['0075']	['needs_autonomy_frustrated']	['Int64']	False
+needs_autonomy_satisfied	['needs_autonomy_satisfied']	1	1.59	['0075']	['needs_autonomy_satisfied']	['Int64']	False
+needs_competence_frustrated	['needs_competence_frustrated']	1	1.59	['0075']	['needs_competence_frustrated']	['Int64']	False
+needs_competence_satisfied	['needs_competence_satisfied']	1	1.59	['0075']	['needs_competence_satisfied']	['Int64']	False
+needs_relatedness_frustrated	['needs_relatedness_frustrated']	1	1.59	['0075']	['needs_relatedness_frustrated']	['Int64']	False
+needs_relatedness_satisfied	['needs_relatedness_satisfied']	1	1.59	['0075']	['needs_relatedness_satisfied']	['Int64']	False
+neg_thoughts_others	['neg_thoughts_others']	1	1.59	['0034']	['neg_thoughts_others']	['Int64']	False
+neg_thoughts_self	['neg_thoughts_self']	1	1.59	['0034']	['neg_thoughts_self']	['Int64']	False
+neg_thoughts_world	['neg_thoughts_world']	1	1.59	['0034']	['neg_thoughts_world']	['Int64']	False
+negative_affect_behavior	['negative_affect_behavior']	1	1.59	['0008']	['negative_affect_behavior']	['Float64']	False
+negative_attention_behavior	['negative_attention_behavior']	1	1.59	['0008']	['negative_attention_behavior']	['Float64']	False
+negative_behavior_retention	['negative_behavior_retention']	1	1.59	['0008']	['negative_behavior_retention']	['Float64']	False
+negative_change_behavior	['negative_change_behavior']	1	1.59	['0008']	['negative_change_behavior']	['Float64']	False
+negative_cognition_behavior	['negative_cognition_behavior']	1	1.59	['0008']	['negative_cognition_behavior']	['Float64']	False
+negative_energy	['negative_energy']	1	1.59	['0017']	['negative_energy']	['Int64']	False
+negative_event	['negative_event']	1	1.59	['0073']	['negative_event']	['Int64']	False
+negative_feeling	['negative_feeling']	1	1.59	['0017']	['negative_feeling']	['Int64']	False
+negative_motivation_behavior	['negative_motivation_behavior']	1	1.59	['0008']	['negative_motivation_behavior']	['Float64']	False
+negative_overt_behavior	['negative_overt_behavior']	1	1.59	['0008']	['negative_overt_behavior']	['Float64']	False
+negative_physical_health_behavior	['negative_physical_health_behavior']	1	1.59	['0008']	['negative_physical_health_behavior']	['Float64']	False
+negative_self_thoughts	['negative_self_thoughts']	1	1.59	['0073']	['negative_self_thoughts']	['Int64']	False
+negative_social_connection_behavior	['negative_social_connection_behavior']	1	1.59	['0008']	['negative_social_connection_behavior']	['Float64']	False
+never_make_it	['never_make_it']	1	1.59	['0052']	['never_make_it']	['Int64']	False
+no_class	['no_class']	1	1.59	['0062']	['no_class']	['String']	False
+no_company	['no_company']	1	1.59	['0062']	['no_company']	['Boolean']	False
+no_good	['no_good']	1	1.59	['0052']	['no_good']	['Int64']	False
+no_trust	['no_trust']	1	1.59	['0028']	['no_trust']	['Int64']	False
+noact_stool_worry_1	['noact_stool_worry_1']	1	1.59	['0066']	['noact_stool_worry_1']	['Int64']	False
+noact_stool_worry_10	['noact_stool_worry_10']	1	1.59	['0066']	['noact_stool_worry_10']	['Int64']	False
+noact_stool_worry_11	['noact_stool_worry_11']	1	1.59	['0066']	['noact_stool_worry_11']	['Int64']	False
+noact_stool_worry_12	['noact_stool_worry_12']	1	1.59	['0066']	['noact_stool_worry_12']	['Int64']	False
+noact_stool_worry_13	['noact_stool_worry_13']	1	1.59	['0066']	['noact_stool_worry_13']	['Int64']	False
+noact_stool_worry_14	['noact_stool_worry_14']	1	1.59	['0066']	['noact_stool_worry_14']	['Int64']	False
+noact_stool_worry_15	['noact_stool_worry_15']	1	1.59	['0066']	['noact_stool_worry_15']	['Int64']	False
+noact_stool_worry_16	['noact_stool_worry_16']	1	1.59	['0066']	['noact_stool_worry_16']	['Int64']	False
+noact_stool_worry_17	['noact_stool_worry_17']	1	1.59	['0066']	['noact_stool_worry_17']	['Int64']	False
+noact_stool_worry_18	['noact_stool_worry_18']	1	1.59	['0066']	['noact_stool_worry_18']	['Int64']	False
+noact_stool_worry_2	['noact_stool_worry_2']	1	1.59	['0066']	['noact_stool_worry_2']	['Int64']	False
+noact_stool_worry_3	['noact_stool_worry_3']	1	1.59	['0066']	['noact_stool_worry_3']	['Int64']	False
+noact_stool_worry_4	['noact_stool_worry_4']	1	1.59	['0066']	['noact_stool_worry_4']	['Int64']	False
+noact_stool_worry_5	['noact_stool_worry_5']	1	1.59	['0066']	['noact_stool_worry_5']	['Int64']	False
+noact_stool_worry_6	['noact_stool_worry_6']	1	1.59	['0066']	['noact_stool_worry_6']	['Int64']	False
+noact_stool_worry_7	['noact_stool_worry_7']	1	1.59	['0066']	['noact_stool_worry_7']	['Int64']	False
+noact_stool_worry_8	['noact_stool_worry_8']	1	1.59	['0066']	['noact_stool_worry_8']	['Int64']	False
+noact_stool_worry_9	['noact_stool_worry_9']	1	1.59	['0066']	['noact_stool_worry_9']	['Int64']	False
+noact_stool_worry_99	['noact_stool_worry_99']	1	1.59	['0066']	['noact_stool_worry_99']	['Int64']	False
+noact_urine_worry_1	['noact_urine_worry_1']	1	1.59	['0066']	['noact_urine_worry_1']	['Int64']	False
+noact_urine_worry_10	['noact_urine_worry_10']	1	1.59	['0066']	['noact_urine_worry_10']	['Int64']	False
+noact_urine_worry_11	['noact_urine_worry_11']	1	1.59	['0066']	['noact_urine_worry_11']	['Int64']	False
+noact_urine_worry_12	['noact_urine_worry_12']	1	1.59	['0066']	['noact_urine_worry_12']	['Int64']	False
+noact_urine_worry_13	['noact_urine_worry_13']	1	1.59	['0066']	['noact_urine_worry_13']	['Int64']	False
+noact_urine_worry_14	['noact_urine_worry_14']	1	1.59	['0066']	['noact_urine_worry_14']	['Int64']	False
+noact_urine_worry_15	['noact_urine_worry_15']	1	1.59	['0066']	['noact_urine_worry_15']	['Int64']	False
+noact_urine_worry_16	['noact_urine_worry_16']	1	1.59	['0066']	['noact_urine_worry_16']	['Int64']	False
+noact_urine_worry_17	['noact_urine_worry_17']	1	1.59	['0066']	['noact_urine_worry_17']	['Int64']	False
+noact_urine_worry_18	['noact_urine_worry_18']	1	1.59	['0066']	['noact_urine_worry_18']	['Int64']	False
+noact_urine_worry_2	['noact_urine_worry_2']	1	1.59	['0066']	['noact_urine_worry_2']	['Int64']	False
+noact_urine_worry_3	['noact_urine_worry_3']	1	1.59	['0066']	['noact_urine_worry_3']	['Int64']	False
+noact_urine_worry_4	['noact_urine_worry_4']	1	1.59	['0066']	['noact_urine_worry_4']	['Int64']	False
+noact_urine_worry_5	['noact_urine_worry_5']	1	1.59	['0066']	['noact_urine_worry_5']	['Int64']	False
+noact_urine_worry_6	['noact_urine_worry_6']	1	1.59	['0066']	['noact_urine_worry_6']	['Int64']	False
+noact_urine_worry_7	['noact_urine_worry_7']	1	1.59	['0066']	['noact_urine_worry_7']	['Int64']	False
+noact_urine_worry_8	['noact_urine_worry_8']	1	1.59	['0066']	['noact_urine_worry_8']	['Int64']	False
+noact_urine_worry_9	['noact_urine_worry_9']	1	1.59	['0066']	['noact_urine_worry_9']	['Int64']	False
+noact_urine_worry_99	['noact_urine_worry_99']	1	1.59	['0066']	['noact_urine_worry_99']	['Int64']	False
+nobody_cares	['nobody_cares']	1	1.59	['0052']	['nobody_cares']	['Int64']	False
+nobody_likes	['nobody_likes']	1	1.59	['0052']	['nobody_likes']	['Int64']	False
+noisy	['noisy']	1	1.59	['0003']	['noisy']	['Int64']	False
+noncompliance_daily	['noncompliance_daily']	1	1.59	['0062']	['noncompliance_daily']	['String']	False
+noncompliance_esm	['noncompliance_esm']	1	1.59	['0062']	['noncompliance_esm']	['Int64']	False
+nonjudgmental_behavior	['nonjudgmental_behavior']	1	1.59	['0059']	['nonjudgmental_behavior']	['Int64']	False
+nonjudgmental_feelings	['nonjudgmental_feelings']	1	1.59	['0059']	['nonjudgmental_feelings']	['Int64']	False
+nonjudgmental_thoughts	['nonjudgmental_thoughts']	1	1.59	['0059']	['nonjudgmental_thoughts']	['Int64']	False
+nothing_look_forward	['nothing_look_forward']	1	1.59	['0001']	['nothing_look_forward']	['Int64']	False
+notification_no	['notification_no']	1	1.59	['0019']	['notification_no']	['Int64']	False
+notification_time	['notification_time']	1	1.59	['0019']	['notification_time']	['String']	False
+number_days_total	['number_days_total']	1	1.59	['0051']	['number_days_total']	['Int64']	False
+number_of_company	['number_of_company']	1	1.59	['0062']	['number_of_company']	['Int64']	False
+number_other_activities	['number_other_activities']	1	1.59	['0062']	['number_other_activities']	['Int64']	False
+number_study_activities	['number_study_activities']	1	1.59	['0062']	['number_study_activities']	['Int64']	False
+number_study_formats	['number_study_formats']	1	1.59	['0062']	['number_study_formats']	['String']	False
+observe_thoughts_feelings	['observe_thoughts_feelings']	1	1.59	['0058']	['observe_thoughts_feelings']	['String']	False
+occup_excluded	['occup_excluded']	1	1.59	['0057']	['occup_excluded']	['Int64']	False
+occup_lonely	['occup_lonely']	1	1.59	['0057']	['occup_lonely']	['Int64']	False
+occupational_stress	['occupational_stress']	1	1.59	['0017']	['occupational_stress']	['Int64']	False
+on_social_media	['on_social_media']	1	1.59	['0062']	['on_social_media']	['Boolean']	False
+open_to_experiences	['open_to_experiences']	1	1.59	['0004']	['open_to_experiences']	['Float64']	False
+opened_up	['opened_up']	1	1.59	['0059']	['opened_up']	['Int64']	False
+openness	['openness']	1	1.59	['0021']	['openness']	['Float64']	False
+optimistic_setback	['optimistic_setback']	1	1.59	['0060']	['optimistic_setback']	['Int64']	False
+order	['order']	1	1.59	['0055']	['order']	['Int64']	False
+ordinary	['ordinary']	1	1.59	['0070']	['ordinary']	['Int64']	False
+organised	['organised']	1	1.59	['0002']	['organised']	['Float64']	False
+organization	['organization']	1	1.59	['0003']	['organization']	['Int64']	False
+organized	['organized']	1	1.59	['0024']	['organized']	['Int64']	False
+original	['original']	1	1.59	['0060']	['original']	['Int64']	False
+original_wave	['original_wave']	1	1.59	['0075']	['original_wave']	['Int64']	False
+os	['os']	1	1.59	['0022']	['os']	['String']	False
+other_activities	['other_activities']	1	1.59	['0062']	['other_activities']	['Boolean']	False
+other_activity	['other_activity']	1	1.59	['0066']	['other_activity']	['Int64']	False
+other_post	['other_post']	1	1.59	['0026']	['other_post']	['Float64']	False
+other_pre	['other_pre']	1	1.59	['0026']	['other_pre']	['Float64']	False
+other_stress	['other_stress']	1	1.59	['0003']	['other_stress']	['Int64']	False
+other_study_activities	['other_study_activities']	1	1.59	['0062']	['other_study_activities']	['Boolean']	False
+others	['others']	1	1.59	['0028']	['others']	['Int64']	False
+others_blame	['others_blame']	1	1.59	['0034']	['others_blame']	['Int64']	False
+others_charge	['others_charge']	1	1.59	['0060']	['others_charge']	['Int64']	False
+others_perspective_giving	['others_perspective_giving']	1	1.59	['0073']	['others_perspective_giving']	['Int64']	False
+out_of_control	['out_of_control']	1	1.59	['0073']	['out_of_control']	['Int64']	False
+overwhelming_emotions	['overwhelming_emotions']	1	1.59	['0073']	['overwhelming_emotions']	['Int64']	False
+pa_other	['pa_other']	1	1.59	['0046']	['pa_other']	['Float64']	False
+pa_self	['pa_self']	1	1.59	['0046']	['pa_self']	['Float64']	False
+pa_selfother	['pa_selfother']	1	1.59	['0046']	['pa_selfother']	['Float64']	False
+panic	['panic']	1	1.59	['0017']	['panic']	['Int64']	False
+parent_afraid	['parent_afraid']	1	1.59	['0072']	['parent_afraid']	['Int64']	False
+parent_angry	['parent_angry']	1	1.59	['0072']	['parent_angry']	['Int64']	False
+parent_balanced	['parent_balanced']	1	1.59	['0072']	['parent_balanced']	['Int64']	False
+parent_cheerful	['parent_cheerful']	1	1.59	['0072']	['parent_cheerful']	['Int64']	False
+parent_exhausted	['parent_exhausted']	1	1.59	['0072']	['parent_exhausted']	['Int64']	False
+parent_happy	['parent_happy']	1	1.59	['0072']	['parent_happy']	['Int64']	False
+parent_lively	['parent_lively']	1	1.59	['0072']	['parent_lively']	['Int64']	False
+parent_relaxed	['parent_relaxed']	1	1.59	['0072']	['parent_relaxed']	['Int64']	False
+parent_sad	['parent_sad']	1	1.59	['0072']	['parent_sad']	['Int64']	False
+parent_worried	['parent_worried']	1	1.59	['0072']	['parent_worried']	['Int64']	False
+parenting_assert_difficult	['parenting_assert_difficult']	1	1.59	['0072']	['parenting_assert_difficult']	['Int64']	False
+parenting_child_decide	['parenting_child_decide']	1	1.59	['0072']	['parenting_child_decide']	['Int64']	False
+parenting_child_liked	['parenting_child_liked']	1	1.59	['0072']	['parenting_child_liked']	['Int64']	False
+parenting_disagreements	['parenting_disagreements']	1	1.59	['0072']	['parenting_disagreements']	['Int64']	False
+parenting_drained_energy	['parenting_drained_energy']	1	1.59	['0072']	['parenting_drained_energy']	['Int64']	False
+parenting_explained_why	['parenting_explained_why']	1	1.59	['0072']	['parenting_explained_why']	['Int64']	False
+parenting_explained_why_not	['parenting_explained_why_not']	1	1.59	['0072']	['parenting_explained_why_not']	['Int64']	False
+parenting_fun	['parenting_fun']	1	1.59	['0072']	['parenting_fun']	['Int64']	False
+parenting_talked_worries	['parenting_talked_worries']	1	1.59	['0072']	['parenting_talked_worries']	['Int64']	False
+parenting_told_what_to_do	['parenting_told_what_to_do']	1	1.59	['0072']	['parenting_told_what_to_do']	['Int64']	False
+parkinson_medication	['parkinson_medication']	1	1.59	['0014']	['parkinson_medication']	['Int64']	False
+parkinson_onoff	['parkinson_onoff']	1	1.59	['0014']	['parkinson_onoff']	['Int64']	False
+part_of_company	['part_of_company']	1	1.59	['0063']	['part_of_company']	['Int64']	False
+part_time_job	['part_time_job']	1	1.59	['0062']	['part_time_job']	['Boolean']	False
+participant_mov	['participant_mov']	1	1.59	['0070']	['participant_mov']	['Int64']	False
+participant_timezone	['participant_timezone']	1	1.59	['0073']	['participant_timezone']	['String']	False
+peer_relationship	['peer_relationship']	1	1.59	['0019']	['peer_relationship']	['Int64']	False
+perceived_peer_drinking	['perceived_peer_drinking']	1	1.59	['0035']	['perceived_peer_drinking']	['Int64']	False
+perceived_responsiveness	['perceived_responsiveness']	1	1.59	['0039']	['perceived_responsiveness']	['Int64']	False
+perception_worry	['perception_worry']	1	1.59	['0040']	['perception_worry']	['Int64']	False
+perseverance	['perseverance']	1	1.59	['0013']	['perseverance']	['Int64']	False
+phone_use	['phone_use']	1	1.59	['0051']	['phone_use']	['Int64']	False
+phy_abd	['phy_abd']	1	1.59	['0029']	['phy_abd']	['Float64']	False
+phy_bloating	['phy_bloating']	1	1.59	['0029']	['phy_bloating']	['Int64']	False
+physical_activity	['physical_activity']	1	1.59	['0015']	['physical_activity']	['Int64']	False
+physical_reactions	['physical_reactions']	1	1.59	['0034']	['physical_reactions']	['Int64']	False
+placid	['placid']	1	1.59	['0022']	['placid']	['Int64']	False
+played24hr	['played24hr']	1	1.59	['0075']	['played24hr']	['String']	False
+pleasantness	['pleasantness']	1	1.59	['0010']	['pleasantness']	['Int64']	False
+poetry_boring	['poetry_boring']	1	1.59	['0060']	['poetry_boring']	['Int64']	False
+polite	['polite']	1	1.59	['0060']	['polite']	['Int64']	False
+pos_expect	['pos_expect']	1	1.59	['0037']	['pos_expect']	['Int64']	False
+pos_social	['pos_social']	1	1.59	['0037']	['pos_social']	['Int64']	False
+positive_affect_behavior	['positive_affect_behavior']	1	1.59	['0008']	['positive_affect_behavior']	['Float64']	False
+positive_attention_behavior	['positive_attention_behavior']	1	1.59	['0008']	['positive_attention_behavior']	['Float64']	False
+positive_behavior_retention	['positive_behavior_retention']	1	1.59	['0008']	['positive_behavior_retention']	['Float64']	False
+positive_change_behavior	['positive_change_behavior']	1	1.59	['0008']	['positive_change_behavior']	['Float64']	False
+positive_cognition_behavior	['positive_cognition_behavior']	1	1.59	['0008']	['positive_cognition_behavior']	['Float64']	False
+positive_energy	['positive_energy']	1	1.59	['0017']	['positive_energy']	['Int64']	False
+positive_event	['positive_event']	1	1.59	['0073']	['positive_event']	['Int64']	False
+positive_feeling	['positive_feeling']	1	1.59	['0017']	['positive_feeling']	['Int64']	False
+positive_motivation_behavior	['positive_motivation_behavior']	1	1.59	['0008']	['positive_motivation_behavior']	['Float64']	False
+positive_overt_behavior	['positive_overt_behavior']	1	1.59	['0008']	['positive_overt_behavior']	['Float64']	False
+positive_physical_health_behavior	['positive_physical_health_behavior']	1	1.59	['0008']	['positive_physical_health_behavior']	['Float64']	False
+positive_social_connection_behavior	['positive_social_connection_behavior']	1	1.59	['0008']	['positive_social_connection_behavior']	['Float64']	False
+positivity	['positivity']	1	1.59	['0060']	['positivity']	['Int64']	False
+prayer_meditation	['prayer_meditation']	1	1.59	['0062']	['prayer_meditation']	['Boolean']	False
+precious	['precious']	1	1.59	['0070']	['precious']	['Int64']	False
+preparation_follow_up	['preparation_follow_up']	1	1.59	['0062']	['preparation_follow_up']	['Boolean']	False
+pressure_to_drink	['pressure_to_drink']	1	1.59	['0035']	['pressure_to_drink']	['Int64']	False
+prevent_activity_stool	['prevent_activity_stool']	1	1.59	['0066']	['prevent_activity_stool']	['Int64']	False
+prevent_activity_urine	['prevent_activity_urine']	1	1.59	['0066']	['prevent_activity_urine']	['Int64']	False
+problem_coping	['problem_coping']	1	1.59	['0027']	['problem_coping']	['Int64']	False
+problem_progress	['problem_progress']	1	1.59	['0076']	['problem_progress']	['String']	False
+problem_thoughts	['problem_thoughts']	1	1.59	['0076']	['problem_thoughts']	['String']	False
+procrastinated	['procrastinated']	1	1.59	['0001']	['procrastinated']	['Int64']	False
+procrastinating	['procrastinating']	1	1.59	['0060']	['procrastinating']	['Int64']	False
+procrastination	['procrastination']	1	1.59	['0033']	['procrastination']	['Int64']	False
+progress	['progress']	1	1.59	['0076']	['progress']	['String']	False
+prolonged_emotion_expectation	['prolonged_emotion_expectation']	1	1.59	['0073']	['prolonged_emotion_expectation']	['Int64']	False
+prompt_duration	['prompt_duration']	1	1.59	['0051']	['prompt_duration']	['Int64']	False
+prompt_id	['prompt_id']	1	1.59	['0051']	['prompt_id']	['Int64']	False
+psychomotor_change	['psychomotor_change']	1	1.59	['0052']	['psychomotor_change']	['Int64']	False
+pt_num	['pt_num']	1	1.59	['0064']	['pt_num']	['Int64']	False
+public_wifi	['public_wifi']	1	1.59	['0076']	['public_wifi']	['String']	False
+public_wifi_speed	['public_wifi_speed']	1	1.59	['0076']	['public_wifi_speed']	['String']	False
+public_wifi_speed_open	['public_wifi_speed_open']	1	1.59	['0076']	['public_wifi_speed_open']	['String']	False
+purposeful	['purposeful']	1	1.59	['0060']	['purposeful']	['Int64']	False
+q_recaptcha_score	['q_recaptcha_score']	1	1.59	['0066']	['q_recaptcha_score']	['Float64']	False
+quality_activity	['quality_activity']	1	1.59	['0005']	['quality_activity']	['Float64']	False
+quality_audio	['quality_audio']	1	1.59	['0005']	['quality_audio']	['Float64']	False
+quality_gps_on	['quality_gps_on']	1	1.59	['0005']	['quality_gps_on']	['Float64']	False
+quality_light	['quality_light']	1	1.59	['0005']	['quality_light']	['Float64']	False
+quality_loc	['quality_loc']	1	1.59	['0005']	['quality_loc']	['Float64']	False
+quest_duration	['quest_duration']	1	1.59	['0073']	['quest_duration']	['Int64']	False
+question_nr	['question_nr']	1	1.59	['0062']	['question_nr']	['String']	False
+rain	['rain']	1	1.59	['0002']	['rain']	['Int64']	False
+rarely_anxious	['rarely_anxious']	1	1.59	['0060']	['rarely_anxious']	['Int64']	False
+rarely_excited	['rarely_excited']	1	1.59	['0060']	['rarely_excited']	['Int64']	False
+reactibility_notification_avg	['reactibility_notification_avg']	1	1.59	['0051']	['reactibility_notification_avg']	['Float64']	False
+reactibility_notification_sd	['reactibility_notification_sd']	1	1.59	['0051']	['reactibility_notification_sd']	['Float64']	False
+reactibility_social_notification_avg	['reactibility_social_notification_avg']	1	1.59	['0051']	['reactibility_social_notification_avg']	['Float64']	False
+reactibility_social_notification_sd	['reactibility_social_notification_sd']	1	1.59	['0051']	['reactibility_social_notification_sd']	['Float64']	False
+reactibility_survey	['reactibility_survey']	1	1.59	['0051']	['reactibility_survey']	['Int64']	False
+reading	['reading']	1	1.59	['0062']	['reading']	['Boolean']	False
+reassure	['reassure']	1	1.59	['0033']	['reassure']	['Int64']	False
+received_comfort	['received_comfort']	1	1.59	['0073']	['received_comfort']	['Int64']	False
+received_coping_examples	['received_coping_examples']	1	1.59	['0073']	['received_coping_examples']	['Int64']	False
+reckless	['reckless']	1	1.59	['0034']	['reckless']	['Int64']	False
+recorded_date	['recorded_date']	1	1.59	['0066']	['recorded_date']	['String']	False
+relationship_level	['relationship_level']	1	1.59	['0061']	['relationship_level']	['Int64']	False
+relaxed_daily	['relaxed_daily']	1	1.59	['0062']	['relaxed_daily']	['String']	False
+relaxed_personality	['relaxed_personality']	1	1.59	['0025']	['relaxed_personality']	['Int64']	False
+relaxed_thoughts_feelings	['relaxed_thoughts_feelings']	1	1.59	['0059']	['relaxed_thoughts_feelings']	['Int64']	False
+relaxed_thoughts_things	['relaxed_thoughts_things']	1	1.59	['0059']	['relaxed_thoughts_things']	['Int64']	False
+reliable	['reliable']	1	1.59	['0060']	['reliable']	['Int64']	False
+religious_service	['religious_service']	1	1.59	['0066']	['religious_service']	['Int64']	False
+reliving	['reliving']	1	1.59	['0034']	['reliving']	['Int64']	False
+rely_on	['rely_on']	1	1.59	['0054']	['rely_on']	['Int64']	False
+reminder	['reminder']	1	1.59	['0019']	['reminder']	['Int64']	False
+replaying	['replaying']	1	1.59	['0013']	['replaying']	['Int64']	False
+report_easy	['report_easy']	1	1.59	['0024']	['report_easy']	['Int64']	False
+report_sure	['report_sure']	1	1.59	['0024']	['report_sure']	['Int64']	False
+repulsive	['repulsive']	1	1.59	['0070']	['repulsive']	['Int64']	False
+reserved	['reserved']	1	1.59	['0004']	['reserved']	['Float64']	False
+resist_temptation	['resist_temptation']	1	1.59	['0058']	['resist_temptation']	['String']	False
+resp_time_median	['resp_time_median']	1	1.59	['0005']	['resp_time_median']	['Float64']	False
+respected	['respected']	1	1.59	['0061']	['respected']	['Int64']	False
+respectful	['respectful']	1	1.59	['0060']	['respectful']	['Int64']	False
+responded_fixed	['responded_fixed']	1	1.59	['0053']	['responded_fixed']	['Int64']	False
+response	['response']	1	1.59	['0001']	['response']	['String']	False
+response_duration	['response_duration']	1	1.59	['0076']	['response_duration']	['String']	False
+response_id	['response_id']	1	1.59	['0066']	['response_id']	['String']	False
+response_lag	['response_lag']	1	1.59	['0053']	['response_lag']	['Float64']	False
+restless_or_fidgety	['restless_or_fidgety']	1	1.59	['0003']	['restless_or_fidgety']	['Int64']	False
+rt_mdbf5_8	['rt_mdbf5_8']	1	1.59	['0024']	['rt_mdbf5_8']	['Int64']	False
+rt_pers1_3	['rt_pers1_3']	1	1.59	['0024']	['rt_pers1_3']	['Int64']	False
+rt_pers4_5	['rt_pers4_5']	1	1.59	['0024']	['rt_pers4_5']	['Int64']	False
+ruminate_feelings	['ruminate_feelings']	1	1.59	['0059']	['ruminate_feelings']	['Int64']	False
+ruminate_negatives	['ruminate_negatives']	1	1.59	['0036']	['ruminate_negatives']	['Int64']	False
+ruminate_things	['ruminate_things']	1	1.59	['0059']	['ruminate_things']	['Int64']	False
+run_timestamp	['run_timestamp']	1	1.59	['0022']	['run_timestamp']	['String']	False
+rushed	['rushed']	1	1.59	['0029']	['rushed']	['Int64']	False
+sadness_extreme	['sadness_extreme']	1	1.59	['0003']	['sadness_extreme']	['Int64']	False
+sadornot	['sadornot']	1	1.59	['0004']	['sadornot']	['Float64']	False
+salience_ft_f	['salience_ft_f']	1	1.59	['0051']	['salience_ft_f']	['Int64']	False
+satisfied_self	['satisfied_self']	1	1.59	['0063']	['satisfied_self']	['Int64']	False
+savoring	['savoring']	1	1.59	['0058']	['savoring']	['String']	False
+schedule_task	['schedule_task']	1	1.59	['0022']	['schedule_task']	['Int64']	False
+school_new_material	['school_new_material']	1	1.59	['0072']	['school_new_material']	['Int64']	False
+school_work	['school_work']	1	1.59	['0066']	['school_work']	['Int64']	False
+school_work_comprehensible	['school_work_comprehensible']	1	1.59	['0072']	['school_work_comprehensible']	['Int64']	False
+school_work_effort	['school_work_effort']	1	1.59	['0072']	['school_work_effort']	['Int64']	False
+school_work_hours	['school_work_hours']	1	1.59	['0072']	['school_work_hours']	['Int64']	False
+school_work_independent	['school_work_independent']	1	1.59	['0072']	['school_work_independent']	['Int64']	False
+school_work_joy	['school_work_joy']	1	1.59	['0072']	['school_work_joy']	['Int64']	False
+school_work_minutes	['school_work_minutes']	1	1.59	['0072']	['school_work_minutes']	['Int64']	False
+school_work_needed_support	['school_work_needed_support']	1	1.59	['0072']	['school_work_needed_support']	['Int64']	False
+school_work_today	['school_work_today']	1	1.59	['0072']	['school_work_today']	['Int64']	False
+schoolday_satisfaction	['schoolday_satisfaction']	1	1.59	['0019']	['schoolday_satisfaction']	['Int64']	False
+scornful	['scornful']	1	1.59	['0064']	['scornful']	['Int64']	False
+secure_comfortable	['secure_comfortable']	1	1.59	['0060']	['secure_comfortable']	['Int64']	False
+see_good_in_bad	['see_good_in_bad']	1	1.59	['0062']	['see_good_in_bad']	['Int64']	False
+seeing_things	['seeing_things']	1	1.59	['0005']	['seeing_things']	['Int64']	False
+seek_contact_affect	['seek_contact_affect']	1	1.59	['0073']	['seek_contact_affect']	['Int64']	False
+self_blame	['self_blame']	1	1.59	['0034']	['self_blame']	['Int64']	False
+self_criticism	['self_criticism']	1	1.59	['0013']	['self_criticism']	['Int64']	False
+session_instance_response_lapse	['session_instance_response_lapse']	1	1.59	['0019']	['session_instance_response_lapse']	['String']	False
+session_length	['session_length']	1	1.59	['0019']	['session_length']	['String']	False
+sex	['sex']	1	1.59	['0066']	['sex']	['Int64']	False
+shaky	['shaky']	1	1.59	['0064']	['shaky']	['Int64']	False
+shape_satisfaction	['shape_satisfaction']	1	1.59	['0053']	['shape_satisfaction']	['Int64']	False
+share_feelings	['share_feelings']	1	1.59	['0054']	['share_feelings']	['Int64']	False
+sharing_affect	['sharing_affect']	1	1.59	['0027']	['sharing_affect']	['Int64']	False
+silly	['silly']	1	1.59	['0070']	['silly']	['Int64']	False
+similarity_country	['similarity_country']	1	1.59	['0071']	['similarity_country']	['Int64']	False
+sit_still	['sit_still']	1	1.59	['0014']	['sit_still']	['Int64']	False
+sitting_id	['sitting_id']	1	1.59	['0003']	['sitting_id']	['Int64']	False
+situation_modification	['situation_modification']	1	1.59	['0032']	['situation_modification']	['Int64']	False
+situation_selection	['situation_selection']	1	1.59	['0032']	['situation_selection']	['Int64']	False
+sleep_hour	['sleep_hour']	1	1.59	['0004']	['sleep_hour']	['Float64']	False
+sleep_onset_time	['sleep_onset_time']	1	1.59	['0017']	['sleep_onset_time']	['Float64']	False
+sleep_out_time	['sleep_out_time']	1	1.59	['0017']	['sleep_out_time']	['Float64']	False
+sleep_problems	['sleep_problems']	1	1.59	['0052']	['sleep_problems']	['Int64']	False
+sleep_troubles	['sleep_troubles']	1	1.59	['0034']	['sleep_troubles']	['Int64']	False
+sloppy	['sloppy']	1	1.59	['0025']	['sloppy']	['Int64']	False
+slowness	['slowness']	1	1.59	['0014']	['slowness']	['Int64']	False
+smoking	['smoking']	1	1.59	['0017']	['smoking']	['Int64']	False
+sms_in_num_ep_0	['sms_in_num_ep_0']	1	1.59	['0005']	['sms_in_num_ep_0']	['Float64']	False
+sms_in_num_ep_1	['sms_in_num_ep_1']	1	1.59	['0005']	['sms_in_num_ep_1']	['Float64']	False
+sms_in_num_ep_2	['sms_in_num_ep_2']	1	1.59	['0005']	['sms_in_num_ep_2']	['Float64']	False
+sms_in_num_ep_3	['sms_in_num_ep_3']	1	1.59	['0005']	['sms_in_num_ep_3']	['Float64']	False
+sms_in_num_ep_4	['sms_in_num_ep_4']	1	1.59	['0005']	['sms_in_num_ep_4']	['Float64']	False
+sms_out_num_ep_0	['sms_out_num_ep_0']	1	1.59	['0005']	['sms_out_num_ep_0']	['Float64']	False
+sms_out_num_ep_1	['sms_out_num_ep_1']	1	1.59	['0005']	['sms_out_num_ep_1']	['Float64']	False
+sms_out_num_ep_2	['sms_out_num_ep_2']	1	1.59	['0005']	['sms_out_num_ep_2']	['Float64']	False
+sms_out_num_ep_3	['sms_out_num_ep_3']	1	1.59	['0005']	['sms_out_num_ep_3']	['Float64']	False
+sms_out_num_ep_4	['sms_out_num_ep_4']	1	1.59	['0005']	['sms_out_num_ep_4']	['Float64']	False
+soc_who	['soc_who']	1	1.59	['0014']	['soc_who']	['Int64']	False
+soc_who02	['soc_who02']	1	1.59	['0014']	['soc_who02']	['Int64']	False
+soc_who03	['soc_who03']	1	1.59	['0014']	['soc_who03']	['Int64']	False
+sociable	['sociable']	1	1.59	['0002']	['sociable']	['Float64']	False
+social	['social']	1	1.59	['0005']	['social']	['Int64']	False
+social_avoidance_distress	['social_avoidance_distress']	1	1.59	['0017']	['social_avoidance_distress']	['Int64']	False
+social_company	['social_company']	1	1.59	['0063']	['social_company']	['String']	False
+social_friends_online	['social_friends_online']	1	1.59	['0075']	['social_friends_online']	['String']	False
+social_friends_realworld	['social_friends_realworld']	1	1.59	['0075']	['social_friends_realworld']	['String']	False
+social_functioning_composite	['social_functioning_composite']	1	1.59	['0003']	['social_functioning_composite']	['Float64']	False
+social_interaction	['social_interaction']	1	1.59	['0039']	['social_interaction']	['Int64']	False
+social_level	['social_level']	1	1.59	['0040']	['social_level']	['Int64']	False
+social_media_post	['social_media_post']	1	1.59	['0026']	['social_media_post']	['Float64']	False
+social_media_pre	['social_media_pre']	1	1.59	['0026']	['social_media_pre']	['Float64']	False
+social_media_use_no_notification	['social_media_use_no_notification']	1	1.59	['0051']	['social_media_use_no_notification']	['Int64']	False
+social_number	['social_number']	1	1.59	['0004']	['social_number']	['Float64']	False
+social_offline	['social_offline']	1	1.59	['0001']	['social_offline']	['Int64']	False
+social_online	['social_online']	1	1.59	['0001']	['social_online']	['Int64']	False
+social_phobia	['social_phobia']	1	1.59	['0017']	['social_phobia']	['Int64']	False
+social_pressure_phone	['social_pressure_phone']	1	1.59	['0051']	['social_pressure_phone']	['Int64']	False
+social_sharing	['social_sharing']	1	1.59	['0032']	['social_sharing']	['Int64']	False
+social_singleplayer	['social_singleplayer']	1	1.59	['0075']	['social_singleplayer']	['String']	False
+social_strangers	['social_strangers']	1	1.59	['0075']	['social_strangers']	['String']	False
+socialfunc_interactions	['socialfunc_interactions']	1	1.59	['0003']	['socialfunc_interactions']	['Int64']	False
+sociality	['sociality']	1	1.59	['0060']	['sociality']	['Int64']	False
+something_wrong	['something_wrong']	1	1.59	['0052']	['something_wrong']	['Int64']	False
+source	['source']	1	1.59	['0062']	['source']	['String']	False
+speech_well	['speech_well']	1	1.59	['0014']	['speech_well']	['Int64']	False
+sports	['sports']	1	1.59	['0062']	['sports']	['Boolean']	False
+standard	['standard']	1	1.59	['0070']	['standard']	['Int64']	False
+start	['start']	1	1.59	['0033']	['start']	['String']	False
+started	['started']	1	1.59	['0073']	['started']	['String']	False
+startled	['startled']	1	1.59	['0034']	['startled']	['Int64']	False
+starts_arguments	['starts_arguments']	1	1.59	['0060']	['starts_arguments']	['Int64']	False
+state	['state']	1	1.59	['0022']	['state']	['Int64']	False
+state_anxiety	['state_anxiety']	1	1.59	['0017']	['state_anxiety']	['Int64']	False
+status	['status']	1	1.59	['0052']	['status']	['Int64']	False
+steps_hvar_mean	['steps_hvar_mean']	1	1.59	['0017']	['steps_hvar_mean']	['Float64']	False
+steps_maximum	['steps_maximum']	1	1.59	['0017']	['steps_maximum']	['Int64']	False
+steps_mean	['steps_mean']	1	1.59	['0017']	['steps_mean']	['Float64']	False
+stiffness	['stiffness']	1	1.59	['0014']	['stiffness']	['Int64']	False
+stool_leak	['stool_leak']	1	1.59	['0066']	['stool_leak']	['Int64']	False
+stress_events_argument	['stress_events_argument']	1	1.59	['0075']	['stress_events_argument']	['String']	False
+stress_events_discrimination	['stress_events_discrimination']	1	1.59	['0075']	['stress_events_discrimination']	['String']	False
+stress_events_friend_rel	['stress_events_friend_rel']	1	1.59	['0075']	['stress_events_friend_rel']	['String']	False
+stress_events_health	['stress_events_health']	1	1.59	['0075']	['stress_events_health']	['String']	False
+stress_events_home	['stress_events_home']	1	1.59	['0075']	['stress_events_home']	['String']	False
+stress_events_other	['stress_events_other']	1	1.59	['0075']	['stress_events_other']	['String']	False
+stress_events_work_school	['stress_events_work_school']	1	1.59	['0075']	['stress_events_work_school']	['String']	False
+stress_level	['stress_level']	1	1.59	['0004']	['stress_level']	['Float64']	False
+stress_stool	['stress_stool']	1	1.59	['0066']	['stress_stool']	['Int64']	False
+stress_stool_possibility	['stress_stool_possibility']	1	1.59	['0066']	['stress_stool_possibility']	['Int64']	False
+stress_urine	['stress_urine']	1	1.59	['0066']	['stress_urine']	['Int64']	False
+stress_urine_possibility	['stress_urine_possibility']	1	1.59	['0066']	['stress_urine_possibility']	['Int64']	False
+stressful	['stressful']	1	1.59	['0070']	['stressful']	['Int64']	False
+stressor_argument	['stressor_argument']	1	1.59	['0072']	['stressor_argument']	['Int64']	False
+stressor_financial	['stressor_financial']	1	1.59	['0072']	['stressor_financial']	['Int64']	False
+stressor_friend_relative	['stressor_friend_relative']	1	1.59	['0072']	['stressor_friend_relative']	['Int64']	False
+stressor_health	['stressor_health']	1	1.59	['0072']	['stressor_health']	['Int64']	False
+stressor_household	['stressor_household']	1	1.59	['0072']	['stressor_household']	['Int64']	False
+stressor_leisure	['stressor_leisure']	1	1.59	['0072']	['stressor_leisure']	['Int64']	False
+stressor_other	['stressor_other']	1	1.59	['0072']	['stressor_other']	['Int64']	False
+stressor_work	['stressor_work']	1	1.59	['0072']	['stressor_work']	['Int64']	False
+struggled_thoughts_feelings	['struggled_thoughts_feelings']	1	1.59	['0058']	['struggled_thoughts_feelings']	['String']	False
+studied	['studied']	1	1.59	['0062']	['studied']	['Int64']	False
+study	['study']	1	1.59	['0023']	['study']	['String']	False
+study_consider_quitting	['study_consider_quitting']	1	1.59	['0062']	['study_consider_quitting']	['String']	False
+study_difficult_reconcile	['study_difficult_reconcile']	1	1.59	['0062']	['study_difficult_reconcile']	['String']	False
+study_energy	['study_energy']	1	1.59	['0062']	['study_energy']	['String']	False
+study_enjoy	['study_enjoy']	1	1.59	['0062']	['study_enjoy']	['String']	False
+study_exhausted	['study_exhausted']	1	1.59	['0062']	['study_exhausted']	['String']	False
+study_expectations	['study_expectations']	1	1.59	['0062']	['study_expectations']	['String']	False
+study_hybrid	['study_hybrid']	1	1.59	['0062']	['study_hybrid']	['String']	False
+study_identification	['study_identification']	1	1.59	['0062']	['study_identification']	['String']	False
+study_in_person	['study_in_person']	1	1.59	['0062']	['study_in_person']	['String']	False
+study_interesting	['study_interesting']	1	1.59	['0062']	['study_interesting']	['String']	False
+study_motivation_compulsory	['study_motivation_compulsory']	1	1.59	['0062']	['study_motivation_compulsory']	['Int64']	False
+study_motivation_enjoyment	['study_motivation_enjoyment']	1	1.59	['0062']	['study_motivation_enjoyment']	['Int64']	False
+study_motivation_felt_bad	['study_motivation_felt_bad']	1	1.59	['0062']	['study_motivation_felt_bad']	['Int64']	False
+study_motivation_important	['study_motivation_important']	1	1.59	['0062']	['study_motivation_important']	['Int64']	False
+study_motivation_interesting	['study_motivation_interesting']	1	1.59	['0062']	['study_motivation_interesting']	['Int64']	False
+study_motivation_others_disappointed	['study_motivation_others_disappointed']	1	1.59	['0062']	['study_motivation_others_disappointed']	['Int64']	False
+study_motivation_proving	['study_motivation_proving']	1	1.59	['0062']	['study_motivation_proving']	['Int64']	False
+study_motivation_understanding	['study_motivation_understanding']	1	1.59	['0062']	['study_motivation_understanding']	['Int64']	False
+study_only_necessary	['study_only_necessary']	1	1.59	['0062']	['study_only_necessary']	['String']	False
+study_period	['study_period']	1	1.59	['0010']	['study_period']	['Int64']	False
+study_reading	['study_reading']	1	1.59	['0062']	['study_reading']	['Boolean']	False
+study_satisfied	['study_satisfied']	1	1.59	['0062']	['study_satisfied']	['String']	False
+study_time	['study_time']	1	1.59	['0003']	['study_time']	['Float64']	False
+study_virtual	['study_virtual']	1	1.59	['0062']	['study_virtual']	['String']	False
+study_wearing_down	['study_wearing_down']	1	1.59	['0062']	['study_wearing_down']	['String']	False
+studying	['studying']	1	1.59	['0060']	['studying']	['Int64']	False
+stupid	['stupid']	1	1.59	['0019']	['stupid']	['Int64']	False
+submission_timestamp	['submission_timestamp']	1	1.59	['0022']	['submission_timestamp']	['String']	False
+suicidal_ideation	['suicidal_ideation']	1	1.59	['0052']	['suicidal_ideation']	['Int64']	False
+supported	['supported']	1	1.59	['0061']	['supported']	['Int64']	False
+supposed_to_study	['supposed_to_study']	1	1.59	['0062']	['supposed_to_study']	['Int64']	False
+survey_duration	['survey_duration']	1	1.59	['0075']	['survey_duration']	['Int64']	False
+survey_error	['survey_error']	1	1.59	['0076']	['survey_error']	['String']	False
+survey_taken	['survey_taken']	1	1.59	['0051']	['survey_taken']	['Int64']	False
+survey_type	['survey_type']	1	1.59	['0022']	['survey_type']	['String']	False
+suspicious	['suspicious']	1	1.59	['0060']	['suspicious']	['Int64']	False
+sympathetic	['sympathetic']	1	1.59	['0004']	['sympathetic']	['Float64']	False
+symptom_experience	['symptom_experience']	1	1.59	['0058']	['symptom_experience']	['String']	False
+symptom_interfere	['symptom_interfere']	1	1.59	['0058']	['symptom_interfere']	['String']	False
+systematic	['systematic']	1	1.59	['0060']	['systematic']	['Int64']	False
+task_difficulty	['task_difficulty']	1	1.59	['0073']	['task_difficulty']	['Int64']	False
+teacher_encouraging	['teacher_encouraging']	1	1.59	['0019']	['teacher_encouraging']	['Int64']	False
+teacher_fair	['teacher_fair']	1	1.59	['0019']	['teacher_fair']	['Int64']	False
+teacher_strict	['teacher_strict']	1	1.59	['0019']	['teacher_strict']	['Int64']	False
+temp	['temp']	1	1.59	['0002']	['temp']	['Float64']	False
+temperamental	['temperamental']	1	1.59	['0060']	['temperamental']	['Int64']	False
+test_position	['test_position']	1	1.59	['0003']	['test_position']	['Int64']	False
+think_clearly	['think_clearly']	1	1.59	['0005']	['think_clearly']	['Int64']	False
+think_of_risks	['think_of_risks']	1	1.59	['0036']	['think_of_risks']	['Int64']	False
+thins_exposure	['thins_exposure']	1	1.59	['0053']	['thins_exposure']	['Int64']	False
+threat_country	['threat_country']	1	1.59	['0071']	['threat_country']	['Int64']	False
+threatened	['threatened']	1	1.59	['0033']	['threatened']	['Int64']	False
+time001	['time001']	1	1.59	['0025']	['time001']	['Int64']	False
+time_available	['time_available']	1	1.59	['0076']	['time_available']	['String']	False
+time_elapsed	['time_elapsed']	1	1.59	['0054']	['time_elapsed']	['Float64']	False
+time_father_hours	['time_father_hours']	1	1.59	['0062']	['time_father_hours']	['String']	False
+time_father_minutes	['time_father_minutes']	1	1.59	['0062']	['time_father_minutes']	['String']	False
+time_home	['time_home']	1	1.59	['0001']	['time_home']	['Int64']	False
+time_mother_hours	['time_mother_hours']	1	1.59	['0062']	['time_mother_hours']	['String']	False
+time_mother_minutes	['time_mother_minutes']	1	1.59	['0062']	['time_mother_minutes']	['String']	False
+time_music	['time_music']	1	1.59	['0001']	['time_music']	['Int64']	False
+time_orientation	['time_orientation']	1	1.59	['0076']	['time_orientation']	['String']	False
+time_outdoors	['time_outdoors']	1	1.59	['0001']	['time_outdoors']	['Int64']	False
+time_outside_hours	['time_outside_hours']	1	1.59	['0072']	['time_outside_hours']	['Int64']	False
+time_outside_minutes	['time_outside_minutes']	1	1.59	['0072']	['time_outside_minutes']	['Int64']	False
+time_perception_clock	['time_perception_clock']	1	1.59	['0076']	['time_perception_clock']	['String']	False
+time_prompt	['time_prompt']	1	1.59	['0051']	['time_prompt']	['String']	False
+time_since_first	['time_since_first']	1	1.59	['0061']	['time_since_first']	['Int64']	False
+time_since_start	['time_since_start']	1	1.59	['0058']	['time_since_start']	['String']	False
+time_spent_studying	['time_spent_studying']	1	1.59	['0062']	['time_spent_studying']	['Int64']	False
+time_survey	['time_survey']	1	1.59	['0051']	['time_survey']	['String']	False
+time_with_child_hours	['time_with_child_hours']	1	1.59	['0072']	['time_with_child_hours']	['Int64']	False
+time_with_child_minutes	['time_with_child_minutes']	1	1.59	['0072']	['time_with_child_minutes']	['Int64']	False
+time_with_friends	['time_with_friends']	1	1.59	['0062']	['time_with_friends']	['Boolean']	False
+timestamp_answer	['timestamp_answer']	1	1.59	['0018']	['timestamp_answer']	['String']	False
+timestamp_issued	['timestamp_issued']	1	1.59	['0018']	['timestamp_issued']	['String']	False
+tiring	['tiring']	1	1.59	['0070']	['tiring']	['Int64']	False
+tobacco	['tobacco']	1	1.59	['0066']	['tobacco']	['Int64']	False
+too_good_to_be_true	['too_good_to_be_true']	1	1.59	['0036']	['too_good_to_be_true']	['Int64']	False
+too_late	['too_late']	1	1.59	['0062']	['too_late']	['Int64']	False
+too_much	['too_much']	1	1.59	['0022']	['too_much']	['Int64']	False
+treatment	['treatment']	1	1.59	['0024']	['treatment']	['String']	False
+tremor	['tremor']	1	1.59	['0014']	['tremor']	['Int64']	False
+trigger_date	['trigger_date']	1	1.59	['0070']	['trigger_date']	['String']	False
+trigger_time	['trigger_time']	1	1.59	['0070']	['trigger_time']	['String']	False
+triple_exposure	['triple_exposure']	1	1.59	['0053']	['triple_exposure']	['Int64']	False
+tv	['tv']	1	1.59	['0060']	['tv']	['Int64']	False
+tv_movie	['tv_movie']	1	1.59	['0066']	['tv_movie']	['Int64']	False
+tv_video_games	['tv_video_games']	1	1.59	['0062']	['tv_video_games']	['Boolean']	False
+uncreative	['uncreative']	1	1.59	['0025']	['uncreative']	['Int64']	False
+undeserving	['undeserving']	1	1.59	['0036']	['undeserving']	['Int64']	False
+unintellectual	['unintellectual']	1	1.59	['0025']	['unintellectual']	['Int64']	False
+unlock_num_ep_0	['unlock_num_ep_0']	1	1.59	['0005']	['unlock_num_ep_0']	['Float64']	False
+unlock_num_ep_1	['unlock_num_ep_1']	1	1.59	['0005']	['unlock_num_ep_1']	['Float64']	False
+unlock_num_ep_2	['unlock_num_ep_2']	1	1.59	['0005']	['unlock_num_ep_2']	['Float64']	False
+unlock_num_ep_3	['unlock_num_ep_3']	1	1.59	['0005']	['unlock_num_ep_3']	['Float64']	False
+unlock_num_ep_4	['unlock_num_ep_4']	1	1.59	['0005']	['unlock_num_ep_4']	['Float64']	False
+unpleasant_dreams	['unpleasant_dreams']	1	1.59	['0034']	['unpleasant_dreams']	['Int64']	False
+unsatisfy	['unsatisfy']	1	1.59	['0033']	['unsatisfy']	['Int64']	False
+unsympathetic	['unsympathetic']	1	1.59	['0025']	['unsympathetic']	['Int64']	False
+uploaded	['uploaded']	1	1.59	['0073']	['uploaded']	['String']	False
+urine_leak	['urine_leak']	1	1.59	['0066']	['urine_leak']	['Int64']	False
+useful	['useful']	1	1.59	['0070']	['useful']	['Int64']	False
+useless	['useless']	1	1.59	['0028']	['useless']	['Int64']	False
+valence	['valence']	1	1.59	['0018']	['valence']	['Int64']	False
+valence_activity	['valence_activity']	1	1.59	['0051']	['valence_activity']	['Int64']	False
+valence_ft_f	['valence_ft_f']	1	1.59	['0051']	['valence_ft_f']	['Int64']	False
+valence_mediated	['valence_mediated']	1	1.59	['0051']	['valence_mediated']	['Int64']	False
+valence_slider_initial	['valence_slider_initial']	1	1.59	['0018']	['valence_slider_initial']	['Int64']	False
+values_beauty	['values_beauty']	1	1.59	['0060']	['values_beauty']	['Int64']	False
+vigilance_monitoring	['vigilance_monitoring']	1	1.59	['0051']	['vigilance_monitoring']	['Int64']	False
+vigilance_reactibility	['vigilance_reactibility']	1	1.59	['0051']	['vigilance_reactibility']	['Int64']	False
+vigilance_salience_mediated	['vigilance_salience_mediated']	1	1.59	['0051']	['vigilance_salience_mediated']	['Int64']	False
+vitality	['vitality']	1	1.59	['0058']	['vitality']	['String']	False
+voices	['voices']	1	1.59	['0005']	['voices']	['Int64']	False
+volume_school_work	['volume_school_work']	1	1.59	['0072']	['volume_school_work']	['Int64']	False
+vulnerability	['vulnerability']	1	1.59	['0039']	['vulnerability']	['Int64']	False
+walk_well	['walk_well']	1	1.59	['0014']	['walk_well']	['Int64']	False
+walking	['walking']	1	1.59	['0062']	['walking']	['Boolean']	False
+want_other_people	['want_other_people']	1	1.59	['0076']	['want_other_people']	['String']	False
+want_quit	['want_quit']	1	1.59	['0037']	['want_quit']	['Int64']	False
+want_to_drink	['want_to_drink']	1	1.59	['0035']	['want_to_drink']	['Int64']	False
+weak_emotion	['weak_emotion']	1	1.59	['0073']	['weak_emotion']	['Int64']	False
+wearing_annoying	['wearing_annoying']	1	1.59	['0070']	['wearing_annoying']	['Int64']	False
+wearing_influence	['wearing_influence']	1	1.59	['0070']	['wearing_influence']	['Int64']	False
+wearing_obstructing	['wearing_obstructing']	1	1.59	['0070']	['wearing_obstructing']	['Int64']	False
+weekend	['weekend']	1	1.59	['0053']	['weekend']	['Int64']	False
+weight_satisfaction	['weight_satisfaction']	1	1.59	['0053']	['weight_satisfaction']	['Int64']	False
+what	['what']	1	1.59	['0022']	['what']	['String']	False
+what_act_stool_1	['what_act_stool_1']	1	1.59	['0066']	['what_act_stool_1']	['Int64']	False
+what_act_stool_10	['what_act_stool_10']	1	1.59	['0066']	['what_act_stool_10']	['Int64']	False
+what_act_stool_11	['what_act_stool_11']	1	1.59	['0066']	['what_act_stool_11']	['Int64']	False
+what_act_stool_12	['what_act_stool_12']	1	1.59	['0066']	['what_act_stool_12']	['Int64']	False
+what_act_stool_13	['what_act_stool_13']	1	1.59	['0066']	['what_act_stool_13']	['Int64']	False
+what_act_stool_14	['what_act_stool_14']	1	1.59	['0066']	['what_act_stool_14']	['Int64']	False
+what_act_stool_15	['what_act_stool_15']	1	1.59	['0066']	['what_act_stool_15']	['Int64']	False
+what_act_stool_16	['what_act_stool_16']	1	1.59	['0066']	['what_act_stool_16']	['Int64']	False
+what_act_stool_17	['what_act_stool_17']	1	1.59	['0066']	['what_act_stool_17']	['Int64']	False
+what_act_stool_18	['what_act_stool_18']	1	1.59	['0066']	['what_act_stool_18']	['Int64']	False
+what_act_stool_2	['what_act_stool_2']	1	1.59	['0066']	['what_act_stool_2']	['Int64']	False
+what_act_stool_3	['what_act_stool_3']	1	1.59	['0066']	['what_act_stool_3']	['Int64']	False
+what_act_stool_4	['what_act_stool_4']	1	1.59	['0066']	['what_act_stool_4']	['Int64']	False
+what_act_stool_5	['what_act_stool_5']	1	1.59	['0066']	['what_act_stool_5']	['Int64']	False
+what_act_stool_6	['what_act_stool_6']	1	1.59	['0066']	['what_act_stool_6']	['Int64']	False
+what_act_stool_7	['what_act_stool_7']	1	1.59	['0066']	['what_act_stool_7']	['Int64']	False
+what_act_stool_8	['what_act_stool_8']	1	1.59	['0066']	['what_act_stool_8']	['Int64']	False
+what_act_stool_9	['what_act_stool_9']	1	1.59	['0066']	['what_act_stool_9']	['Int64']	False
+what_act_stool_99	['what_act_stool_99']	1	1.59	['0066']	['what_act_stool_99']	['String']	False
+what_act_urine_1	['what_act_urine_1']	1	1.59	['0066']	['what_act_urine_1']	['Int64']	False
+what_act_urine_10	['what_act_urine_10']	1	1.59	['0066']	['what_act_urine_10']	['Int64']	False
+what_act_urine_11	['what_act_urine_11']	1	1.59	['0066']	['what_act_urine_11']	['Int64']	False
+what_act_urine_12	['what_act_urine_12']	1	1.59	['0066']	['what_act_urine_12']	['Int64']	False
+what_act_urine_13	['what_act_urine_13']	1	1.59	['0066']	['what_act_urine_13']	['Int64']	False
+what_act_urine_14	['what_act_urine_14']	1	1.59	['0066']	['what_act_urine_14']	['Int64']	False
+what_act_urine_15	['what_act_urine_15']	1	1.59	['0066']	['what_act_urine_15']	['Int64']	False
+what_act_urine_16	['what_act_urine_16']	1	1.59	['0066']	['what_act_urine_16']	['Int64']	False
+what_act_urine_17	['what_act_urine_17']	1	1.59	['0066']	['what_act_urine_17']	['Int64']	False
+what_act_urine_18	['what_act_urine_18']	1	1.59	['0066']	['what_act_urine_18']	['Int64']	False
+what_act_urine_2	['what_act_urine_2']	1	1.59	['0066']	['what_act_urine_2']	['Int64']	False
+what_act_urine_3	['what_act_urine_3']	1	1.59	['0066']	['what_act_urine_3']	['Int64']	False
+what_act_urine_4	['what_act_urine_4']	1	1.59	['0066']	['what_act_urine_4']	['Int64']	False
+what_act_urine_5	['what_act_urine_5']	1	1.59	['0066']	['what_act_urine_5']	['Int64']	False
+what_act_urine_6	['what_act_urine_6']	1	1.59	['0066']	['what_act_urine_6']	['Int64']	False
+what_act_urine_7	['what_act_urine_7']	1	1.59	['0066']	['what_act_urine_7']	['Int64']	False
+what_act_urine_8	['what_act_urine_8']	1	1.59	['0066']	['what_act_urine_8']	['Int64']	False
+what_act_urine_9	['what_act_urine_9']	1	1.59	['0066']	['what_act_urine_9']	['Int64']	False
+what_act_urine_99	['what_act_urine_99']	1	1.59	['0066']	['what_act_urine_99']	['String']	False
+who_stool_1	['who_stool_1']	1	1.59	['0066']	['who_stool_1']	['Int64']	False
+who_stool_2	['who_stool_2']	1	1.59	['0066']	['who_stool_2']	['Int64']	False
+who_stool_3	['who_stool_3']	1	1.59	['0066']	['who_stool_3']	['Int64']	False
+who_stool_4	['who_stool_4']	1	1.59	['0066']	['who_stool_4']	['Int64']	False
+who_stool_5	['who_stool_5']	1	1.59	['0066']	['who_stool_5']	['Int64']	False
+who_stool_6	['who_stool_6']	1	1.59	['0066']	['who_stool_6']	['Int64']	False
+who_stool_99	['who_stool_99']	1	1.59	['0066']	['who_stool_99']	['Int64']	False
+who_urine_1	['who_urine_1']	1	1.59	['0066']	['who_urine_1']	['Int64']	False
+who_urine_2	['who_urine_2']	1	1.59	['0066']	['who_urine_2']	['Int64']	False
+who_urine_3	['who_urine_3']	1	1.59	['0066']	['who_urine_3']	['Int64']	False
+who_urine_4	['who_urine_4']	1	1.59	['0066']	['who_urine_4']	['Int64']	False
+who_urine_5	['who_urine_5']	1	1.59	['0066']	['who_urine_5']	['Int64']	False
+who_urine_6	['who_urine_6']	1	1.59	['0066']	['who_urine_6']	['Int64']	False
+who_urine_99	['who_urine_99']	1	1.59	['0066']	['who_urine_99']	['String']	False
+whom	['whom']	1	1.59	['0022']	['whom']	['String']	False
+with_fellow_students	['with_fellow_students']	1	1.59	['0062']	['with_fellow_students']	['Boolean']	False
+with_friends	['with_friends']	1	1.59	['0062']	['with_friends']	['Boolean']	False
+with_parents	['with_parents']	1	1.59	['0062']	['with_parents']	['Boolean']	False
+with_partner	['with_partner']	1	1.59	['0062']	['with_partner']	['Boolean']	False
+with_relatives	['with_relatives']	1	1.59	['0062']	['with_relatives']	['Boolean']	False
+with_strangers	['with_strangers']	1	1.59	['0062']	['with_strangers']	['Boolean']	False
+withdrawn	['withdrawn']	1	1.59	['0025']	['withdrawn']	['Int64']	False
+without_energy	['without_energy']	1	1.59	['0051']	['without_energy']	['Int64']	False
+work_fast	['work_fast']	1	1.59	['0022']	['work_fast']	['Int64']	False
+worried_daily	['worried_daily']	1	1.59	['0062']	['worried_daily']	['String']	False
+worries	['worries']	1	1.59	['0060']	['worries']	['Int64']	False
+worry_bothered	['worry_bothered']	1	1.59	['0072']	['worry_bothered']	['Int64']	False
+worry_cant_get_out_head	['worry_cant_get_out_head']	1	1.59	['0072']	['worry_cant_get_out_head']	['Int64']	False
+worry_childrenhealth	['worry_childrenhealth']	1	1.59	['0057']	['worry_childrenhealth']	['Int64']	False
+worry_frequent	['worry_frequent']	1	1.59	['0036']	['worry_frequent']	['Int64']	False
+worry_hard_to_control	['worry_hard_to_control']	1	1.59	['0036']	['worry_hard_to_control']	['Int64']	False
+worry_interferes	['worry_interferes']	1	1.59	['0036']	['worry_interferes']	['Int64']	False
+worry_many_things	['worry_many_things']	1	1.59	['0072']	['worry_many_things']	['Int64']	False
+worry_might_happen	['worry_might_happen']	1	1.59	['0072']	['worry_might_happen']	['Int64']	False
+worry_stool_prevent	['worry_stool_prevent']	1	1.59	['0066']	['worry_stool_prevent']	['Int64']	False
+worry_urine_prevent	['worry_urine_prevent']	1	1.59	['0066']	['worry_urine_prevent']	['Int64']	False
+worry_wrapped_up	['worry_wrapped_up']	1	1.59	['0072']	['worry_wrapped_up']	['Int64']	False
+worrying	['worrying']	1	1.59	['0040']	['worrying']	['Int64']	False
+worthlessness	['worthlessness']	1	1.59	['0052']	['worthlessness']	['Int64']	False

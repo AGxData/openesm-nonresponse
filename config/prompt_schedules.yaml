@@ -1,0 +1,1785 @@
+defaults:
+  timezone: null
+  tolerance_minutes: 30
+  schedule_verified: false
+storage:
+  provider: s3
+  bucket: openesm-8917a696ff634755199b686587
+  raw_prefix: raw/
+  processed_prefix: processed/
+datasets:
+  '0001':
+    input_source: s3
+    input_object: raw/0001.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day fixed schedule
+      n_days: '14'
+      n_beeps_per_day: '4'
+      n_time_points: 56
+      participants: student sample
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0002':
+    input_source: s3
+    input_object: raw/0002.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day unclear schedule
+      n_days: '82'
+      n_beeps_per_day: '1'
+      n_time_points: 82
+      participants: unclear
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0003':
+    input_source: s3
+    input_object: raw/0003.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 3x/day fixed time windows
+      n_days: '10'
+      n_beeps_per_day: '3'
+      n_time_points: 30
+      participants: adults
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0004':
+    input_source: s3
+    input_object: raw/0004.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: irregular
+      n_days: '64'
+      n_beeps_per_day: '1'
+      n_time_points: 64
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0005':
+    input_source: s3
+    input_object: raw/0005.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day on Monday, Wednesday, Friday
+      n_days: '165'
+      n_beeps_per_day: '1'
+      n_time_points: 165
+      participants: adults with diagnosis of schizophrenia, schizoaffective disorder, or psychosis
+      raw_time_stamp: unclear
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0006':
+    input_source: s3
+    input_object: raw/0006.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day random timing
+      n_days: '40'
+      n_beeps_per_day: '6'
+      n_time_points: 240
+      participants: undergraduate students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0008:
+    input_source: s3
+    input_object: raw/0008.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 5x/day semi-random schedule
+      n_days: '21'
+      n_beeps_per_day: '5'
+      n_time_points: 105
+      participants: young adults
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0010':
+    input_source: s3
+    input_object: raw/0010.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 10x/day 90-minute interval
+      n_days: '20'
+      n_beeps_per_day: '10'
+      n_time_points: 200
+      participants: individuals with residual depressive symptoms
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0011':
+    input_source: s3
+    input_object: raw/0011.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 10x/day random 90-minute intervals
+      n_days: '7'
+      n_beeps_per_day: '10'
+      n_time_points: 70
+      participants: undergraduate students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0012':
+    input_source: s3
+    input_object: raw/0012.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 7x/day stratified random interval scheme
+      n_days: '14'
+      n_beeps_per_day: '7'
+      n_time_points: 98
+      participants: community sample
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0013':
+    input_source: s3
+    input_object: raw/0013.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day time-contingent equidistant intervals
+      n_days: '14'
+      n_beeps_per_day: '4'
+      n_time_points: 56
+      participants: community sample
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0014':
+    input_source: s3
+    input_object: raw/0014.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 7x/day semi-random
+      n_days: '14'
+      n_beeps_per_day: '7'
+      n_time_points: 98
+      participants: patients with Parkinson disease
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0015':
+    input_source: s3
+    input_object: raw/0015.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day at 5pm
+      n_days: '32'
+      n_beeps_per_day: '1'
+      n_time_points: 32
+      participants: first-year psychology students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0017':
+    input_source: s3
+    input_object: raw/0017.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day in the evening
+      n_days: '402'
+      n_beeps_per_day: '1'
+      n_time_points: 402
+      participants: patients diagnosed with mood disorders, anxiety disorders, trauma and stressor-related
+        disorders, and obsessive-compulsive and related disorder
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0018:
+    input_source: s3
+    input_object: raw/0018.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day pseudo-random one-hour intervals
+      n_days: '86'
+      n_beeps_per_day: '6'
+      n_time_points: 444
+      participants: community sample
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0019:
+    input_source: s3
+    input_object: raw/0019.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day fixed and random sampling
+      n_days: '10'
+      n_beeps_per_day: '4'
+      n_time_points: 40
+      participants: middle and secondary school students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0021':
+    input_source: s3
+    input_object: raw/0021.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 3x/day fixed schedule
+      n_days: '30'
+      n_beeps_per_day: '3'
+      n_time_points: 90
+      participants: employees of research center
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0022':
+    input_source: s3
+    input_object: raw/0022.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 7x/day random schedule
+      n_days: '3'
+      n_beeps_per_day: '7'
+      n_time_points: 21
+      participants: full-time office workers
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0023':
+    input_source: s3
+    input_object: raw/0023.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 3x/day or 5x/day unclear schedule
+      n_days: '22'
+      n_beeps_per_day: 3 or 5
+      n_time_points: 63
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0024':
+    input_source: s3
+    input_object: raw/0024.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 9x/day or 3x/day subject-specific schedule
+      n_days: '14'
+      n_beeps_per_day: 3 or 9
+      n_time_points: 84
+      participants: university students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0025':
+    input_source: s3
+    input_object: raw/0025.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 3x/day fixed schedule
+      n_days: '14'
+      n_beeps_per_day: '3'
+      n_time_points: 42
+      participants: university students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0026':
+    input_source: s3
+    input_object: raw/0026.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 5x/day semi-random signal contingent
+      n_days: '10'
+      n_beeps_per_day: '5'
+      n_time_points: 50
+      participants: young adults (18-25)
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0027':
+    input_source: s3
+    input_object: raw/0027.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 5x/day fixed-schedule with personalization
+      n_days: '14'
+      n_beeps_per_day: '5'
+      n_time_points: 70
+      participants: non-clinical individuals
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0028:
+    input_source: s3
+    input_object: raw/0028.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 10x/day stratified sampling
+      n_days: '7'
+      n_beeps_per_day: '10'
+      n_time_points: 70
+      participants: participants with above-average paranoid ideation and/or interpersonal sensitivity
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0029:
+    input_source: s3
+    input_object: raw/0029.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 10x/day random schedule
+      n_days: '7'
+      n_beeps_per_day: '10'
+      n_time_points: 70
+      participants: individuals with IBS and panic disorder
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0031':
+    input_source: s3
+    input_object: raw/0031.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 10x/day stratified random interval
+      n_days: '7'
+      n_beeps_per_day: '10'
+      n_time_points: 70
+      participants: undergraduate students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0032':
+    input_source: s3
+    input_object: raw/0032.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 9x/day semi-fixed intervals
+      n_days: '21'
+      n_beeps_per_day: '9'
+      n_time_points: 189
+      participants: adults
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0033':
+    input_source: s3
+    input_object: raw/0033.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day fixed schedule
+      n_days: '55'
+      n_beeps_per_day: '4'
+      n_time_points: 212
+      participants: participants with a diagnosis of MDD and/or GAD
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0034':
+    input_source: s3
+    input_object: raw/0034.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day fixed schedule
+      n_days: '43'
+      n_beeps_per_day: '4'
+      n_time_points: 168
+      participants: participants with PTSD
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0035':
+    input_source: s3
+    input_object: raw/0035.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 8x/day semi-random schedule
+      n_days: '15'
+      n_beeps_per_day: '8'
+      n_time_points: 129
+      participants: adult alcohol consumers
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0036':
+    input_source: s3
+    input_object: raw/0036.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day 30-minute interval
+      n_days: '19'
+      n_beeps_per_day: '4'
+      n_time_points: 45
+      participants: undergraduate students with elevated GAD symptoms
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0037':
+    input_source: s3
+    input_object: raw/0037.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day random schedule
+      n_days: '34'
+      n_beeps_per_day: '4'
+      n_time_points: 128
+      participants: regular smokers
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0039:
+    input_source: s3
+    input_object: raw/0039.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day in the evening
+      n_days: '75'
+      n_beeps_per_day: '1'
+      n_time_points: 75
+      participants: adults
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0040':
+    input_source: s3
+    input_object: raw/0040.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: irregular
+      n_days: '441'
+      n_beeps_per_day: '1'
+      n_time_points: 441
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0041':
+    input_source: s3
+    input_object: raw/0041.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day in the evening
+      n_days: '100'
+      n_beeps_per_day: '1'
+      n_time_points: 100
+      participants: individuals with personality disorder diagnosis
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0042':
+    input_source: s3
+    input_object: raw/0042.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: random momentary prompts and scheduled daily diary
+      n_days: '10'
+      n_beeps_per_day: '7'
+      n_time_points: 70
+      participants: community participants (excluding undergraduates)
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0043':
+    input_source: s3
+    input_object: raw/0043.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: random momentary prompts and scheduled daily diary
+      n_days: '10'
+      n_beeps_per_day: '5'
+      n_time_points: 50
+      participants: college students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0044':
+    input_source: s3
+    input_object: raw/0044.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: unclear
+      n_days: '7'
+      n_beeps_per_day: '6'
+      n_time_points: 42
+      participants: college students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0045':
+    input_source: s3
+    input_object: raw/0045.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 5x/day fixed 30-minute interval
+      n_days: '14'
+      n_beeps_per_day: '5'
+      n_time_points: 70
+      participants: participants with and without mood disorders
+      raw_time_stamp: unclear
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0046':
+    input_source: s3
+    input_object: raw/0046.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: event-contingent based on social interactions
+      n_days: '15'
+      n_beeps_per_day: event-contingent
+      n_time_points: 145
+      participants: adults (18-50)
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0049:
+    input_source: s3
+    input_object: raw/0049.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x semi-random, 1 prompt user-initiated before sleep
+      n_days: '7'
+      n_beeps_per_day: '5'
+      n_time_points: 35
+      participants: adults experiencing COVID lockdown
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0050':
+    input_source: s3
+    input_object: raw/0050.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x semi-random, 1 prompt user-initiated before sleep
+      n_days: '7'
+      n_beeps_per_day: '5'
+      n_time_points: 35
+      participants: adults experiencing COVID lockdown
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0051':
+    input_source: s3
+    input_object: raw/0051.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 8x semi-random with at least 45 minutes between surveys
+      n_days: '5'
+      n_beeps_per_day: '8'
+      n_time_points: 40
+      participants: Dutch undergraduate students using social media
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0052':
+    input_source: s3
+    input_object: raw/0052.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day 4 hour intervals based on individual wake-up time
+      n_days: '21'
+      n_beeps_per_day: '3'
+      n_time_points: 63
+      participants: undergraduate students
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0053':
+    input_source: s3
+    input_object: raw/0053.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day semi-random intervals with anchor times and 40 minute period around them
+      n_days: '7'
+      n_beeps_per_day: '6'
+      n_time_points: 42
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0054':
+    input_source: s3
+    input_object: raw/0054.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 7x/day semi-random intervals, scheduled in blocks
+      n_days: '7'
+      n_beeps_per_day: '7'
+      n_time_points: 49
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0055':
+    input_source: s3
+    input_object: raw/0055.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day EMA, 1x/day daily diary, morning survey at self-chosen time, other surveys
+        randomly with certain interval, daily diary at 6:30pm
+      n_days: '21'
+      n_beeps_per_day: '7'
+      n_time_points: 147
+      participants: young adults (18-25)
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0056':
+    input_source: s3
+    input_object: raw/0056.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day at random times within the bounds of every participant's individually preferred
+        time window, with at least 40 min. time lags between surveys
+      n_days: '14'
+      n_beeps_per_day: '6'
+      n_time_points: 84
+      participants: mostly college students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0057':
+    input_source: s3
+    input_object: raw/0057.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day at random times within the bounds of every participant's individually preferred
+        time window, with at least 40 min. time lags between surveys
+      n_days: '14'
+      n_beeps_per_day: '6'
+      n_time_points: 84
+      participants: general population
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0058:
+    input_source: s3
+    input_object: raw/0058.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day pseudo-random intervals with minimum interval between prompts
+      n_days: '7'
+      n_beeps_per_day: '6'
+      n_time_points: 42
+      participants: adults, oversampled for people in treatment or seeking treatment
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  0059:
+    input_source: s3
+    input_object: raw/0059.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day within self-selected 12hr timeframe
+      n_days: '9'
+      n_beeps_per_day: '6'
+      n_time_points: 54
+      participants: students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0060':
+    input_source: s3
+    input_object: raw/0060.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 4x/day every fixed schedule every for hours, starting time chosen by participants
+      n_days: '43'
+      n_beeps_per_day: '4'
+      n_time_points: 109
+      participants: students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0061':
+    input_source: s3
+    input_object: raw/0061.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day random schedule
+      n_days: '10'
+      n_beeps_per_day: '6'
+      n_time_points: 60
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0062':
+    input_source: s3
+    input_object: raw/0062.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day semi-random schedule
+      n_days: '14'
+      n_beeps_per_day: '6'
+      n_time_points: 84
+      participants: undergraduate students
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0063':
+    input_source: s3
+    input_object: raw/0063.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 10x/day in 90-minute blocks with 30 to 150 minutes in between
+      n_days: '5'
+      n_beeps_per_day: '10'
+      n_time_points: 50
+      participants: Dutch working adults
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0064':
+    input_source: s3
+    input_object: raw/0064.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: event-contingent based on social interactions
+      n_days: '21'
+      n_beeps_per_day: event-contingent
+      n_time_points: 344
+      participants: 'outpatients screened for personality
+
+        pathology and their romantic
+
+        partners'
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0066':
+    input_source: s3
+    input_object: raw/0066.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day for a window of four hours
+      n_days: '30'
+      n_beeps_per_day: '1'
+      n_time_points: 30
+      participants: adults with spina bifida and current symptoms of incontinence
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0070':
+    input_source: s3
+    input_object: raw/0070.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: random triggers and triggers based on skin conductance
+      n_days: '5'
+      n_beeps_per_day: partially event-contingent
+      n_time_points: 69
+      participants: first-year psychology students in Tilburg
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0071':
+    input_source: s3
+    input_object: raw/0071.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening
+        survey after 7pm
+      n_days: '28'
+      n_beeps_per_day: '5'
+      n_time_points: 140
+      participants: adults
+      raw_time_stamp: 'no'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0072':
+    input_source: s3
+    input_object: raw/0072.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day at 7pm completed until 5am
+      n_days: '21'
+      n_beeps_per_day: '1'
+      n_time_points: 21
+      participants: adults living in a household with a schoolchild
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0073':
+    input_source: s3
+    input_object: raw/0073.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day semi-randomized prompts within 30-minute intervals with 75 minutes between
+        intervals and a 45-minute expiration time for each prompt
+      n_days: '10'
+      n_beeps_per_day: '6'
+      n_time_points: 60
+      participants: adults between 18-65
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0075':
+    input_source: s3
+    input_object: raw/0075.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 1x/day at 2 pm local time
+      n_days: '30'
+      n_beeps_per_day: '1'
+      n_time_points: 30
+      participants: 18-40 year old people who play video games
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null
+  '0076':
+    input_source: s3
+    input_object: raw/0076.parquet
+    output_source: s3
+    output_prefix: processed/
+    participant_column: null
+    timestamp_column: null
+    response_columns: []
+    timezone: null
+    schedule:
+      type: unknown
+      start_date: null
+      end_date: null
+      times: []
+      tolerance_minutes: 30
+    schedule_verified: false
+    design_hints:
+      sampling_scheme: 6x/day randomly in equal intervals, with some surveys triggered by passive sensing
+        mobility
+      n_days: '14'
+      n_beeps_per_day: '6'
+      n_time_points: 84
+      participants: adults residing in the data collection city with an Android phone
+      raw_time_stamp: 'yes'
+    verification_status: needs_review
+    verification:
+      source: null
+      verified_date: null
+      reviewer: null

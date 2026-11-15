@@ -1,0 +1,223 @@
+
+# ============================================================
+# OpenESM Storage Configuration
+# ============================================================
+# AWS infrastructure, local paths, S3 object locations,
+# serialization formats, and storage behavior.
+#
+# Experiment tracking and statistical policies:
+#   config/modeling.yaml
+#
+# Model-specific configurations:
+#   config/models/*.yaml
+# ============================================================
+
+aws:
+  profile: openesm-terraform
+  region: us-east-2
+  bucket: openesm-8917a696ff634755199b686587
+
+# ============================================================
+# 1. LOCAL STORAGE
+# ============================================================
+
+local:
+  raw: data/raw
+  processed: data/processed
+  curated: data/curated
+  cache: data/cache
+
+  modeling:
+    # Only winning model metadata and configurations.
+    best_models: analysis/modeling/best_models
+
+    # Temporary staging, not permanent experiment storage.
+    staging: data/cache/modeling/staging
+
+    # Optional downloaded model objects for temporary use.
+    model_cache: data/cache/modeling/models
+
+# ============================================================
+# 2. S3 STORAGE PREFIXES
+# ============================================================
+
+s3:
+  prefixes:
+    metadata: metadata/
+    raw: raw/
+    processed: processed/
+    curated: curated/
+    modeling: modeling/
+    analysis: analysis/
+
+  # ----------------------------------------------------------
+  # Model family -> Dataset -> Experiment
+  # ----------------------------------------------------------
+
+  modeling:
+
+    experiments: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/
+
+    # Immutable model artifacts belonging to an experiment.
+    artifacts: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/artifacts/
+
+    # Checkpoints for incomplete experiments.
+    checkpoints: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/checkpoints/
+
+    # Experiment metadata, configurations, and lineage.
+    metadata: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/metadata/
+
+    # Validation and hyperparameter search.
+    validation: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/validation/
+    tuning: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/tuning/
+
+    # Predictions, calibration, and metrics.
+    predictions: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/predictions/
+    calibration: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/calibration/
+    metrics: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/metrics/
+
+    # Model parameters and feature analysis.
+    parameters: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/parameters/
+    feature_importance: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/feature_importance/
+
+    # Diagnostics and runtime profiling.
+    diagnostics: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/diagnostics/
+    compute: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/compute/
+    logs: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/logs/
+
+    # HMM-specific artifacts.
+    hmm:
+      transition_probabilities: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/transition_probabilities/
+      emission_probabilities: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/emission_probabilities/
+      initial_probabilities: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/initial_probabilities/
+      transition_coefficients: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/transition_coefficients/
+      emission_coefficients: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/emission_coefficients/
+      latent_states: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/latent_states/
+      state_diagnostics: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/state_diagnostics/
+      matrix_scenarios: modeling/{model_family}/{dataset_id}/experiments/{experiment_id}/hmm/matrix_scenarios/
+
+    # --------------------------------------------------------
+    # Best model for each model family / dataset combination.
+    # --------------------------------------------------------
+
+    best: modeling/{model_family}/{dataset_id}/best/
+
+    # Immutable versions of previously selected winners.
+    best_versions: modeling/{model_family}/{dataset_id}/best/versions/{model_version}/
+
+    # --------------------------------------------------------
+    # Global experiment catalog and model registry.
+    # --------------------------------------------------------
+
+    catalog: modeling/_catalog/
+    registry: modeling/_registry/
+
+    # --------------------------------------------------------
+    # Shared schema definitions and artifact manifests.
+    # --------------------------------------------------------
+
+    schemas: modeling/_schemas/
+
+# ============================================================
+# 3. SERIALIZATION FORMATS
+# ============================================================
+
+storage:
+  formats:
+    tabular: parquet
+    tabular_compression: zstd
+
+    r_model_objects: rds
+
+    configurations: yaml
+    manifests: json
+    logs: jsonl
+
+  # ----------------------------------------------------------
+  # Cloud-first storage behavior.
+  # ----------------------------------------------------------
+
+  cloud:
+    authoritative: true
+
+    persist_all_experiments: true
+    persist_all_metrics: true
+    persist_all_predictions: true
+    persist_all_tuning_results: true
+    persist_all_calibration_results: true
+    persist_all_model_metadata: true
+
+    persist_outer_model_objects: true
+    persist_final_model_objects: true
+    persist_inner_tuning_model_objects: false
+
+  # ----------------------------------------------------------
+  # Local storage policy.
+  # ----------------------------------------------------------
+
+  local:
+    persist_best_model_metadata: true
+    persist_best_model_configuration: true
+    persist_best_model_hyperparameters: true
+    persist_best_model_metrics: true
+    persist_best_model_feature_importance: true
+    persist_best_model_manifest: true
+
+    persist_model_objects: false
+    persist_intermediate_results: false
+
+    clean_temporary_files_after_upload: true
+
+  # ----------------------------------------------------------
+  # Artifact integrity.
+  # ----------------------------------------------------------
+
+  integrity:
+    checksum_algorithm: sha256
+    verify_uploads: true
+    verify_downloads: true
+    validate_serialization: true
+
+  # ----------------------------------------------------------
+  # S3 write behavior.
+  # ----------------------------------------------------------
+
+  writes:
+    atomic_commit: true
+    idempotent: true
+    retry_failed_uploads: true
+    max_retries: 5
+
+    prevent_overwriting_completed_experiments: true
+    preserve_immutable_artifacts: true
+
+  # ----------------------------------------------------------
+  # Parquet storage optimization.
+  # ----------------------------------------------------------
+
+  parquet:
+    compression: zstd
+
+    partitioning:
+      enabled: true
+      catalog_partition_keys:
+        - model_family
+        - dataset_id
+
+    compact_small_files: true
+    validate_schema: true
+    preserve_column_types: true
+
+  # ----------------------------------------------------------
+  # Retention.
+  # ----------------------------------------------------------
+
+  retention:
+    preserve_completed_experiments: true
+    preserve_failed_experiment_metadata: true
+    preserve_historical_winners: true
+
+    automatically_delete_experiment_artifacts: false
+    automatically_delete_model_objects: false
+
+    clean_local_staging: true

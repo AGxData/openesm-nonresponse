@@ -1,0 +1,13 @@
+ingestion:
+  timeout_seconds: 60
+  max_retries: 3
+  retry_delay_seconds: 2
+
+  formats:
+    raw: preserve_original
+    processed: parquet
+
+  metadata:
+    save_source_information: true
+    record_download_timestamp: true
+    record_processing_status: true

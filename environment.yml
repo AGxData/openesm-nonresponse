@@ -1,0 +1,40 @@
+name: openesm-nonresponse
+
+channels:
+    - conda-forge
+    - defaults
+
+dependencies:
+    - python=3.14
+    - pip
+    - setuptools
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - scipy
+    - statsmodels
+    - scikit-learn
+    - pymer4
+    - optuna
+    - polars
+    - pyarrow
+    - jsonschema
+    - pyyaml
+    - python-dotenv
+    - requests
+    - boto3
+    - botocore
+    - s3fs
+    - pytest
+    - ruff
+    - tqdm
+    - jupyterlab
+    - ipykernel
+    - ipywidgets
+    - pip:
+        - missingno
+        - feature-engine
+        - hmmlearn
+        - IOHMM
+        - openesm

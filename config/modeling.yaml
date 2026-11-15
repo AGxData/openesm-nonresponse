@@ -1,0 +1,298 @@
+schema:
+  name: openesm_modeling
+  version: '1.0.0'
+  strict_validation: true
+
+runner:
+  dataset_discovery:
+    source: curated_registry
+    enabled: true
+    dataset_id_pattern: '^\d{4}$'
+    include: all
+    exclude: []
+  model_discovery:
+    directory: config/models
+    include: [regularized_logistic]
+  overrides_path: config/datasets/modeling_overrides.yaml
+  validation_protocols_path: config/validation_protocols.yaml
+  config_resolution_order:
+    - model_defaults
+    - dataset_all_models
+    - dataset_model
+    - explicit_run_overrides
+  merge_strategy:
+    mappings: recursive
+    lists: replace
+    unknown_keys: error
+    unresolved_references: error
+  save_resolved_config: true
+  save_config_hash: true
+  fail_on_invalid_config: true
+
+experiment_tracking:
+  enabled: true
+  generate_experiment_ids: true
+  id_format: uuid
+  lifecycle:
+    statuses: [pending, running, interrupted, failed, completed, cancelled]
+    record_start_end_duration: true
+    preserve_failed_runs: true
+    immutable_completed_runs: true
+  record:
+    experiment_metadata: true
+    dataset_metadata: true
+    dataset_versions: true
+    code_versions: true
+    environment_versions: true
+    configurations: true
+    feature_sets: true
+    feature_metadata: true
+    preprocessing: true
+    outer_folds: true
+    inner_folds: true
+    fold_membership: true
+    tuning_candidates: true
+    tuning_fold_scores: true
+    tuning_candidate_summaries: true
+    hyperparameter_selections: true
+    calibration_predictions: true
+    calibration_results: true
+    calibration_curves: true
+    assessment_predictions: true
+    assessment_metrics: true
+    per_fold_metrics: true
+    per_day_metrics: true
+    per_beep_metrics: true
+    per_participant_metrics: true
+    pooled_metrics: true
+    coefficients: true
+    feature_importance: true
+    diagnostics: true
+    convergence: true
+    fit_timings: true
+    errors_and_warnings: true
+    resource_usage: true
+    artifact_manifests: true
+  checkpointing:
+    enabled: true
+    checkpoint_per_outer_fold: true
+    resume_incomplete_experiments: true
+    skip_completed_work: true
+    upload_completed_results: true
+    verify_checkpoint_integrity: true
+  logging:
+    enabled: true
+    level: INFO
+    capture_warnings: true
+    capture_errors: true
+    capture_stack_traces: true
+
+reproducibility:
+  code:
+    record_git_commit: true
+    record_git_dirty_status: true
+    record_source_hashes: true
+  environment:
+    record_r_version: true
+    record_package_versions: true
+    record_renv_lock_hash: true
+    archive_renv_lock: true
+    record_os: true
+    record_container_digest_if_available: true
+  data:
+    record_dataset_hash: true
+    record_schema_hash: true
+    record_row_and_participant_counts: true
+    record_target_prevalence: true
+    record_feature_generation_version: true
+    record_source_uri: true
+  randomness:
+    record_seed: true
+    record_rng_kind: true
+    record_parallel_rng_settings: true
+  integrity:
+    hash_algorithm: sha256
+    verify_artifacts: true
+
+feature_tracking:
+  record_feature_names_types_definitions: true
+  record_feature_sets_and_versions: true
+  record_exclusions_and_reasons: true
+  record_imputation_scaling_encoding: true
+  record_fitted_preprocessing_per_fold: true
+  record_feature_order: true
+  enforce_training_only_selection: true
+  record_importance_method_and_scale: true
+  record_fold_and_final_importance: true
+
+validation_tracking:
+  record_train_assessment_boundaries: true
+  record_fold_observation_ids: true
+  record_participant_ids: true
+  record_class_distributions: true
+  record_prediction_horizon: true
+  record_protocol_hash: true
+  enforce_temporal_order: true
+  prohibit_assessment_based_tuning: true
+  prohibit_assessment_based_calibration: true
+  fit_preprocessing_on_training_only: true
+  enforce_prediction_time_feature_availability: true
+  require_matching_assessment_protocol_for_ranking: true
+
+tuning_tracking:
+  record_complete_candidate_grid: true
+  record_candidate_inner_fold_scores: true
+  record_aggregate_scores_and_standard_errors: true
+  record_selection_rule_and_reason: true
+  record_failed_candidates: true
+  record_optimizer_and_convergence: true
+  persist_inner_candidate_model_objects: false
+
+calibration_tracking:
+  record_oof_predictions_and_truth: true
+  record_calibration_windows: true
+  record_threshold_grid_and_scores: true
+  record_selected_threshold: true
+  record_calibration_method_and_parameters: true
+  record_brier_and_log_loss: true
+  record_calibration_intercept_slope: true
+  record_reliability_curves: true
+  flag_tuning_calibration_data_reuse: true
+  prohibit_outer_assessment_threshold_selection: true
+
+evaluation:
+  positive_class: 1
+  positive_class_label: nonresponse
+  metrics: [roc_auc, pr_auc, log_loss, brier_score, accuracy, balanced_accuracy, precision, recall, specificity, f1, f_beta, mcc, jaccard, youden_j, cohens_kappa]
+  aggregations: [pooled, outer_fold, day, beep, participant, dataset, model_family]
+  preserve_undefined_metrics_as_null: true
+  record_metric_definitions: true
+  uncertainty:
+    enabled: true
+    method: participant_cluster_bootstrap
+    confidence_level: 0.95
+    bootstrap_replicates: 1000
+    seed: 2026
+    separate_postprocessing_stage: true
+
+model_artifacts:
+  save_outer_fold_models: true
+  save_final_refitted_models: true
+  save_preprocessing_state: true
+  save_feature_schema_and_order: true
+  save_calibration_state: true
+  save_inner_tuning_models: false
+  manifest_fields: [artifact_id, experiment_id, model_id, fold_id, role, s3_uri, format, size_bytes, sha256, created_at]
+  verify_model_reload: true
+  verify_prediction_reproduction: true
+
+model_registry:
+  enabled: true
+  selection:
+    require_completed_experiment: true
+    require_valid_evaluation: true
+    require_matching_protocol: true
+    primary_metric: log_loss
+    direction: minimize
+    allow_model_specific_override: true
+    require_explicit_promotion: true
+    record_selection_rationale: true
+    prohibit_test_based_selection_without_bias_disclosure: true
+  final_model:
+    refit_after_validation: true
+    save_model_object: true
+    save_preprocessing_state: true
+    save_feature_metadata: true
+    save_hyperparameters: true
+    save_calibration_state: true
+    save_training_data_version: true
+    save_prediction_schema: true
+  versioning:
+    immutable_versions: true
+    preserve_previous_winners: true
+    record_promotion_history: true
+
+catalog:
+  enabled: true
+  format: parquet
+  compression: zstd
+  tables: [experiments, configurations, datasets, feature_sets, folds, fold_membership, tuning_scores, tuning_summaries, calibration, predictions, metrics, model_parameters, feature_importance, diagnostics, computational_performance, artifacts, model_registry, hmm_parameters, hmm_transition_probabilities, hmm_emission_probabilities, hmm_initial_probabilities, hmm_state_probabilities, hmm_state_diagnostics, hmm_matrix_scenarios]
+  partition_keys: [model_family, dataset_id]
+  incremental_updates: true
+  deduplicate_by_primary_key: true
+  rebuild_from_immutable_experiments: true
+  compact_small_files: true
+  publish_transaction_manifest: true
+
+hmm_tracking:
+  enabled: true
+  architecture:
+    record_state_count: true
+    record_transition_and_emission_covariates: true
+    record_emission_family: true
+    record_random_effects_structure: true
+    record_parameter_constraints: true
+  estimation:
+    record_optimizer: true
+    record_initializations_and_random_starts: true
+    record_each_start_result: true
+    record_log_likelihood_aic_bic: true
+    record_convergence_gradient_hessian: true
+  save:
+    initial_state_probabilities: true
+    transition_probabilities: true
+    emission_probabilities_when_discrete: true
+    emission_parameters_when_continuous: true
+    transition_coefficients: true
+    emission_coefficients: true
+    random_effects_when_applicable: true
+    filtered_state_probabilities: true
+    smoothed_state_probabilities: true
+    decoded_states: true
+    state_occupancy: true
+    dwell_time_statistics: true
+    likelihood_diagnostics: true
+    convergence_diagnostics: true
+  matrices:
+    format: long_parquet
+    save_fitted_parameters: true
+    save_reference_scenarios: true
+    save_prediction_time_matrices: true
+    record_covariate_values: true
+    record_original_state_labels: true
+    record_alignment_method_and_mapping: true
+    probability_sum_tolerance: 0.000001
+  prediction_safety:
+    distinguish_filtered_from_smoothed: true
+    prohibit_future_information_in_prediction: true
+
+compute_tracking:
+  enabled: true
+  record_stage_timings: true
+  record_peak_memory: true
+  record_cpu_usage_if_available: true
+  record_worker_count: true
+  record_instance_type_if_available: true
+  record_estimated_compute_cost_if_available: true
+
+comparative_analysis:
+  enabled: true
+  compare_models_within_dataset: true
+  compare_models_across_datasets: true
+  compare_calibration_and_runtime: true
+  compare_feature_importance_when_comparable: true
+  flag_different_validation_protocols: true
+  flag_different_assessment_populations: true
+  flag_different_target_definitions: true
+  avoid_pseudoreplication: true
+
+quality_checks:
+  validate_unique_ids: true
+  validate_config_hashes: true
+  validate_prediction_probabilities: true
+  validate_temporal_order: true
+  validate_metric_denominators: true
+  validate_artifact_checksums: true
+  validate_model_reload: true
+  validate_hmm_probability_sums: true
+  validate_hmm_state_alignment: true

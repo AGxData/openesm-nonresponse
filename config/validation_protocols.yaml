@@ -1,0 +1,44 @@
+# Named evaluation designs. These describe assessment timing;
+# model-specific tuning and calibration can still differ.
+protocols:
+  beep_expanding_v1:
+    outer:
+      mode: within_day
+      window: expanding
+      initial_days: 10
+      assessment_unit: beep
+      prediction_frequency: per_beep
+      refit_frequency: per_beep
+      temporal_gap_beeps: 0
+    inner:
+      mode: inherit
+      window: expanding
+      initial_days: 5
+      minimum_folds: 3
+    participant_policy:
+      evaluation_population: observed_participants_at_assessment
+      preserve_participant_ids: true
+    safeguards:
+      train_before_assessment: true
+      feature_availability_at_prediction: true
+
+  daily_expanding_v1:
+    outer:
+      mode: across_day
+      window: expanding
+      initial_days: 10
+      assessment_unit: day
+      prediction_frequency: per_beep
+      refit_frequency: daily
+      temporal_gap_beeps: 0
+    inner:
+      mode: across_day
+      window: expanding
+      initial_days: 5
+      minimum_folds: 3
+    participant_policy:
+      evaluation_population: observed_participants_at_assessment
+      preserve_participant_ids: true
+    safeguards:
+      train_before_assessment: true
+      feature_availability_at_prediction: true
